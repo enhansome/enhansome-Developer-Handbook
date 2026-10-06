@@ -205,7 +205,7 @@ HandBook Version 1.0, 2021
 
 [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/) creates virtual machines on Windows 10. Hyper-V can be enabled in many ways including using the Windows 10 control panel, PowerShell or using the Deployment Imaging Servicing and Management tool (DISM).
 
-[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) ⭐ 6,291 | 🐛 246 | 🌐 Rust | 📅 2026-10-05 is an open source Virtual Machine Monitor (VMM) that runs on top of [KVM](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt). The project focuses on exclusively running modern, cloud workloads, on top of a limited set of hardware architectures and platforms. Cloud workloads refers to those that are usually run by customers inside a cloud provider. Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is based on the [rust-vmm](https://github.com/rust-vmm) crates.
+[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) ⭐ 6,294 | 🐛 248 | 🌐 Rust | 📅 2026-10-06 is an open source Virtual Machine Monitor (VMM) that runs on top of [KVM](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt). The project focuses on exclusively running modern, cloud workloads, on top of a limited set of hardware architectures and platforms. Cloud workloads refers to those that are usually run by customers inside a cloud provider. Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is based on the [rust-vmm](https://github.com/rust-vmm) crates.
 
 [Intel® Graphics Virtualization Technology (Intel® GVT)](https://github.com/intel/gvt-linux) ⚠️ Archived is a full GPU virtualization solution with mediated pass-through, starting from 4th generation Intel Core (TM) processors with Intel processor graphics(Broadwell and newer). It can be used to virtualize the GPU for multiple guest virtual machines, effectively providing near-native graphics performance in the virtual machine and still letting your host use the virtualized GPU normally.
 
@@ -217,7 +217,7 @@ HandBook Version 1.0, 2021
 
 [Rancher](https://rancher.com/) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.
 
-[K3s](https://github.com/rancher/k3s) ⭐ 34,133 | 🐛 75 | 🌐 Go | 📅 2026-10-02 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
+[K3s](https://github.com/rancher/k3s) ⭐ 34,143 | 🐛 75 | 🌐 Go | 📅 2026-10-02 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
 
 [Rook](https://rook.io/) is an open source cloud-native storage orchestrator for Kubernetes that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.
 
@@ -243,7 +243,7 @@ HandBook Version 1.0, 2021
 
 [Helm](https://helm.sh/) is the Kubernetes Package Manager.
 
-[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal
+[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal
 
 [Red Hat OpenShift](https://www.openshift.com/) is focused on security at every level of the container stack and throughout the application lifecycle. It includes long-term, enterprise support from one of the leading Kubernetes contributors and open source software companies.
 
@@ -253,7 +253,7 @@ HandBook Version 1.0, 2021
 
 [Odo](https://odo.dev/) is a fast, iterative, and straightforward CLI tool for developers who write, build, and deploy applications on Kubernetes and OpenShift.
 
-[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 51 | 🐛 50 | 🌐 Shell | 📅 2026-10-05 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
+[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 51 | 🐛 51 | 🌐 Shell | 📅 2026-10-06 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
 
 [Knative](https://knative.dev/) is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads. Knative takes care of the operational overhead details of networking, autoscaling (even to zero), and revision tracking.
 
@@ -293,9 +293,9 @@ HandBook Version 1.0, 2021
 
 [Fenzo](https://github.com/Netflix/Fenzo) ⚠️ Archived is a scheduler Java library for Apache Mesos frameworks that supports plugins for scheduling optimizations and facilitates cluster autoscaling.
 
-[Dynomite](https://github.com/Netflix/dynomite) ⭐ 4,215 | 🐛 122 | 🌐 C | 📅 2024-05-20 is a thin, distributed dynamo layer for different storage engines and protocols, which includes [Redis](http://redis.io/) and [Memcached](http://www.memcached.org/). Dynomite supports multi-datacenter replication and is designed for High Availability(HA).
+[Dynomite](https://github.com/Netflix/dynomite) ⭐ 4,214 | 🐛 122 | 🌐 C | 📅 2024-05-20 is a thin, distributed dynamo layer for different storage engines and protocols, which includes [Redis](http://redis.io/) and [Memcached](http://www.memcached.org/). Dynomite supports multi-datacenter replication and is designed for High Availability(HA).
 
-[Dyno](https://github.com/Netflix/dynomite) ⭐ 4,215 | 🐛 122 | 🌐 C | 📅 2024-05-20 is a tool that is used to scale a Java client application utilizing [Dynomite](https://github.com/Netflix/dynomite) ⭐ 4,215 | 🐛 122 | 🌐 C | 📅 2024-05-20.
+[Dyno](https://github.com/Netflix/dynomite) ⭐ 4,214 | 🐛 122 | 🌐 C | 📅 2024-05-20 is a tool that is used to scale a Java client application utilizing [Dynomite](https://github.com/Netflix/dynomite) ⭐ 4,214 | 🐛 122 | 🌐 C | 📅 2024-05-20.
 
 [Raigad](https://github.com/Netflix/Raigad) ⭐ 345 | 🐛 8 | 🌐 Java | 📅 2025-12-17 is a process/tool that runs alongside Elasticsearch to automate backup/recovery, Deployments and Centralized Configuration management.
 
@@ -305,7 +305,7 @@ HandBook Version 1.0, 2021
 
 [Falcor](https://netflix.github.io/falcor/) is a JavaScript library for efficient data fetching. Falcor lets you represent all your remote data sources as a single domain model via a virtual JSON graph, whether in memory on the client or over the network on the server.
 
-[Restify](https://github.com/restify/node-restify) ⭐ 10,686 | 🐛 133 | 🌐 JavaScript | 📅 2026-09-04 is a framework, utilizing [connect](https://github.com/senchalabs/connect) ⭐ 9,873 | 🐛 14 | 🌐 JavaScript | 📅 2024-09-27 style middleware for building REST APIs.
+[Restify](https://github.com/restify/node-restify) ⭐ 10,687 | 🐛 133 | 🌐 JavaScript | 📅 2026-09-04 is a framework, utilizing [connect](https://github.com/senchalabs/connect) ⭐ 9,873 | 🐛 14 | 🌐 JavaScript | 📅 2024-09-27 style middleware for building REST APIs.
 
 [Traefik](https://traefik.io/traefik/) is an open source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it automatically discovers the right configuration for your services.
 
@@ -409,7 +409,7 @@ HandBook Version 1.0, 2021
 
 [Raspbian](https://www.raspbian.org) is a Debian-based computer operating system for Raspberry Pi.
 
-[RIOT](https://github.com/RIOT-OS/RIOT) ⭐ 5,807 | 🐛 905 | 🌐 C | 📅 2026-10-05 is the friendly OS for IoT
+[RIOT](https://github.com/RIOT-OS/RIOT) ⭐ 5,807 | 🐛 905 | 🌐 C | 📅 2026-10-06 is the friendly OS for IoT
 
 [RabbitMQ](https://www.rabbitmq.com) is the most widely deployed open source message broker. With tens of thousands of users, RabbitMQ is one of the most popular open source message brokers. From T-Mobile to Runtastic, RabbitMQ is used worldwide at small startups and large enterprises. RabbitMQ is lightweight and easy to deploy on premises and in the cloud.
 
@@ -419,7 +419,7 @@ HandBook Version 1.0, 2021
 
 [OpenIoT](https://github.com/OpenIotOrg/openiot) ⭐ 471 | 🐛 98 | 🌐 Java | 📅 2023-02-22 is an open source middleware infrastructure will support flexible configuration and deployment of algorithms for collection, and filtering information streams stemming from the internet-connected objects, while at the same time generating and processing important business/applications events.
 
-[OpenRemote](https://github.com/openremote/openremote) ⭐ 1,912 | 🐛 458 | 🌐 Java | 📅 2026-10-05 is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools.
+[OpenRemote](https://github.com/openremote/openremote) ⭐ 1,912 | 🐛 457 | 🌐 Java | 📅 2026-10-06 is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools.
 
 [Kaa](https://www.kaaproject.org/platform/) is a Enterprise IoT Platform has been designed with heavy-duty, enterprise-grade IoT solutions in mind. It banishes a monolithic approach to architecture in favour of highly portable microservices, which allow for flexible rearrangement and customization even in the middle of the solution's lifecycle.
 
@@ -463,7 +463,7 @@ HandBook Version 1.0, 2021
 
 ### Home automation
 
-[Home Assistant](https://github.com/home-assistant/core) ⭐ 91,265 | 🐛 3,592 | 🌐 Python | 📅 2026-10-05 is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+[Home Assistant](https://github.com/home-assistant/core) ⭐ 91,272 | 🐛 3,582 | 🌐 Python | 📅 2026-10-06 is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
 [openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc.
 
@@ -622,7 +622,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Scapy](https://scapy.net/) is a python-based interactive packet manipulation program & library.
 
-[syzkaller](https://github.com/google/syzkaller) ⭐ 6,337 | 🐛 632 | 🌐 Go | 📅 2026-10-05 is an unsupervised, coverage-guided kernel fuzzer.
+[syzkaller](https://github.com/google/syzkaller) ⭐ 6,339 | 🐛 632 | 🌐 Go | 📅 2026-10-05 is an unsupervised, coverage-guided kernel fuzzer.
 
 [SchedViz](https://github.com/google/schedviz) ⚠️ Archived is a tool for gathering and visualizing kernel scheduling traces on Linux machines.
 
@@ -674,7 +674,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Contribute to FOSS](https://github.com/KillYourFM/contribute-foss) ⭐ 246 | 🐛 10 | 📅 2024-08-02 by Jason Evangelho, is an entensive Wiki page on how to contribute to the Linux and FOSS community.
 
-[The Open Source Computer Science Degree by Forrest Knight](https://github.com/ForrestKnight/open-source-cs) ⭐ 23,766 | 🐛 41 | 📅 2025-06-11
+[The Open Source Computer Science Degree by Forrest Knight](https://github.com/ForrestKnight/open-source-cs) ⭐ 23,765 | 🐛 41 | 📅 2025-06-11
 
 [My Windows Subsystem for Linux(WSl) Guide](https://github.com/mikeroyal/WSL-Guide) ⭐ 431 | 🐛 0 | 🌐 Rust | 📅 2024-01-04
 
@@ -1070,7 +1070,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [oVirt](https://www.ovirt.org) is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.Founded by Red Hat as a community project on which Red Hat Enterprise Virtualization is based allowing for centralized management of virtual machines, compute, storage and networking resources, from an easy-to-use web-based front-end with platform independent access.
 
-[Xen](https://github.com/xen-project/xen) ⭐ 855 | 🐛 3 | 🌐 C | 📅 2026-10-01 is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
+[Xen](https://github.com/xen-project/xen) ⭐ 855 | 🐛 3 | 🌐 C | 📅 2026-10-06 is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
 
 [Ganeti](https://github.com/ganeti/ganeti) ⭐ 587 | 🐛 334 | 🌐 Python | 📅 2026-10-02 is a virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software. Once installed, the tool assumes management of the virtual instances (Xen DomU).
 
@@ -1216,7 +1216,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rook](https://rook.io/) is an open source cloud-native storage orchestrator for Kubernetes that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.
 
-[Podman(the POD MANager)](https://github.com/containers/podman) ⭐ 33,000 | 🐛 1,022 | 🌐 Go | 📅 2026-10-05 is a tool for managing [OCI](https://opencontainers.org/) containers and pods.
+[Podman(the POD MANager)](https://github.com/containers/podman) ⭐ 33,002 | 🐛 1,022 | 🌐 Go | 📅 2026-10-06 is a tool for managing [OCI](https://opencontainers.org/) containers and pods.
 
 [Rkt](https://coreos.com/rkt/) is a pod-native container engine for Linux. It is composable, secure, and built on standards.
 
@@ -1320,7 +1320,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Odo](https://odo.dev/) is a fast, iterative, and straightforward CLI tool for developers who write, build, and deploy applications on Kubernetes and OpenShift.
 
-[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 51 | 🐛 50 | 🌐 Shell | 📅 2026-10-05 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
+[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 51 | 🐛 51 | 🌐 Shell | 📅 2026-10-06 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
 
 [Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 
@@ -1330,13 +1330,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [VMware Tanzu](https://tanzu.vmware.com/tanzu) is a centralized management platform for consistently operating and securing your Kubernetes infrastructure and modern applications across multiple teams and private/public clouds.
 
-[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,780 | 🐛 205 | 🌐 Jinja | 📅 2026-10-05 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.
+[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,782 | 🐛 206 | 🌐 Jinja | 📅 2026-10-06 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.
 
 [KubeInit](https://github.com/kubeinit/kubeinit) ⭐ 224 | 🐛 5 | 🌐 Python | 📅 2025-12-05 provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions.
 
 [Rancher](https://rancher.com/) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.
 
-[K3s](https://github.com/rancher/k3s) ⭐ 34,133 | 🐛 75 | 🌐 Go | 📅 2026-10-02 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
+[K3s](https://github.com/rancher/k3s) ⭐ 34,143 | 🐛 75 | 🌐 Go | 📅 2026-10-02 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
 
 [Helm](https://helm.sh/) is a Kubernetes Package Manager tool that makes it easier to install and manage Kubernetes applications.
 
@@ -1496,7 +1496,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Arduino IDE](https://www.arduino.cc/en/software) is an open-source integrated development environment for the Arduino platform that provides easy-to-use hardware and software.
 
-[Compute Library](https://github.com/ARM-software/ComputeLibrary) ⭐ 3,197 | 🐛 8 | 🌐 C++ | 📅 2026-09-29 is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies.
+[Compute Library](https://github.com/ARM-software/ComputeLibrary) ⭐ 3,197 | 🐛 6 | 🌐 C++ | 📅 2026-10-06 is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies.
 
 [LISA](https://github.com/ARM-software/lisa) ⭐ 208 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2026-08-12 is a project provides a toolkit that supports regression testing and interactive analysis of Linux kernel behavior. LISA stands for Linux Integrated/Interactive System Analysis. LISA's goal is to help Linux kernel developers to measure the impact of modifications in core parts of the kernel. The focus is on the scheduler (EAS), power management and thermal frameworks.
 
@@ -1512,7 +1512,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [TinyGo](https://tinygo.org/) is a Go compiler(based on LLVM) intended for use in small places such as microcontrollers, WebAssembly (Wasm), and command-line tools.
 
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,402 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,404 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
 [Tock](https://www.tockos.org/) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers.
 
@@ -1580,7 +1580,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Microsoft Assembler (MASM) for x64](https://docs.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe) is Microsoft's assembler that accepts x64 assembler language.
 
-[MASM/TASM](https://github.com/xsro/masm-tasm) ⭐ 182 | 🐛 8 | 🌐 TypeScript | 📅 2026-10-01 is a VSCode extension that offers a way to run and debug DOS(80x86) assembly TASM/MASM through DOSBox and msdos-player.
+[MASM/TASM](https://github.com/xsro/masm-tasm) ⭐ 183 | 🐛 8 | 🌐 TypeScript | 📅 2026-10-01 is a VSCode extension that offers a way to run and debug DOS(80x86) assembly TASM/MASM through DOSBox and msdos-player.
 
 [NASM](https://nasm.us/) is an asssembler/disassembler for the x86 CPU architecture portable to nearly every modern platform, and with code generation for many platforms old and new.
 
@@ -1600,7 +1600,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,642 | 🐛 244 | 🌐 C++ | 📅 2026-07-18 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
 
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,402 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,404 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
 # 10. Machine Learning
 
@@ -1710,11 +1710,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Tensorman](https://github.com/pop-os/tensorman) ⭐ 206 | 🐛 11 | 🌐 Rust | 📅 2025-10-27 is a utility for easy management of Tensorflow containers by developed by [System76](https://system76.com).Tensorman allows Tensorflow to operate in an isolated environment that is contained from the rest of the system. This virtual environment can operate independent of the base system, allowing you to use any version of Tensorflow on any version of a Linux distribution that supports the Docker runtime.
 
-[Numba](https://github.com/numba/numba) ⭐ 11,172 | 🐛 1,821 | 🌐 Python | 📅 2026-10-05 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
+[Numba](https://github.com/numba/numba) ⭐ 11,173 | 🐛 1,821 | 🌐 Python | 📅 2026-10-05 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
-[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,352 | 🐛 684 | 🌐 Python | 📅 2026-10-05 for high performance training and inference.
+[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,352 | 🐛 686 | 🌐 Python | 📅 2026-10-06 for high performance training and inference.
 
-[cuML](https://github.com/rapidsai/cuml) ⭐ 5,300 | 🐛 805 | 🌐 Python | 📅 2026-10-05 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
+[cuML](https://github.com/rapidsai/cuml) ⭐ 5,300 | 🐛 805 | 🌐 Python | 📅 2026-10-06 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
 
 # 11. Python Guide
 
@@ -1758,7 +1758,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Real Python](https://realpython.com)
 
-[The Python Open Source Computer Science Degree by Forrest Knight](https://github.com/ForrestKnight/open-source-cs-python) ⭐ 3,965 | 🐛 19 | 📅 2025-06-11
+[The Python Open Source Computer Science Degree by Forrest Knight](https://github.com/ForrestKnight/open-source-cs-python) ⭐ 3,963 | 🐛 19 | 📅 2025-06-11
 
 [Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
@@ -1780,7 +1780,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Pylance](https://github.com/microsoft/pylance-release) ⭐ 2,126 | 🐛 25 | 🌐 Python | 📅 2026-10-05 is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
 
-[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,680 | 🐛 340 | 🌐 Python | 📅 2026-10-05 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
+[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,679 | 🐛 340 | 🌐 Python | 📅 2026-10-05 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
 
 [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
@@ -1792,7 +1792,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Tornado](https://www.tornadoweb.org/) is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.
 
-[HTTPie](https://github.com/httpie/httpie) ⭐ 38,709 | 🐛 343 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+[HTTPie](https://github.com/httpie/httpie) ⭐ 38,720 | 🐛 343 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
 
 [Scrapy](https://scrapy.org/) is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
 
@@ -1800,13 +1800,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Pipenv](https://github.com/pypa/pipenv) ⭐ 25,024 | 🐛 13 | 🌐 Python | 📅 2026-09-25 is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.
 
-[Python Fire](https://github.com/google/python-fire) ⭐ 28,221 | 🐛 202 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+[Python Fire](https://github.com/google/python-fire) ⭐ 28,223 | 🐛 205 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 
 [Bottle](https://github.com/bottlepy/bottle) ⭐ 8,793 | 🐛 289 | 🌐 Python | 📅 2026-09-18 is a fast, simple and lightweight [WSGI](https://www.wsgi.org/) micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the [Python Standard Library](https://docs.python.org/library/).
 
 [CherryPy](https://cherrypy.org) is a minimalist Python object-oriented HTTP web framework.
 
-[Sanic](https://github.com/huge-success/sanic) ⭐ 18,636 | 🐛 157 | 🌐 Python | 📅 2026-07-29 is a Python 3.6+ web server and web framework that's written to go fast.
+[Sanic](https://github.com/huge-success/sanic) ⭐ 18,637 | 🐛 157 | 🌐 Python | 📅 2026-07-29 is a Python 3.6+ web server and web framework that's written to go fast.
 
 [Pyramid](https://trypyramid.com) is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.
 
@@ -1820,7 +1820,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Luigi](https://github.com/spotify/luigi) ⭐ 18,781 | 🐛 180 | 🌐 Python | 📅 2026-07-18 is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.
 
-[Locust](https://github.com/locustio/locust) ⭐ 28,198 | 🐛 5 | 🌐 Python | 📅 2026-10-04 is an easy to use, scriptable and scalable performance testing tool.
+[Locust](https://github.com/locustio/locust) ⭐ 28,199 | 🐛 5 | 🌐 Python | 📅 2026-10-04 is an easy to use, scriptable and scalable performance testing tool.
 
 [spaCy](https://github.com/explosion/spaCy) ⭐ 33,940 | 🐛 248 | 🌐 Python | 📅 2026-09-30 is a library for advanced Natural Language Processing in Python and Cython.
 
@@ -2080,27 +2080,27 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Meteor](https://www.meteor.com/) is an ultra-simple environment for building modern web applications with JavavScript.
 
-[mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,607 | 🐛 176 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
+[mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,606 | 🐛 176 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
 
-[axios](https://github.com/axios/axios) ⭐ 109,303 | 🐛 108 | 🌐 JavaScript | 📅 2026-10-05 is a promise based HTTP client for the browser and node.js.
+[axios](https://github.com/axios/axios) ⭐ 109,318 | 🐛 110 | 🌐 JavaScript | 📅 2026-10-06 is a promise based HTTP client for the browser and node.js.
 
 [Storybook](https://storybook.js.org/) is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.It works with React, Vue, Angular, Ember, and other web frameworks.
 
-[Next.js](https://github.com/vercel/next.js) ⭐ 143,193 | 🐛 3,548 | 🌐 JavaScript | 📅 2026-10-05 is a React Framework for production gives you the best developer experience with all the features needed for production such as hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more.
+[Next.js](https://github.com/vercel/next.js) ⭐ 143,220 | 🐛 3,526 | 🌐 JavaScript | 📅 2026-10-06 is a React Framework for production gives you the best developer experience with all the features needed for production such as hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more.
 
 [React Boilerplate](https://www.reactboilerplate.com/) is a highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,661 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,662 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [Enzyme](https://github.com/enzymejs/enzyme) ⭐ 19,813 | 🐛 282 | 🌐 JavaScript | 📅 2025-10-22 is a JavaScript Testing utility for React that makes it easier to test your React Components' output. The user can also manipulate, traverse, and in some ways simulate runtime given the output.
 
-[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,400 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,401 | 🐛 14 | 🌐 TypeScript | 📅 2026-10-06 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
 
-[Redux](https://github.com/reduxjs/redux) ⭐ 61,482 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a predictable state container for JavaScript apps.
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,481 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a predictable state container for JavaScript apps.
 
 [Inferno](https://infernojs.org/) is an insanely fast, React-like library for building high-performance user interfaces on both the client and server.
 
-[Expo](https://github.com/expo/expo) ⭐ 52,581 | 🐛 854 | 🌐 TypeScript | 📅 2026-10-05 is an open-source platform for making universal native apps with React.
+[Expo](https://github.com/expo/expo) ⭐ 52,582 | 🐛 846 | 🌐 TypeScript | 📅 2026-10-06 is an open-source platform for making universal native apps with React.
 
 [React Native Windows](https://microsoft.github.io/react-native-windows/) is a ramework for building native Windows apps with React. [React Native](https://reactnative.dev/) is a framework developed by Facebook that enables you to build world-class application experiences on native platforms using a consistent developer experience based on JavaScript and React.
 
@@ -2134,7 +2134,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Google's JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 
-[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) ⭐ 148,306 | 🐛 168 | 🌐 JavaScript | 📅 2026-04-16
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) ⭐ 148,304 | 🐛 168 | 🌐 JavaScript | 📅 2026-04-16
 
 [AngularJS Tutorial on W3Schools](https://www.w3schools.com/angular/)
 
@@ -2170,7 +2170,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,661 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,662 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [Storybook](https://storybook.js.org/) is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.It works with React, Vue, Angular, Ember, and other web frameworks.
 
@@ -2182,11 +2182,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [NgRx](https://ngrx.io/) is the Reactive libraries for Angular.
 
-[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,400 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,401 | 🐛 14 | 🌐 TypeScript | 📅 2026-10-06 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
 
-[Redux](https://github.com/reduxjs/redux) ⭐ 61,482 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a predictable state container for JavaScript apps.
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,481 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a predictable state container for JavaScript apps.
 
-[Protractor](https://angular.github.io/protractor) is an end-to-end test framework for Angular and AngularJS applications. Protractor is a [Node.js](http://nodejs.org/) program built on top of [WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) ⭐ 34,522 | 🐛 196 | 🌐 Java | 📅 2026-10-05.
+[Protractor](https://angular.github.io/protractor) is an end-to-end test framework for Angular and AngularJS applications. Protractor is a [Node.js](http://nodejs.org/) program built on top of [WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) ⭐ 34,522 | 🐛 194 | 🌐 Java | 📅 2026-10-06.
 
 [Onsen UI](https://onsen.io/) is an open source framework that makes it easy to create native-feeling Progressive Web Apps (PWAs) and hybrid apps. It provides bindings for Angular 1, 2, React and Vue.js.
 
@@ -2264,15 +2264,15 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Storybook](https://storybook.js.org/) is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.It works with React, Vue, Angular, Ember, and other web frameworks.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,661 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,662 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [Apollo Client](https://apollographql.com/client) is a fully-featured caching GraphQL client with integrations for React, Angular, and more. It allows you to easily build UI components that fetch data via GraphQL.
 
 [Vue-Apollo](http://apollo.vuejs.org/) is  the Apollo/GraphQL integration for VueJS.
 
-[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,400 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,401 | 🐛 14 | 🌐 TypeScript | 📅 2026-10-06 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
 
-[Redux](https://github.com/reduxjs/redux) ⭐ 61,482 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a predictable state container for JavaScript apps.
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,481 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a predictable state container for JavaScript apps.
 
 [Onsen UI](https://onsen.io/) is an open source framework that makes it easy to create native-feeling Progressive Web Apps (PWAs) and hybrid apps. It provides bindings for Angular 1, 2, React and Vue.js.
 
@@ -2310,7 +2310,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Node.js App Hosting & Deployment in Microsoft Azure](https://azure.microsoft.com/en-us/develop/nodejs/)
 
-[The Node.js best practices list ](https://github.com/goldbergyoni/nodebestpractices) ⭐ 105,655 | 🐛 138 | 🌐 Dockerfile | 📅 2026-06-15
+[The Node.js best practices list ](https://github.com/goldbergyoni/nodebestpractices) ⭐ 105,658 | 🐛 138 | 🌐 Dockerfile | 📅 2026-06-15
 
 [Introduction to Node.js by W3Schools](https://www.w3schools.com/nodejs/nodejs_intro.asp)
 
@@ -2326,21 +2326,21 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [NPM](https://www.npmjs.com/) is the company behind Node package manager, the npm Registry, and npm CLI.
 
-[node-gyp](https://github.com/nodejs/node-gyp) ⭐ 10,703 | 🐛 173 | 🌐 Python | 📅 2026-10-02 is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
+[node-gyp](https://github.com/nodejs/node-gyp) ⭐ 10,704 | 🐛 173 | 🌐 Python | 📅 2026-10-02 is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
 
-[nvm ](https://github.com/nvm-sh/nvm) ⭐ 95,270 | 🐛 392 | 🌐 Shell | 📅 2026-10-05 is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+[nvm ](https://github.com/nvm-sh/nvm) ⭐ 95,273 | 🐛 392 | 🌐 Shell | 📅 2026-10-05 is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
 
 [node-docker](https://hub.docker.com/_/node/) is the official Node.js docker image, made with love by the node community.
 
-[Mocha](https://github.com/mochajs/mocha) ⭐ 22,892 | 🐛 242 | 🌐 JavaScript | 📅 2026-10-05 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
+[Mocha](https://github.com/mochajs/mocha) ⭐ 22,893 | 🐛 242 | 🌐 JavaScript | 📅 2026-10-05 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
 
-[AVA](https://github.com/avajs/ava) ⭐ 20,823 | 🐛 85 | 🌐 JavaScript | 📅 2026-06-17 is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence.
+[AVA](https://github.com/avajs/ava) ⭐ 20,824 | 🐛 86 | 🌐 JavaScript | 📅 2026-06-17 is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence.
 
 [egg](https://eggjs.org/) is a born to build better enterprise frameworks and apps with Node.js & Koa.
 
-[mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,607 | 🐛 176 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
+[mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,606 | 🐛 176 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
 
-[axios](https://github.com/axios/axios) ⭐ 109,303 | 🐛 108 | 🌐 JavaScript | 📅 2026-10-05 is a promise based HTTP client for the browser and node.js.
+[axios](https://github.com/axios/axios) ⭐ 109,318 | 🐛 110 | 🌐 JavaScript | 📅 2026-10-06 is a promise based HTTP client for the browser and node.js.
 
 [Fastify](https://www.fastify.io/) is a fast and low overhead web framework, for Node.js.
 
@@ -2424,13 +2424,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Nest](https://nestjs.com/) is a framework for building efficient, scalable [Node.js](http://nodejs.org/) server-side applications. It is built with TypeScript and combines elements of Object Oriented Programming(OOP), Functional Programming, and Functional Reactive Programming(FRP).
 
-[Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped) ⭐ 51,449 | 🐛 765 | 🌐 TypeScript | 📅 2026-10-05 is a repository for high quality TypeScript type definitions.
+[Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped) ⭐ 51,448 | 🐛 764 | 🌐 TypeScript | 📅 2026-10-06 is a repository for high quality TypeScript type definitions.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,661 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,662 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [NativeScript](https://www.nativescript.org/) empowers you to access native APIs from JavaScript directly. The framework currently provides iOS and Android runtimes for rich mobile development and can be utilized in a number of diverse use cases.
 
-[AssemblyScript](https://assemblyscript.org/) compiles a strict variant of TypeScript to [WebAssembly](http://webassembly.org/) using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,654 | 🐛 589 | 🌐 WebAssembly | 📅 2026-10-05.
+[AssemblyScript](https://assemblyscript.org/) compiles a strict variant of TypeScript to [WebAssembly](http://webassembly.org/) using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,655 | 🐛 595 | 🌐 WebAssembly | 📅 2026-10-06.
 
 [React Hook Form](https://react-hook-form.com/) is a performant, flexible and extensible forms with easy to use validation(Web + React Native).
 
@@ -2440,9 +2440,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rome](https://romefrontend.dev/) is a linter, compiler, bundler, and [more](https://romefrontend.dev/#development-status) for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.
 
-[Eclipse Theia](https://github.com/eclipse-theia/theia) ⭐ 21,705 | 🐛 1,521 | 🌐 TypeScript | 📅 2026-10-05 is an extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies.
+[Eclipse Theia](https://github.com/eclipse-theia/theia) ⭐ 21,705 | 🐛 1,517 | 🌐 TypeScript | 📅 2026-10-06 is an extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies.
 
-[InversifyJS](https://github.com/inversify/InversifyJS) ⭐ 12,061 | 🐛 2 | 🌐 TypeScript | 📅 2025-11-19 is a powerful and lightweight inversion of control(IoC) container for JavaScript & Node.js apps powered by TypeScript. An IoC container uses a class constructor to identify and inject its dependencies.
+[InversifyJS](https://github.com/inversify/InversifyJS) ⭐ 12,060 | 🐛 2 | 🌐 TypeScript | 📅 2025-11-19 is a powerful and lightweight inversion of control(IoC) container for JavaScript & Node.js apps powered by TypeScript. An IoC container uses a class constructor to identify and inject its dependencies.
 
 [Gatsby](https://www.gatsbyjs.com/) is a free and open source framework based on React that helps developers build blazing fast websites and apps.
 
@@ -2450,7 +2450,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [TypeScript ESLint](https://typescript-eslint.io/) is a monorepo for all the tooling which enables ESLint to support TypeScript.
 
-[TS node](https://github.com/TypeStrong/ts-node) ⭐ 13,120 | 🐛 232 | 🌐 TypeScript | 📅 2024-07-18 is a TypeScript execution and REPL for node.js.
+[TS node](https://github.com/TypeStrong/ts-node) ⭐ 13,119 | 🐛 231 | 🌐 TypeScript | 📅 2024-07-18 is a TypeScript execution and REPL for node.js.
 
 # 19. Rust
 
@@ -2486,45 +2486,45 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 ## Tools
 
-[Cargo](https://github.com/rust-lang/cargo) ⭐ 15,552 | 🐛 1,681 | 🌐 Rust | 📅 2026-10-05 is a package manager that downloads your Rust project’s dependencies and compiles your project.
+[Cargo](https://github.com/rust-lang/cargo) ⭐ 15,557 | 🐛 1,677 | 🌐 Rust | 📅 2026-10-06 is a package manager that downloads your Rust project’s dependencies and compiles your project.
 
 [Crater](https://crater.rust-lang.org/) is a tool to run experiments across parts of the Rust ecosystem. Its primary purpose is to detect regressions in the Rust compiler, and it does this by building a large number of crates, running their test suites and comparing the results between two versions of the Rust compiler. It can operate locally (with Docker as the only dependency) or distributed on the cloud. It can operate locally (with Docker as the only dependency) or distributed on the cloud.
 
 [VSCode-Rust](https://github.com/rust-lang/vscode-rust) ⚠️ Archived is plugin that adds language support for Rust to Visual Studio Code. Rust support is powered by a separate language server - either by the official Rust Language Server (RLS) or rust-analyzer, depending on the user's preference. If you don't have it installed, the extension will install it for you (with permission). This extension is built and maintained by the Rust IDEs and editors team with the focus on providing a stable, high quality extension that makes the best use of the respective language server.
 
-[Apache Arrow](https://github.com/apache/arrow) ⭐ 17,183 | 🐛 2,470 | 🌐 C++ | 📅 2026-10-05 is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.
+[Apache Arrow](https://github.com/apache/arrow) ⭐ 17,186 | 🐛 2,463 | 🌐 C++ | 📅 2026-10-06 is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.
 
-[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,127 | 🐛 283 | 🌐 Rust | 📅 2026-10-05.
+[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,127 | 🐛 282 | 🌐 Rust | 📅 2026-10-06.
 
 [Firecracker](https://firecracker-microvm.github.io) is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers. Firecracker has also been integrated in container runtimes, for example [Kata Containers](https://github.com/kata-containers/documentation/wiki/Initial-release-of-Kata-Containers-with-Firecracker-support) ⚠️ Archived and [Weaveworks Ignite](https://github.com/weaveworks/ignite) ⚠️ Archived.
 
-[Tokio](https://github.com/tokio-rs/tokio) ⭐ 33,338 | 🐛 455 | 🌐 Rust | 📅 2026-10-04 is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.
+[Tokio](https://github.com/tokio-rs/tokio) ⭐ 33,344 | 🐛 454 | 🌐 Rust | 📅 2026-10-04 is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.
 
 [TiKV](https://github.com/tikv/tikv) ⭐ 16,904 | 🐛 1,872 | 🌐 Rust | 📅 2026-10-05 is an open-source distributed transactional key-value database that also provides classical key-vlue APIs, but also transactional APIs with ACID compliance.
 
 [Sonic](https://crates.io/crates/sonic-server) is a fast, lightweight and schema-less search backend similar to Elasticsearch in some use-cases.
 
-[Hyper](https://github.com/hyperium/hyper) ⭐ 16,351 | 🐛 225 | 🌐 Rust | 📅 2026-10-05 is a fast and correct HTTP library for Rust.
+[Hyper](https://github.com/hyperium/hyper) ⭐ 16,352 | 🐛 223 | 🌐 Rust | 📅 2026-10-05 is a fast and correct HTTP library for Rust.
 
-[Rocket](https://github.com/SergioBenitez/Rocket) ⭐ 25,782 | 🐛 92 | 🌐 Rust | 📅 2025-12-28 is an async web framework for Rust with a focus on usability, security, extensibility, and speed.
+[Rocket](https://github.com/SergioBenitez/Rocket) ⭐ 25,783 | 🐛 93 | 🌐 Rust | 📅 2025-12-28 is an async web framework for Rust with a focus on usability, security, extensibility, and speed.
 
 [Clippy](https://rust-lang.github.io/rust-clippy/) is a collection of lints to catch common mistakes and improve your Rust code.
 
-[Servo](https://github.com/servo/servo) ⭐ 38,080 | 🐛 3,162 | 🌐 Rust | 📅 2026-10-05 is a prototype web browser engine written in the Rust language.
+[Servo](https://github.com/servo/servo) ⭐ 38,086 | 🐛 3,166 | 🌐 Rust | 📅 2026-10-06 is a prototype web browser engine written in the Rust language.
 
 [Vector](https://vector.dev/) is a high-performance, end-to-end (agent & aggregator) observability data platform that puts the user in control of their observability data.
 
-[RustPython](https://github.com/RustPython/RustPython) ⭐ 22,378 | 🐛 401 | 🌐 Rust | 📅 2026-10-05 is a Python Interpreter written in Rust.
+[RustPython](https://github.com/RustPython/RustPython) ⭐ 22,382 | 🐛 378 | 🌐 Rust | 📅 2026-10-05 is a Python Interpreter written in Rust.
 
-[Miri](https://github.com/rust-lang/miri) ⭐ 6,639 | 🐛 191 | 🌐 Rust | 📅 2026-10-05 is an interpreter for Rust's mid-level intermediate representation. It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. Miri will alsowill also tell you about memory leaks: when there is memory still allocated at the end of the execution, and that memory is not reachable from a global static, Miri will raise an error.
+[Miri](https://github.com/rust-lang/miri) ⭐ 6,639 | 🐛 193 | 🌐 Rust | 📅 2026-10-06 is an interpreter for Rust's mid-level intermediate representation. It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. Miri will alsowill also tell you about memory leaks: when there is memory still allocated at the end of the execution, and that memory is not reachable from a global static, Miri will raise an error.
 
 [Chalk](https://rust-lang.github.io/chalk/book/) is an implementation and definition of the Rust trait system using a PROLOG-like logic solver.
 
 [stdarch](https://doc.rust-lang.org/stable/core/arch/) is Rust's standard library vendor-specific APIs and run-time feature detection.
 
-[Simpleinfra](https://github.com/rust-lang/simpleinfra) ⭐ 178 | 🐛 70 | 🌐 HCL | 📅 2026-10-05 is rep that contains the tools and automation written by the Rust infrastructure team to manage our services. Using some of the tools in this repo require privileges only infra team members have.
+[Simpleinfra](https://github.com/rust-lang/simpleinfra) ⭐ 178 | 🐛 72 | 🌐 HCL | 📅 2026-10-05 is rep that contains the tools and automation written by the Rust infrastructure team to manage our services. Using some of the tools in this repo require privileges only infra team members have.
 
-[Rustlings](https://github.com/rust-lang/rustlings) ⭐ 64,280 | 🐛 37 | 🌐 Rust | 📅 2026-09-29 is a small set of exercises to get you used to reading and writing Rust code.
+[Rustlings](https://github.com/rust-lang/rustlings) ⭐ 64,284 | 🐛 37 | 🌐 Rust | 📅 2026-09-29 is a small set of exercises to get you used to reading and writing Rust code.
 
 [Krustlet](https://krustlet.dev/) acts as a Kubernetes Kubelet(written in Rust) by listening on the event stream for new pods that the scheduler assigns to it based on specific Kubernetes [tolerations](https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/). The project is currently experimental.
 
@@ -2532,7 +2532,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Redox](https://www.redox-os.org) is a Unix-like Operating System written in Rust, aiming to bring the innovations of Rust to a modern microkernel and full set of applications. Acitvely being developed by [Jeremy Soeller](https://gitlab.redox-os.org/jackpot51).
 
-[Bottlerocket OS](https://github.com/bottlerocket-os/bottlerocket) ⭐ 9,673 | 🐛 201 | 🌐 Rust | 📅 2026-10-02 is an open-source Linux-based operating system meant for hosting containers. Bottlerocket focuses on security and maintainability, providing a reliable, consistent, and safe platform for container-based workloads.
+[Bottlerocket OS](https://github.com/bottlerocket-os/bottlerocket) ⭐ 9,674 | 🐛 201 | 🌐 Rust | 📅 2026-10-02 is an open-source Linux-based operating system meant for hosting containers. Bottlerocket focuses on security and maintainability, providing a reliable, consistent, and safe platform for container-based workloads.
 
 [Tock](https://www.tockos.org) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers. Tock uses two mechanisms to protect different components of the operating system. First, the kernel and device drivers are written in Rust, a systems programming language that provides compile-time memory safety, type safety and strict aliasing. Tock uses Rust to protect the kernel (the scheduler and hardware abstraction layer) from platform specific device drivers as well as isolate device drivers from each other. Second, Tock uses memory protection units to isolate applications from each other and the kernel.
 
@@ -2592,11 +2592,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) is an IDE for Java, but it also understands and provides intelligent coding assistance for a large variety of other languages such as Kotlin, SQL, JPQL, HTML, JavaScript, etc., even if the language expression is injected into a String literal in your Java code.
 
-[Gradle](https://github.com/gradle/gradle) ⭐ 18,875 | 🐛 3,505 | 🌐 Groovy | 📅 2026-10-05 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, which is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
+[Gradle](https://github.com/gradle/gradle) ⭐ 18,875 | 🐛 3,507 | 🌐 Groovy | 📅 2026-10-06 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, which is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
 
 [vue-kotlin](https://github.com/nosix/vue-kotlin) ⭐ 190 | 🐛 1 | 🌐 Kotlin | 📅 2019-02-23 is libraries and tools supporting the use of Vue.js in Kotlin.
 
-[kotlinx-lincheck](https://github.com/Kotlin/kotlinx-lincheck) ⭐ 702 | 🐛 101 | 🌐 Kotlin | 📅 2026-10-05 is a framework for testing concurrent data structures for correctness.
+[kotlinx-lincheck](https://github.com/Kotlin/kotlinx-lincheck) ⭐ 702 | 🐛 101 | 🌐 Kotlin | 📅 2026-10-06 is a framework for testing concurrent data structures for correctness.
 
 [kotlinx-io](https://github.com/Kotlin/kotlinx-io) ⭐ 1,551 | 🐛 111 | 🌐 Kotlin | 📅 2026-10-05 is a multiplatform library for processing binary data, working with memory blocks, interacting with the platform, and performing other low level operations.
 
@@ -2642,7 +2642,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Amazon EC2 Mac Instances](https://aws.amazon.com/ec2/instance-types/mac/)
 
-[Swift GitHub](https://github.com/apple/swift) ⭐ 70,479 | 🐛 9,413 | 🌐 Swift | 📅 2026-10-05
+[Swift GitHub](https://github.com/apple/swift) ⭐ 70,480 | 🐛 9,422 | 🌐 Swift | 📅 2026-10-06
 
 [Apple Developer Forums](https://developer.apple.com/forums/)
 
@@ -2684,7 +2684,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Hero](https://github.com/HeroTransitions/Hero) ⭐ 22,489 | 🐛 42 | 🌐 Swift | 📅 2025-01-23 is a library for building iOS view controller transitions. It provides a declarative layer on top of the UIKit's cumbersome transition APIs—making custom transitions an easy task for developers.
 
-[Kingfisher](https://github.com/onevcat/Kingfisher) ⭐ 24,405 | 🐛 168 | 🌐 Swift | 📅 2026-10-03 is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
+[Kingfisher](https://github.com/onevcat/Kingfisher) ⭐ 24,405 | 🐛 165 | 🌐 Swift | 📅 2026-10-03 is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
 
 [Realm](https://github.com/realm/realm-cocoa) ⭐ 16,610 | 🐛 498 | 🌐 Objective-C | 📅 2026-09-27 is a mobile database that runs directly inside phones, tablets or wearables. This repository holds the source code for the iOS, macOS, tvOS & watchOS versions of Realm Swift & Realm Objective-C.
 
@@ -2742,25 +2742,25 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Go in Visual Studio Code](https://code.visualstudio.com/docs/languages/go) is an extension that gives you language features like IntelliSense, code navigation, symbol search, bracket matching, snippets, and many more that will help you in Golang development.
 
-[Traefik](https://github.com/traefik/traefik) ⭐ 65,077 | 🐛 931 | 🌐 Go | 📅 2026-10-05 is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, etc.) and configures itself automatically and dynamically. Pointing Traefik at your orchestrator should be the only configuration step you need.
+[Traefik](https://github.com/traefik/traefik) ⭐ 65,083 | 🐛 932 | 🌐 Go | 📅 2026-10-06 is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, etc.) and configures itself automatically and dynamically. Pointing Traefik at your orchestrator should be the only configuration step you need.
 
-[Gitea](https://github.com/go-gitea/gitea) ⭐ 58,313 | 🐛 2,453 | 🌐 Go | 📅 2026-10-05 is Git with a cup of tea, painless self-hosted git service. Using Go, this can be done with an independent binary distribution across all platforms which Go supports, including Linux, macOS, and Windows on x86, amd64, ARM and PowerPC architectures.
+[Gitea](https://github.com/go-gitea/gitea) ⭐ 58,327 | 🐛 2,448 | 🌐 Go | 📅 2026-10-06 is Git with a cup of tea, painless self-hosted git service. Using Go, this can be done with an independent binary distribution across all platforms which Go supports, including Linux, macOS, and Windows on x86, amd64, ARM and PowerPC architectures.
 
-[OpenFaaS](https://github.com/openfaas/faas) ⭐ 26,248 | 🐛 31 | 🌐 Go | 📅 2026-07-02 is Serverless Functions Made Simple. It makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
+[OpenFaaS](https://github.com/openfaas/faas) ⭐ 26,249 | 🐛 31 | 🌐 Go | 📅 2026-07-02 is Serverless Functions Made Simple. It makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
 
-[micro](https://github.com/zyedidia/micro) ⭐ 29,669 | 🐛 920 | 🌐 Go | 📅 2026-10-05 is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals. As its name indicates, micro aims to be somewhat of a successor to the nano editor by being easy to install and use. It strives to be enjoyable as a full-time editor for people who prefer to work in a terminal, or those who regularly edit files over SSH.
+[micro](https://github.com/zyedidia/micro) ⭐ 29,669 | 🐛 920 | 🌐 Go | 📅 2026-10-06 is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals. As its name indicates, micro aims to be somewhat of a successor to the nano editor by being easy to install and use. It strives to be enjoyable as a full-time editor for people who prefer to work in a terminal, or those who regularly edit files over SSH.
 
-[Gravitational Teleport](https://github.com/gravitational/teleport) ⭐ 20,964 | 🐛 3,226 | 🌐 Go | 📅 2026-09-17 is a modern security gateway for remotely accessing into Clusters of Linux servers via SSH or SSH-over-HTTPS in a browser or Kubernetes clusters.
+[Gravitational Teleport](https://github.com/gravitational/teleport) ⭐ 20,966 | 🐛 3,227 | 🌐 Go | 📅 2026-09-17 is a modern security gateway for remotely accessing into Clusters of Linux servers via SSH or SSH-over-HTTPS in a browser or Kubernetes clusters.
 
 [NATS](https://nats.io/) is a simple, secure and performant communications system for digital systems, services and devices. NATS is part of the Cloud Native Computing Foundation (CNCF). NATS has over 30 client language implementations, and its server can run on-premise, in the cloud, at the edge, and even on a Raspberry Pi. NATS can secure and simplify design and operation of modern distributed systems.
 
-[Act](https://github.com/nektos/act) ⭐ 72,217 | 🐛 386 | 🌐 Go | 📅 2026-08-09 is a GO program that allows you to run our GitHub Actions locally.
+[Act](https://github.com/nektos/act) ⭐ 72,225 | 🐛 387 | 🌐 Go | 📅 2026-08-09 is a GO program that allows you to run our GitHub Actions locally.
 
-[Fiber](https://gofiber.io/) is an [Express](https://github.com/expressjs/express) ⭐ 69,541 | 🐛 242 | 🌐 JavaScript | 📅 2026-10-01 inspired web framework built on top of [Fasthttp](https://github.com/valyala/fasthttp) ⭐ 23,483 | 🐛 79 | 🌐 Go | 📅 2026-10-05, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
+[Fiber](https://gofiber.io/) is an [Express](https://github.com/expressjs/express) ⭐ 69,553 | 🐛 242 | 🌐 JavaScript | 📅 2026-10-01 inspired web framework built on top of [Fasthttp](https://github.com/valyala/fasthttp) ⭐ 23,483 | 🐛 79 | 🌐 Go | 📅 2026-10-05, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
 
-[Glide](https://github.com/Masterminds/glide) ⭐ 8,080 | 🐛 400 | 🌐 Go | 📅 2024-07-22 is a vendor Package Management for Golang.
+[Glide](https://github.com/Masterminds/glide) ⭐ 8,081 | 🐛 400 | 🌐 Go | 📅 2024-07-22 is a vendor Package Management for Golang.
 
-[BadgerDB](https://github.com/dgraph-io/badger) ⭐ 15,780 | 🐛 74 | 🌐 Go | 📅 2026-10-05 is an embeddable, persistent and fast key-value (KV) database written in pure Go. It is the underlying database for [Dgraph](https://dgraph.io/), a fast, distributed graph database. It's meant to be a performant alternative to non-Go-based key-value stores like RocksDB.
+[BadgerDB](https://github.com/dgraph-io/badger) ⭐ 15,781 | 🐛 74 | 🌐 Go | 📅 2026-10-05 is an embeddable, persistent and fast key-value (KV) database written in pure Go. It is the underlying database for [Dgraph](https://dgraph.io/), a fast, distributed graph database. It's meant to be a performant alternative to non-Go-based key-value stores like RocksDB.
 
 [Go kit](https://github.com/go-kit/kit) ⭐ 27,423 | 🐛 61 | 🌐 Go | 📅 2024-07-19 is a programming toolkit for building microservices (or elegant monoliths) in Go. We solve common problems in distributed systems and application architecture so you can focus on delivering business value.
 
@@ -2774,9 +2774,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Delve](https://github.com/go-delve/delve) ⭐ 24,940 | 🐛 81 | 🌐 Go | 📅 2026-09-29 is a debugger for the Go programming language.
 
-[GORM](https://github.com/go-gorm/gorm) ⭐ 39,980 | 🐛 542 | 🌐 Go | 📅 2026-09-14 is a fantastic ORM library for Golang, aims to be developer friendly.
+[GORM](https://github.com/go-gorm/gorm) ⭐ 39,981 | 🐛 543 | 🌐 Go | 📅 2026-09-14 is a fantastic ORM library for Golang, aims to be developer friendly.
 
-[Go Patterns](https://github.com/tmrts/go-patterns) ⭐ 28,262 | 🐛 65 | 🌐 Go | 📅 2024-05-14 is a curated collection of idiomatic design & application patterns for Go language.
+[Go Patterns](https://github.com/tmrts/go-patterns) ⭐ 28,261 | 🐛 65 | 🌐 Go | 📅 2024-05-14 is a curated collection of idiomatic design & application patterns for Go language.
 
 # 23. C++
 
@@ -2802,7 +2802,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Chromium C++ Style Guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
 
-[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) ⭐ 45,354 | 🐛 246 | 🌐 CSS | 📅 2026-10-01
+[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) ⭐ 45,355 | 🐛 246 | 🌐 CSS | 📅 2026-10-01
 
 [C++ Style Guide for ROS](http://wiki.ros.org/CppStyleGuide)
 
@@ -2818,7 +2818,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,521 | 🐛 1,090 | 🌐 CMake | 📅 2026-10-05 is a C++ Library Manager for Windows, Linux, and MacOS.
+[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,521 | 🐛 1,085 | 🌐 CMake | 📅 2026-10-06 is a C++ Library Manager for Windows, Linux, and MacOS.
 
 [ReSharper C++](https://www.jetbrains.com/resharper-cpp/features/) is a Visual Studio Extension for C++ developers developed by JetBrains.
 
@@ -2836,7 +2836,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Cython](https://cython.org/) is a language that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations such as calling C functions and declaring C types on variables and class attributes.
 
-[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,662 | 🐛 53 | 🌐 C++ | 📅 2026-10-02 is a very fast, header-only/compiled, C++ logging library.
+[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,664 | 🐛 56 | 🌐 C++ | 📅 2026-10-02 is a very fast, header-only/compiled, C++ logging library.
 
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
@@ -2882,7 +2882,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rails](https://rubyonrails.org/) is a web-application framework that includes everything needed to create database-backed web applications according to the [Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model-view-controller) pattern. Understanding the MVC pattern is key to understanding Rails. MVC divides your application into three layers: Model, View, and Controller, each with a specific responsibility.
 
-[rbenv](https://github.com/rbenv/rbenv) ⭐ 16,734 | 🐛 17 | 🌐 Shell | 📅 2026-07-14 allows to pick a Ruby version for your application and guarantee that your development environment matches production. Put rbenv to work with Bundler for painless Ruby upgrades and bulletproof deployments.
+[rbenv](https://github.com/rbenv/rbenv) ⭐ 16,735 | 🐛 17 | 🌐 Shell | 📅 2026-07-14 allows to pick a Ruby version for your application and guarantee that your development environment matches production. Put rbenv to work with Bundler for painless Ruby upgrades and bulletproof deployments.
 
 [Prettier for Ruby](https://prettier.io/) is a plugin for the Ruby programming language and its ecosystem. prettier is an opinionated code formatter that supports multiple languages and integrates with most editors. The idea is to eliminate discussions of style in code review and allow developers to get back to thinking about code design instead.
 
@@ -2966,13 +2966,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [NetBeans](https://netbeans.org/features/java/index.html) is an IDE provides Java developers with all the tools needed to create professional desktop, mobile and enterprise applications. Creating, Editing, and Refactoring. The IDE provides wizards and templates to let you create Java EE, Java SE, and Java ME applications.
 
-[Java Design Patterns ](https://github.com/iluwatar/java-design-patterns) ⭐ 94,757 | 🐛 134 | 🌐 Java | 📅 2026-10-04 is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
+[Java Design Patterns ](https://github.com/iluwatar/java-design-patterns) ⭐ 94,758 | 🐛 134 | 🌐 Java | 📅 2026-10-06 is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
 
 [Elasticsearch](https://www.elastic.co/products/elasticsearch) is a distributed RESTful search engine built for the cloud written in Java.
 
-[RxJava](https://github.com/ReactiveX/RxJava) ⭐ 48,186 | 🐛 11 | 🌐 Java | 📅 2026-10-05 is a Java VM implementation of [Reactive Extensions](http://reactivex.io/): a library for composing asynchronous and event-based programs by using observable sequences. It extends the [observer pattern](http://en.wikipedia.org/wiki/Observer_pattern) to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.
+[RxJava](https://github.com/ReactiveX/RxJava) ⭐ 48,185 | 🐛 11 | 🌐 Java | 📅 2026-10-05 is a Java VM implementation of [Reactive Extensions](http://reactivex.io/): a library for composing asynchronous and event-based programs by using observable sequences. It extends the [observer pattern](http://en.wikipedia.org/wiki/Observer_pattern) to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.
 
-[Guava](https://github.com/google/guava) ⭐ 51,920 | 🐛 752 | 🌐 Java | 📅 2026-10-05 is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
+[Guava](https://github.com/google/guava) ⭐ 51,919 | 🐛 753 | 🌐 Java | 📅 2026-10-06 is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
 
 [okhttp](https://square.github.io/okhttp/) is a HTTP client for Java and Kotlin developed by Square.
 
@@ -3074,7 +3074,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Play Framework](https://github.com/playframework/playframework) ⭐ 12,616 | 🐛 492 | 🌐 Scala | 📅 2026-10-04 is a web framework combines productivity and performance making it easy to build scalable web applications with Java and Scala.
 
-[Dotty](https://github.com/lampepfl/dotty) ⭐ 6,312 | 🐛 1,821 | 🌐 Scala | 📅 2026-10-05 is a research compiler that will become Scala 3.
+[Dotty](https://github.com/lampepfl/dotty) ⭐ 6,312 | 🐛 1,819 | 🌐 Scala | 📅 2026-10-06 is a research compiler that will become Scala 3.
 
 [AWScala](https://github.com/seratch/AWScala) ⚠️ Archived is a tool that enables Scala developers to easily work with Amazon Web Services in the Scala way.
 
@@ -3126,7 +3126,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) is an IDE for Java, but it also understands and provides intelligent coding assistance for a large variety of other languages such as Kotlin, SQL, JPQL, HTML, JavaScript, etc., even if the language expression is injected into a String literal in your Java code.
 
-[Gradle](https://github.com/gradle/gradle) ⭐ 18,875 | 🐛 3,505 | 🌐 Groovy | 📅 2026-10-05 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, and is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
+[Gradle](https://github.com/gradle/gradle) ⭐ 18,875 | 🐛 3,507 | 🌐 Groovy | 📅 2026-10-06 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, and is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
 
 [Groovy Language Server](https://github.com/prominic/groovy-language-server) ⭐ 236 | 🐛 26 | 🌐 Java | 📅 2026-05-19 is a [language server](https://microsoft.github.io/language-server-protocol/) protocol for [Groovy](https://groovy-lang.org/).
 
@@ -3136,13 +3136,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rest-assured](https://github.com/rest-assured/rest-assured) ⭐ 7,141 | 🐛 597 | 🌐 Java | 📅 2026-07-22 is a Java DSL for easy testing of REST services.
 
-[Spock](https://github.com/spockframework/spock) ⭐ 3,629 | 🐛 207 | 🌐 Java | 📅 2026-10-05 is a BDD-style developer testing and specification framework for Java and Groovy applications.
+[Spock](https://github.com/spockframework/spock) ⭐ 3,629 | 🐛 206 | 🌐 Java | 📅 2026-10-06 is a BDD-style developer testing and specification framework for Java and Groovy applications.
 
 [Micronaut](https://micronaut.io) is a modern, JVM-based, full stack Java framework designed for building modular, easily testable JVM applications with support for Java, Kotlin and the Groovy language.
 
-[Nextflow](https://github.com/nextflow-io/nextflow) ⭐ 3,498 | 🐛 410 | 🌐 Groovy | 📅 2026-10-05 is a bioinformatics workflow manager that enables the development of portable and reproducible workflows. It supports deploying workflows on a variety of execution platforms including local, HPC schedulers, AWS Batch, Google Cloud Life Sciences, and Kubernetes. Additionally, it provides support for manage your workflow dependencies through built-in support for Conda, Docker, Singularity, and Modules.
+[Nextflow](https://github.com/nextflow-io/nextflow) ⭐ 3,498 | 🐛 411 | 🌐 Groovy | 📅 2026-10-06 is a bioinformatics workflow manager that enables the development of portable and reproducible workflows. It supports deploying workflows on a variety of execution platforms including local, HPC schedulers, AWS Batch, Google Cloud Life Sciences, and Kubernetes. Additionally, it provides support for manage your workflow dependencies through built-in support for Conda, Docker, Singularity, and Modules.
 
-[Dex : The Data Explorer](https://github.com/PatMartin/Dex) ⭐ 1,315 | 🐛 5 | 🌐 JavaScript | 📅 2019-02-12 is a data visualization tool written in Java/Groovy/JavaFX capable of powerful ETL and publishing web visualizations.
+[Dex : The Data Explorer](https://github.com/PatMartin/Dex) ⭐ 1,316 | 🐛 5 | 🌐 JavaScript | 📅 2019-02-12 is a data visualization tool written in Java/Groovy/JavaFX capable of powerful ETL and publishing web visualizations.
 
 [Groovy-Eclipse](https://github.com/groovy/groovy-eclipse) ⭐ 680 | 🐛 61 | 🌐 Java | 📅 2026-10-05 is a project that provides Eclipse and Maven tooling support for the Apache Groovy programming language.
 
@@ -3226,7 +3226,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [WebAssembly Roadmap](https://webassembly.org/roadmap/)
 
-[WebAssembly proposals](https://github.com/WebAssembly/proposals) ⭐ 1,139 | 🐛 6 | 📅 2026-08-10
+[WebAssembly proposals](https://github.com/WebAssembly/proposals) ⭐ 1,139 | 🐛 7 | 📅 2026-10-06
 
 [WebAssembly Web API](https://webassembly.github.io/spec/web-api/)
 
@@ -3258,27 +3258,27 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [WABT](https://github.com/WebAssembly/wabt) ⭐ 8,148 | 🐛 232 | 🌐 C++ | 📅 2026-10-05 is a suite of tools for WebAssembly.
 
-[Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,654 | 🐛 589 | 🌐 WebAssembly | 📅 2026-10-05 is a compiler and toolchain infrastructure library for WebAssembly, written in C++. It aims to make [compiling to WebAssembly](https://github.com/WebAssembly/binaryen/wiki/Compiling-to-WebAssembly-with-Binaryen) ⭐ 8,654 | 🐛 589 | 🌐 WebAssembly | 📅 2026-10-05 easy, fast, and effective.
+[Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,655 | 🐛 595 | 🌐 WebAssembly | 📅 2026-10-06 is a compiler and toolchain infrastructure library for WebAssembly, written in C++. It aims to make [compiling to WebAssembly](https://github.com/WebAssembly/binaryen/wiki/Compiling-to-WebAssembly-with-Binaryen) ⭐ 8,655 | 🐛 595 | 🌐 WebAssembly | 📅 2026-10-06 easy, fast, and effective.
 
 [Lucet](https://github.com/alexcrichton/lucet) ⭐ 0 | 🐛 0 | 📅 2020-11-09 is a native WebAssembly compiler and runtime. It is designed to safely execute untrusted WebAssembly programs inside your application.
 
 [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) is a feature of ASP.NET, a popular web development framework that extends the.NET developer platform with tools and libraries for building web apps. Run on WebAssembly or the server Blazor can run your client-side C# code directly in the browser, using WebAssembly.
 
-[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,127 | 🐛 283 | 🌐 Rust | 📅 2026-10-05.
+[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,127 | 🐛 282 | 🌐 Rust | 📅 2026-10-06.
 
-[AssemblyScript](https://github.com/AssemblyScript/assemblyscript) ⭐ 18,032 | 🐛 212 | 🌐 WebAssembly | 📅 2026-09-14 compiles a strict variant of TypeScript (JavaScript with types) to WebAssembly using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,654 | 🐛 589 | 🌐 WebAssembly | 📅 2026-10-05.
+[AssemblyScript](https://github.com/AssemblyScript/assemblyscript) ⭐ 18,032 | 🐛 212 | 🌐 WebAssembly | 📅 2026-09-14 compiles a strict variant of TypeScript (JavaScript with types) to WebAssembly using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,655 | 🐛 595 | 🌐 WebAssembly | 📅 2026-10-06.
 
 [TinyGo](https://tinygo.org/) is a Go compiler(based on LLVM) intended for use in small places such as microcontrollers, WebAssembly (Wasm), and command-line tools.
 
-[Capstone](https://github.com/aquynh/capstone) ⭐ 9,062 | 🐛 357 | 🌐 C | 📅 2026-10-04 is a  disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86\_64, XCore) + bindings.
+[Capstone](https://github.com/aquynh/capstone) ⭐ 9,063 | 🐛 359 | 🌐 C | 📅 2026-10-04 is a  disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86\_64, XCore) + bindings.
 
 [Vecty](https://github.com/hexops/vecty) ⚠️ Archived is a tool that lets you build responsive and dynamic web frontends in Go using WebAssembly, competing with modern web frameworks like React & VueJS.
 
-[WebAssembly Micro Runtime (WAMR)](https://github.com/bytecodealliance/wasm-micro-runtime) ⭐ 6,130 | 🐛 623 | 🌐 C | 📅 2026-10-01 is a standalone WebAssembly (WASM) runtime with a small footprint.
+[WebAssembly Micro Runtime (WAMR)](https://github.com/bytecodealliance/wasm-micro-runtime) ⭐ 6,131 | 🐛 623 | 🌐 C | 📅 2026-10-01 is a standalone WebAssembly (WASM) runtime with a small footprint.
 
-[Pion WebRTC](https://github.com/pion/webrtc) ⭐ 16,817 | 🐛 115 | 🌐 Go | 📅 2026-10-05 is a pure Go implementation of [WebRTC API](https://w3c.github.io/webrtc-pc/).
+[Pion WebRTC](https://github.com/pion/webrtc) ⭐ 16,817 | 🐛 115 | 🌐 Go | 📅 2026-10-06 is a pure Go implementation of [WebRTC API](https://w3c.github.io/webrtc-pc/).
 
-[vim.wasm](http://rhysd.github.io/vim.wasm) is a port of the Vim ediotr to Webassemly using  [Emscripten](http://kripken.github.io/emscripten-site/) and [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,654 | 🐛 589 | 🌐 WebAssembly | 📅 2026-10-05.
+[vim.wasm](http://rhysd.github.io/vim.wasm) is a port of the Vim ediotr to Webassemly using  [Emscripten](http://kripken.github.io/emscripten-site/) and [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,655 | 🐛 595 | 🌐 WebAssembly | 📅 2026-10-06.
 
 # 30. CUDA
 
@@ -3324,15 +3324,15 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Minkowski Engine](https://nvidia.github.io/MinkowskiEngine) is an auto-differentiation library for sparse tensors. It supports all standard neural network layers such as convolution, pooling, unpooling, and broadcasting operations for sparse tensors.
 
-[CUTLASS](https://github.com/NVIDIA/cutlass) ⭐ 10,533 | 🐛 777 | 🌐 C++ | 📅 2026-09-23 is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.
+[CUTLASS](https://github.com/NVIDIA/cutlass) ⭐ 10,536 | 🐛 777 | 🌐 C++ | 📅 2026-09-23 is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.
 
 [CUB](https://github.com/NVIDIA/cub) ⚠️ Archived is a cooperative primitives for CUDA C++ kernel authors.
 
 [Tensorman](https://github.com/pop-os/tensorman) ⭐ 206 | 🐛 11 | 🌐 Rust | 📅 2025-10-27 is a utility for easy management of Tensorflow containers by developed by [System76](https://system76.com).Tensorman allows Tensorflow to operate in an isolated environment that is contained from the rest of the system. This virtual environment can operate independent of the base system, allowing you to use any version of Tensorflow on any version of a Linux distribution that supports the Docker runtime.
 
-[Numba](https://github.com/numba/numba) ⭐ 11,172 | 🐛 1,821 | 🌐 Python | 📅 2026-10-05 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
+[Numba](https://github.com/numba/numba) ⭐ 11,173 | 🐛 1,821 | 🌐 Python | 📅 2026-10-05 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
-[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,352 | 🐛 684 | 🌐 Python | 📅 2026-10-05 for high performance training and inference.
+[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,352 | 🐛 686 | 🌐 Python | 📅 2026-10-06 for high performance training and inference.
 
 [CuPy](https://cupy.dev/) is an implementation of NumPy-compatible multi-dimensional array on CUDA. CuPy consists of the core multi-dimensional array class, cupy.ndarray, and many functions on it. It supports a subset of numpy.ndarray interface.
 
@@ -3340,7 +3340,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [cuDF](https://rapids.ai/) is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data. cuDF provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.
 
-[cuML](https://github.com/rapidsai/cuml) ⭐ 5,300 | 🐛 805 | 🌐 Python | 📅 2026-10-05 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
+[cuML](https://github.com/rapidsai/cuml) ⭐ 5,300 | 🐛 805 | 🌐 Python | 📅 2026-10-06 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
 
 [ArrayFire](https://arrayfire.com/) is a general-purpose library that simplifies the process of developing software that targets parallel and massively-parallel architectures including CPUs, GPUs, and other hardware acceleration devices.
 
@@ -3484,7 +3484,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rmarkdown ](https://rmarkdown.rstudio.com/) is a package helps you create dynamic analysis documents that combine code, rendered output (such as figures), and prose.
 
-[Rplugin](https://github.com/JetBrains/Rplugin) ⭐ 70 | 🐛 2 | 🌐 Kotlin | 📅 2026-10-03 is R Language supported plugin for the IntelliJ IDE.
+[Rplugin](https://github.com/JetBrains/Rplugin) ⭐ 70 | 🐛 2 | 🌐 Kotlin | 📅 2026-10-06 is R Language supported plugin for the IntelliJ IDE.
 
 [Plotly](https://plotly-r.com/) is an R package for creating interactive web graphics via the open source JavaScript graphing library [plotly.js](https://github.com/plotly/plotly.js) ⭐ 18,356 | 🐛 804 | 🌐 JavaScript | 📅 2026-10-05.
 
@@ -3498,7 +3498,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [MLR](https://mlr.mlr-org.com/) is Machine Learning in R.
 
-[ML workspace](https://github.com/ml-tooling/ml-workspace) ⭐ 3,546 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-07-26 is an all-in-one web-based IDE specialized for machine learning and data science. It is simple to deploy and gets you started within minutes to productively built ML solutions on your own machines. ML workspace is the ultimate tool for developers preloaded with a variety of popular data science libraries (Tensorflow, PyTorch, Keras, and MXnet) and dev tools (Jupyter, VS Code, and Tensorboard) perfectly configured, optimized, and integrated.
+[ML workspace](https://github.com/ml-tooling/ml-workspace) ⭐ 3,547 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-07-26 is an all-in-one web-based IDE specialized for machine learning and data science. It is simple to deploy and gets you started within minutes to productively built ML solutions on your own machines. ML workspace is the ultimate tool for developers preloaded with a variety of popular data science libraries (Tensorflow, PyTorch, Keras, and MXnet) and dev tools (Jupyter, VS Code, and Tensorboard) perfectly configured, optimized, and integrated.
 
 [CatBoost](https://catboost.ai/) is a fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.
 
@@ -3652,7 +3652,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [VS Code Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) is a bash debugger GUI frontend based on awesome bashdb scripts (bashdb now included in package).
 
-[VS Code Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode) is a Visual Studio Code extension utilizing the [bash language server](https://github.com/bash-lsp/bash-language-server/blob/master/bash-lsp) ⭐ 2,787 | 🐛 69 | 🌐 TypeScript | 📅 2026-10-05, that is based on [Tree Sitter](https://github.com/tree-sitter/tree-sitter) ⭐ 27,125 | 🐛 108 | 🌐 Rust | 📅 2026-10-05 and its [grammar for Bash](https://github.com/tree-sitter/tree-sitter-bash) ⭐ 331 | 🐛 84 | 🌐 C | 📅 2026-09-13 and supports [explainshell](https://explainshell.com/) integration.
+[VS Code Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode) is a Visual Studio Code extension utilizing the [bash language server](https://github.com/bash-lsp/bash-language-server/blob/master/bash-lsp) ⭐ 2,788 | 🐛 69 | 🌐 TypeScript | 📅 2026-10-05, that is based on [Tree Sitter](https://github.com/tree-sitter/tree-sitter) ⭐ 27,129 | 🐛 109 | 🌐 Rust | 📅 2026-10-06 and its [grammar for Bash](https://github.com/tree-sitter/tree-sitter-bash) ⭐ 331 | 🐛 84 | 🌐 C | 📅 2026-09-13 and supports [explainshell](https://explainshell.com/) integration.
 
 # 35. C\#
 
@@ -3700,7 +3700,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,551 | 🐛 1,768 | 🌐 C# | 📅 2026-10-05 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
+[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,551 | 🐛 1,766 | 🌐 C# | 📅 2026-10-06 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
 
 [Roslyn](https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/) is a .NET compiler developed by Microsoft that provides C# and Visual Basic languages with rich code analysis APIs.
 
@@ -3832,7 +3832,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/introduction) is a cross-platform .NET implementation for websites, servers, and console apps on Windows, Linux, and macOS.The .NET Framework supports websites, services, desktop apps, and more on Windows. Xamarin/Mono is a .NET implementation for running apps on all the major mobile operating systems.
 
-[.NET runtime](https://github.com/dotnet/runtime) ⭐ 18,313 | 🐛 8,086 | 🌐 C# | 📅 2026-10-05 is a collection of libraries and shared host (dotnet) installers for all supported platforms, as well as the sources to .NET runtime and libraries.
+[.NET runtime](https://github.com/dotnet/runtime) ⭐ 18,315 | 🐛 8,071 | 🌐 C# | 📅 2026-10-06 is a collection of libraries and shared host (dotnet) installers for all supported platforms, as well as the sources to .NET runtime and libraries.
 
 [ASP.NET Core](https://asp.net/) is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.
 
@@ -3856,7 +3856,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [IdentityServer](https://identityserver.io/) is a free, open source [OpenID Connect](https://openid.net/connect/) and [OAuth 2.0](https://tools.ietf.org/html/rfc6749) framework for ASP.NET Core. IdentityServer4 incorporates all the protocol implementations and extensibility points needed to integrate token-based authentication, single-sign-on and API access control in your applications.
 
-[ILSpy](https://github.com/icsharpcode/ILSpy) ⭐ 26,207 | 🐛 163 | 🌐 C# | 📅 2026-10-05 is the open-source .NET assembly browser and decompiler.
+[ILSpy](https://github.com/icsharpcode/ILSpy) ⭐ 26,264 | 🐛 174 | 🌐 C# | 📅 2026-10-06 is the open-source .NET assembly browser and decompiler.
 
 [Hangfire](https://www.hangfire.io/) is an easy way to perform background job processing in your .NET and .NET Core applications with no Windows Service or Task Scheduler required.
 
@@ -3866,7 +3866,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Refit](https://reactiveui.github.io/refit/) is the automatic type-safe REST library for .NET Core, Xamarin and .NET.It's heavily inspired by Square's Retrofit library, Refit turns your REST API into a live interface.
 
-[MAUI](https://github.com/dotnet/maui) ⭐ 23,321 | 🐛 3,946 | 🌐 C# | 📅 2026-10-05 is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
+[MAUI](https://github.com/dotnet/maui) ⭐ 23,323 | 🐛 3,952 | 🌐 C# | 📅 2026-10-06 is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
 
 [Quasar](https://github.com/quasar/Quasar) ⚠️ Archived is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.
 
@@ -3928,7 +3928,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Pub](https://dart.dev/tools/pub/cmd) is a  tool that has commands for managing packages and for deploying packages and command-line apps.
 
-[Analysis server](https://github.com/dart-lang/sdk/tree/master/pkg/analysis_server) ⭐ 11,303 | 🐛 8,428 | 🌐 Dart | 📅 2026-10-05 is designed to provide on-going analysis of one or more code bases as those code bases are changing.
+[Analysis server](https://github.com/dart-lang/sdk/tree/master/pkg/analysis_server) ⭐ 11,303 | 🐛 8,434 | 🌐 Dart | 📅 2026-10-06 is designed to provide on-going analysis of one or more code bases as those code bases are changing.
 
 [Dart VM](https://dart.dev/tools/dart-vm) is a tool to run Dart command-line apps such as server-side scripts, programs, and servers.
 
@@ -3962,7 +3962,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Flutter documentation](https://flutter.dev/docs)
 
-[Style Guide for Flutter](https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo) ⭐ 179,353 | 🐛 13,307 | 🌐 Dart | 📅 2026-10-05
+[Style Guide for Flutter](https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo) ⭐ 179,359 | 🐛 13,301 | 🌐 Dart | 📅 2026-10-06
 
 [Creating your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 
@@ -4000,7 +4000,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [FlutterBoost](https://github.com/alibaba/flutter_boost) ⭐ 7,197 | 🐛 420 | 🌐 Dart | 📅 2026-06-09 is a Flutter plugin which enables hybrid integration of Flutter for your existing native apps with minimum efforts.
 
-[Go-flutter](https://github.com/go-flutter-desktop/go-flutter) ⭐ 5,931 | 🐛 65 | 🌐 Go | 📅 2026-09-08 is a package that brings Flutter to the desktop. project implements the [Flutter's Embedding API](https://github.com/flutter/flutter/wiki/Custom-Flutter-Engine-Embedders) ⭐ 179,353 | 🐛 13,307 | 🌐 Dart | 📅 2026-10-05 using a single code base that runs on Windows, macOS, and Linux. For rendering, [GLFW](https://github.com/go-gl/glfw) ⭐ 1,690 | 🐛 25 | 🌐 C | 📅 2026-08-23 fits the job because it provides the right abstractions over the OpenGL's Buffer/Mouse/Keyboard for each platform.
+[Go-flutter](https://github.com/go-flutter-desktop/go-flutter) ⭐ 5,931 | 🐛 65 | 🌐 Go | 📅 2026-09-08 is a package that brings Flutter to the desktop. project implements the [Flutter's Embedding API](https://github.com/flutter/flutter/wiki/Custom-Flutter-Engine-Embedders) ⭐ 179,359 | 🐛 13,301 | 🌐 Dart | 📅 2026-10-06 using a single code base that runs on Windows, macOS, and Linux. For rendering, [GLFW](https://github.com/go-gl/glfw) ⭐ 1,690 | 🐛 25 | 🌐 C | 📅 2026-08-23 fits the job because it provides the right abstractions over the OpenGL's Buffer/Mouse/Keyboard for each platform.
 
 [Appwrite](https://appwrite.io/) is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment.
 
@@ -4068,7 +4068,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [ML Kit](https://firebase.google.com/docs/ml-kit/) is a standalone library for on-device ML, which you can use with or without Firebase.
 
-[Firebase iOS](https://github.com/firebase/firebase-ios-sdk) ⭐ 6,924 | 🐛 509 | 🌐 C++ | 📅 2026-10-05 is all the Apple platform Firebase SDK source except FirebaseAnalytics, FirebasePerformance, and FirebaseML.
+[Firebase iOS](https://github.com/firebase/firebase-ios-sdk) ⭐ 6,926 | 🐛 509 | 🌐 C++ | 📅 2026-10-06 is all the Apple platform Firebase SDK source except FirebaseAnalytics, FirebasePerformance, and FirebaseML.
 
 [FlutterFire](https://firebase.flutter.dev/) is a set of [Flutter plugins](https://flutter.io/platform-plugins/) that enable Flutter apps to use [Firebase](https://firebase.google.com/) services. You can follow an example that shows how to use these plugins in the [Firebase for Flutter](https://codelabs.developers.google.com/codelabs/flutter-firebase/index.html#0) codelab.
 
@@ -4132,7 +4132,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Realm](https://github.com/realm/realm-cocoa) ⭐ 16,610 | 🐛 498 | 🌐 Objective-C | 📅 2026-09-27 is a mobile database(replaces Core Data & SQLite) that runs directly inside phones, tablets or wearables.
 
-[Infer](https://github.com/facebook/infer) ⭐ 15,716 | 🐛 268 | 🌐 OCaml | 📅 2026-10-05 is a static analysis tool for Java, C++, Objective-C, and C.
+[Infer](https://github.com/facebook/infer) ⭐ 15,716 | 🐛 263 | 🌐 OCaml | 📅 2026-10-06 is a static analysis tool for Java, C++, Objective-C, and C.
 
 [Mantle](https://github.com/Mantle/Mantle) ⭐ 11,240 | 🐛 0 | 🌐 Objective-C | 📅 2022-10-18 is a model framework that makes it easy to write a simple model layer for your Cocoa or Cocoa Touch application.
 
@@ -4140,7 +4140,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Aspects](https://github.com/steipete/Aspects) ⚠️ Archived is a simple library for aspect oriented programming in Objective-C and Swift.
 
-[Hammerspoon](https://github.com/Hammerspoon/hammerspoon) ⭐ 16,226 | 🐛 697 | 🌐 Objective-C | 📅 2026-07-08 is a tool for powerful automation for macOS that acts as a bridge between the operating system and a Lua scripting engine.
+[Hammerspoon](https://github.com/Hammerspoon/hammerspoon) ⭐ 16,234 | 🐛 697 | 🌐 Objective-C | 📅 2026-07-08 is a tool for powerful automation for macOS that acts as a bridge between the operating system and a Lua scripting engine.
 
 [Nimbus](https://github.com/jverkoey/nimbus) ⚠️ Archived is an iOS framework whose feature set grows only as fast as its documentation.
 
@@ -4302,7 +4302,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [React Bootstrap](https://react-bootstrap.github.io/) is a package of Bootstrap components built with React.
 
-[React Router Bootstrap](https://github.com/react-bootstrap/react-router-bootstrap) ⭐ 1,676 | 🐛 31 | 🌐 JavaScript | 📅 2026-10-05 is a package that provides integration between [React Router](https://github.com/reactjs/react-router) ⭐ 56,591 | 🐛 211 | 🌐 TypeScript | 📅 2026-10-05 v4 and React Bootstrap.
+[React Router Bootstrap](https://github.com/react-bootstrap/react-router-bootstrap) ⭐ 1,676 | 🐛 31 | 🌐 JavaScript | 📅 2026-10-05 is a package that provides integration between [React Router](https://github.com/reactjs/react-router) ⭐ 56,594 | 🐛 213 | 🌐 TypeScript | 📅 2026-10-05 v4 and React Bootstrap.
 
 [Bootstrap Table](https://bootstrap-table.com/) is an extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)
 
@@ -4462,7 +4462,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Lua Language Server](https://github.com/sumneko/lua-language-server) ⭐ 4,382 | 🐛 714 | 🌐 Lua | 📅 2026-09-30 is an extension for VSCode that provides support for the Lua Language Server.
 
-[Apache APISIX](https://github.com/apache/apisix) ⭐ 17,195 | 🐛 257 | 🌐 Lua | 📅 2026-10-04 is a dynamic, real-time, high-performance API gateway, based on the Nginx library and etcd.
+[Apache APISIX](https://github.com/apache/apisix) ⭐ 17,199 | 🐛 257 | 🌐 Lua | 📅 2026-10-04 is a dynamic, real-time, high-performance API gateway, based on the Nginx library and etcd.
 
 [NodeMCU](https://github.com/nodemcu/nodemcu-firmware) ⭐ 7,946 | 🐛 119 | 🌐 C | 📅 2026-06-07 is an open source Lua based firmware for the [ESP8266 WiFi SOC from Espressif](https://espressif.com/en/products/esp8266/) and uses an on-module flash-based [SPIFFS](https://github.com/pellepl/spiffs) ⭐ 1,630 | 🐛 104 | 🌐 C | 📅 2026-07-16 file system.
 
@@ -4470,7 +4470,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [MoonScript](https://github.com/leafo/moonscript) ⭐ 3,471 | 🐛 158 | 🌐 C | 📅 2026-08-13 is a programmer friendly language that compiles into Lua.
 
-[Lapis](https://github.com/leafo/lapis) ⭐ 3,344 | 🐛 171 | 🌐 MoonScript | 📅 2026-09-29 is a web framework for Lua/MoonScript supporting [OpenResty](https://openresty.org/en/) or [http.server](https://github.com/daurnimator/lua-http) ⭐ 873 | 🐛 68 | 🌐 Lua | 📅 2024-09-08.
+[Lapis](https://github.com/leafo/lapis) ⭐ 3,345 | 🐛 171 | 🌐 MoonScript | 📅 2026-09-29 is a web framework for Lua/MoonScript supporting [OpenResty](https://openresty.org/en/) or [http.server](https://github.com/daurnimator/lua-http) ⭐ 873 | 🐛 69 | 🌐 Lua | 📅 2024-09-08.
 
 [Algernon](https://algernon.roboticoverlords.org) is a web server with built-in support for QUIC, HTTP/2, Lua, Markdown, Pongo2, HyperApp, Amber, Sass(SCSS), GCSS, JSX, BoltDB (built-in, stores the database in a file, like SQLite), Redis, PostgreSQL, MariaDB/MySQL, rate limiting, graceful shutdown, plugins, users and permissions.
 
@@ -4568,7 +4568,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 ## Tools
 
-[Haskell Dockerfile Linter](https://github.com/hadolint/hadolint) ⭐ 12,458 | 🐛 206 | 🌐 Haskell | 📅 2026-09-25 is a smarter Dockerfile linter that helps you build [best practice](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices) Docker images.
+[Haskell Dockerfile Linter](https://github.com/hadolint/hadolint) ⭐ 12,459 | 🐛 206 | 🌐 Haskell | 📅 2026-09-25 is a smarter Dockerfile linter that helps you build [best practice](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices) Docker images.
 
 [ShellCheck](https://www.shellcheck.net/) is a shell script static analysis tool.
 
@@ -4759,15 +4759,15 @@ commercially available industrial robot models that you can import, visualize, a
 
 [ArduPilot](https://ardupilot.org/ardupilot/index.html) enables the creation and use of trusted, autonomous, unmanned vehicle systems for the peaceful benefit of all. ArduPilot provides a comprehensive suite of tools suitable for almost any vehicle and application.
 
-[AirSim](https://github.com/Microsoft/AirSim) ⭐ 18,535 | 🐛 781 | 🌐 C++ | 📅 2026-09-15 is a simulator for drones, cars and more, built on Unreal Engine (we now also have an experimental Unity release). It is open-source, cross platform, and supports hardware-in-loop with popular flight controllers such as PX4 for physically and visually realistic simulations.
+[AirSim](https://github.com/Microsoft/AirSim) ⭐ 18,536 | 🐛 781 | 🌐 C++ | 📅 2026-09-15 is a simulator for drones, cars and more, built on Unreal Engine (we now also have an experimental Unity release). It is open-source, cross platform, and supports hardware-in-loop with popular flight controllers such as PX4 for physically and visually realistic simulations.
 
-[The JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) ⭐ 9,683 | 🐛 17 | 🌐 HTML | 📅 2026-09-03 is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
+[The JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) ⭐ 9,684 | 🐛 17 | 🌐 HTML | 📅 2026-09-03 is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
 [Light Detection and Ranging(LiDAR)](https://en.wikipedia.org/wiki/Lidar) is a remote sensing method that uses light in the form of a pulsed laser at an object, and uses the time and wavelength of the reflected beam of light to estimate the distance and in some applications ([Laser Imaging](https://en.wikipedia.org/wiki/Laser_scanning)), to create a 3D representation of the object and its surface characteristics. This technology is commonly used in aircraft and self-driving vehicles.
 
-[AliceVision](https://github.com/alicevision/AliceVision) ⭐ 3,507 | 🐛 43 | 🌐 C++ | 📅 2026-10-05 is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms. AliceVision aims to provide strong software basis with state-of-the-art computer vision algorithms that can be tested, analyzed and reused. The project is a result of collaboration between academia and industry to provide cutting-edge algorithms with the robustness and the quality required for production usage.
+[AliceVision](https://github.com/alicevision/AliceVision) ⭐ 3,508 | 🐛 37 | 🌐 C++ | 📅 2026-10-06 is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms. AliceVision aims to provide strong software basis with state-of-the-art computer vision algorithms that can be tested, analyzed and reused. The project is a result of collaboration between academia and industry to provide cutting-edge algorithms with the robustness and the quality required for production usage.
 
-[CARLA](https://github.com/carla-simulator/carla) ⭐ 14,459 | 🐛 1,196 | 🌐 C++ | 📅 2026-10-05 is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
+[CARLA](https://github.com/carla-simulator/carla) ⭐ 14,462 | 🐛 1,196 | 🌐 C++ | 📅 2026-10-06 is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
 
 [ROS bridge](https://github.com/carla-simulator/ros-bridge) ⭐ 646 | 🐛 186 | 🌐 Python | 📅 2026-08-16 is a package to bridge ROS for CARLA Simulator.
 
@@ -4843,9 +4843,9 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Visual Studio Code Remote - WSL extension](https://code.visualstudio.com/docs/remote/wsl) lets you use the Windows Subsystem for Linux (WSL) as your full-time development environment right from VS Code. You can develop in a Linux-based environment, use Linux-specific toolchains and utilities, and run and debug your Linux-based applications all from the comfort of Windows. The extension runs commands and other extensions directly in WSL so you can edit files located in WSL or the mounted Windows filesystem (for example /mnt/c) without worrying about pathing issues, binary compatibility, or other cross-OS challenges.
 
-[Windows Terminal](https://github.com/microsoft/terminal) ⭐ 105,082 | 🐛 1,782 | 🌐 C++ | 📅 2026-10-05 is a new, modern, feature-rich, productive terminal application for command-line users. It includes many of the features most frequently requested by the Windows command-line community including support for tabs, rich text, globalization, configurability, theming & styling, and more.
+[Windows Terminal](https://github.com/microsoft/terminal) ⭐ 105,089 | 🐛 1,779 | 🌐 C++ | 📅 2026-10-06 is a new, modern, feature-rich, productive terminal application for command-line users. It includes many of the features most frequently requested by the Windows command-line community including support for tabs, rich text, globalization, configurability, theming & styling, and more.
 
-[PowerShell Core](https://github.com/PowerShell/PowerShell) ⭐ 55,602 | 🐛 1,606 | 🌐 C# | 📅 2026-10-04 is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
+[PowerShell Core](https://github.com/PowerShell/PowerShell) ⭐ 55,610 | 🐛 1,606 | 🌐 C# | 📅 2026-10-05 is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 [Docker Desktop WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/) creates an  architectural change that gvies a full Linux kernel built by Microsoft, allowing Linux containers to run natively without emulation. With Docker Desktop running on WSL 2, users can leverage Linux workspaces and avoid having to maintain both Linux and Windows build scripts. In addition, WSL 2 provides improvements to file system sharing, boot time, and allows access to some cool new features for Docker Desktop users.
 
@@ -4943,7 +4943,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform) is a powerful, multi-GPU, real-time simulation and collaboration platform for 3D production pipelines based on Pixar's Universal Scene Description and NVIDIA RTX.
 
-[Universal Scene Description](https://github.com/PixarAnimationStudios/USD) ⭐ 7,519 | 🐛 1,011 | 🌐 C++ | 📅 2026-10-05 is an efficient, scalable system for authoring, reading, and streaming time-sampled scene description for interchange between graphics applications.
+[Universal Scene Description](https://github.com/PixarAnimationStudios/USD) ⭐ 7,520 | 🐛 1,012 | 🌐 C++ | 📅 2026-10-05 is an efficient, scalable system for authoring, reading, and streaming time-sampled scene description for interchange between graphics applications.
 
 [OpenTimelineIO](https://github.com/PixarAnimationStudios/OpenTimelineIO) ⭐ 2,007 | 🐛 220 | 🌐 C++ | 📅 2026-10-01 is an interchange format and API for editorial cut information. OTIO is not a container format for media, rather it contains information about the order and length of cuts and references to external media. OTIO includes both a file format and an API for manipulating that format. It also includes a plugin architecture for writing adapters to convert from/to existing editorial timeline formats. It also implements a dependency- less library for dealing strictly with time, opentime.
 
@@ -4961,7 +4961,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [GNU Image Manipulation Program(GIMP)](https://www.gimp.org/) is a cross-platform raster graphics editor based on the GNU Image Manipulation Program(GIMP) available for Linux, macOS, and Windows. A great free alternative for Photoshop.
 
-[PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) ⭐ 18,286 | 🐛 43 | 🌐 Python | 📅 2026-09-27 is a simple Patch for [GIMP 2.10+](https://www.gimp.org/) to help all Adobe Photoshop Users feel at home.
+[PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) ⭐ 18,292 | 🐛 43 | 🌐 Python | 📅 2026-09-27 is a simple Patch for [GIMP 2.10+](https://www.gimp.org/) to help all Adobe Photoshop Users feel at home.
 
 [Photopea](https://www.photopea.com/) is an advanced online photo editor supporting Adobe Photoshop(PSD), GIMP(XCF), Sketch App(Sketch), Adobe XD(XD) and CorelDRAW(CDR) formats.
 
@@ -5099,7 +5099,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [High Level Shading Language(HLSL)](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl) is the High Level Shading Language for DirectX. Using HLSL, the user can create C-like programmable shaders for the Direct3D pipeline. HLSL was first created with DirectX 9 to set up the programmable 3D pipeline.
 
-[DirectX 12 Ultimate](https://github.com/Microsoft/DirectX-Graphics-Samples) ⭐ 6,843 | 🐛 110 | 🌐 C++ | 📅 2026-09-29 is an API(for high performance 2D & 3D graphics) from Microsoft. DirectX 12 Ultimate brings support for ray tracing, mesh shaders, variable rate shading, and sampler feedback. Available in Windows 2004 version(May 2020 Update).
+[DirectX 12 Ultimate](https://github.com/Microsoft/DirectX-Graphics-Samples) ⭐ 6,844 | 🐛 110 | 🌐 C++ | 📅 2026-09-29 is an API(for high performance 2D & 3D graphics) from Microsoft. DirectX 12 Ultimate brings support for ray tracing, mesh shaders, variable rate shading, and sampler feedback. Available in Windows 2004 version(May 2020 Update).
 
 [Vulkan](https://www.khronos.org/vulkan/) is a modern cross-platform graphics and compute API that provides high-efficiency, cross-platform access to modern GPUs used in a wide variety of devices from PCs and consoles to mobile phones and embedded platforms. Vulkan is currently in development by the Khronos consortium.
 
@@ -5117,7 +5117,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [cocos2d-x](https://github.com/cocos2d/cocos2d-x) ⭐ 19,208 | 🐛 1,604 | 🌐 C++ | 📅 2025-05-09 is a multi-platform framework for building 2d games, interactive books, demos and other graphical applications. It is based on cocos2d-iphone, but instead of using Objective-C, it uses C++. It works on iOS, Android, macOS, Windows and Linux.
 
-[MonoGame](https://github.com/MonoGame/MonoGame) ⭐ 14,487 | 🐛 756 | 🌐 C# | 📅 2026-10-05 is a framework for creating powerful cross-platform games. The spiritual successor to XNA with thousands of titles shipped across desktop, mobile, and console platforms. MonoGame is a fully managed .NET open source game framework without any black boxes.
+[MonoGame](https://github.com/MonoGame/MonoGame) ⭐ 14,489 | 🐛 756 | 🌐 C# | 📅 2026-10-05 is a framework for creating powerful cross-platform games. The spiritual successor to XNA with thousands of titles shipped across desktop, mobile, and console platforms. MonoGame is a fully managed .NET open source game framework without any black boxes.
 
 [Three.js](https://threejs.org) is a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using WebGL.
 
@@ -5693,7 +5693,7 @@ Every project is unique and always changing, which is why that project’s team 
 
 [LLVM](https://github.com/llvm/) is a library that has collection of modular/reusable compiler and toolchain  components (assemblers, compilers, debuggers, etc.). With these components LLVM can be used as a compiler framework, providing a front-end(parser and lexer) and a back-end (code that converts LLVM's representation to actual machine code).
 
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,402 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,404 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
 [Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,642 | 🐛 244 | 🌐 C++ | 📅 2026-07-18 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
 
@@ -5795,7 +5795,7 @@ Every project is unique and always changing, which is why that project’s team 
 
 [AWS Serverless Application Model (SAM)](https://aws.amazon.com/serverless/sam/) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings.
 
-[AWS SAM CLI](https://github.com/aws/aws-sam-cli) ⭐ 6,736 | 🐛 544 | 🌐 Python | 📅 2026-10-05 is a CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM.
+[AWS SAM CLI](https://github.com/aws/aws-sam-cli) ⭐ 6,736 | 🐛 545 | 🌐 Python | 📅 2026-10-06 is a CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM.
 
 [AWS Copilot](https://aws.amazon.com/containers/copilot/) is a command line interface (CLI) that enables customers to quickly launch and easily manage containerized applications on AWS.
 
@@ -5803,11 +5803,11 @@ Every project is unique and always changing, which is why that project’s team 
 
 [Laravel Vapor](https://vapor.laravel.com/) is a serverless deployment platform for Laravel, powered by AWS.
 
-[Kong](https://github.com/Kong/kong) ⭐ 44,241 | 🐛 223 | 🌐 Lua | 📅 2026-10-02 is a Cloud-Native API Gateway.
+[Kong](https://github.com/Kong/kong) ⭐ 44,243 | 🐛 223 | 🌐 Lua | 📅 2026-10-02 is a Cloud-Native API Gateway.
 
 [faasd](https://openfaas.com/blog/introducing-faasd/) is a project similar to [OpenFaaS](https://github.com/openfaas/), but without the cost and complexity of Kubernetes. It runs on a single host with very modest requirements, making it fast and easy to manage. Under the hood it uses [containerd](https://containerd.io/) and [Container Networking Interface (CNI)](https://github.com/containernetworking/cni) ⭐ 6,128 | 🐛 157 | 🌐 Go | 📅 2026-09-14 along with the same core OpenFaaS components from the main project.
 
-[Firecracker](https://github.com/firecracker-microvm/firecracker) ⭐ 37,179 | 🐛 94 | 🌐 Rust | 📅 2026-10-05 is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
+[Firecracker](https://github.com/firecracker-microvm/firecracker) ⭐ 37,186 | 🐛 95 | 🌐 Rust | 📅 2026-10-06 is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
 
 [Gloo Edge](https://github.com/solo-io/gloo) ⭐ 170 | 🐛 1,875 | 🌐 Go | 📅 2026-10-05 is a feature-rich, Kubernetes-native ingress controller, and next-generation API gateway built on [Envoy](https://envoy.com/features/saas/).
 
@@ -5824,11 +5824,11 @@ Every project is unique and always changing, which is why that project’s team 
 [Traefik](https://traefik.io/traefik/) is an open-source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it
 automatically discovers the right configuration for your services.
 
-[TiDB](https://github.com/pingcap/tidb) ⭐ 40,630 | 🐛 7,228 | 🌐 Go | 📅 2026-10-05 is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads.
+[TiDB](https://github.com/pingcap/tidb) ⭐ 40,632 | 🐛 7,232 | 🌐 Go | 📅 2026-10-06 is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads.
 
 [Prisma](https://www.prisma.io) is open source ORM for Node.js, TypeScript, PostgreSQL, MySQL and SQLite.
 
-[Zappa](https://github.com/Miserlou/Zappa) ⭐ 11,817 | 🐛 686 | 🌐 Python | 📅 2023-03-23 is a tool for Serverless Python.
+[Zappa](https://github.com/Miserlou/Zappa) ⭐ 11,816 | 🐛 686 | 🌐 Python | 📅 2023-03-23 is a tool for Serverless Python.
 
 [Dapr](https://dapr.io/) is a portable, event-driven, runtime for building distributed applications across cloud and edge.
 
@@ -5840,7 +5840,7 @@ automatically discovers the right configuration for your services.
 
 [Knative Serving](https://knative.dev/docs/serving/) is a project that builds on Kubernetes to support deploying and serving of applications and functions as serverless containers.
 
-[KEDA](https://github.com/kedacore/keda) ⭐ 10,577 | 🐛 256 | 🌐 Go | 📅 2026-10-05 is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes.
+[KEDA](https://github.com/kedacore/keda) ⭐ 10,578 | 🐛 257 | 🌐 Go | 📅 2026-10-06 is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes.
 
 [StreamAlert](https://streamalert.io/)  is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic the user defines.
 
@@ -5852,11 +5852,11 @@ automatically discovers the right configuration for your services.
 
 [Embark](https://framework.embarklabs.io/) is a framework that allows you to easily develop and deploy Decentralized Applications (DApps).
 
-[Midway Serverless](https://github.com/midwayjs/midway) ⭐ 7,744 | 🐛 114 | 🌐 TypeScript | 📅 2026-10-05 is a serverless framework used to build Node.js cloud functions. Helps you significantly reduce maintenance costs and focus more on product development in the Cloud-Native environment.
+[Midway Serverless](https://github.com/midwayjs/midway) ⭐ 7,744 | 🐛 114 | 🌐 TypeScript | 📅 2026-10-06 is a serverless framework used to build Node.js cloud functions. Helps you significantly reduce maintenance costs and focus more on product development in the Cloud-Native environment.
 
 [Micronaut](https://micronaut.io/) is a modern, JVM-based, full stack Java framework designed for building modular, easily testable JVM applications with support for Java, Kotlin and the Groovy language.
 
-[Cube.js](https://github.com/cube-js/cube.js) ⭐ 20,958 | 🐛 1,184 | 🌐 Rust | 📅 2026-10-05 is an open-source analytical API platform. It is primarily used to build internal business intelligence tools or add customer-facing analytics to existing applications.
+[Cube.js](https://github.com/cube-js/cube.js) ⭐ 20,962 | 🐛 1,186 | 🌐 Rust | 📅 2026-10-06 is an open-source analytical API platform. It is primarily used to build internal business intelligence tools or add customer-facing analytics to existing applications.
 
 # 62. XML
 
@@ -5916,7 +5916,7 @@ automatically discovers the right configuration for your services.
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,551 | 🐛 1,768 | 🌐 C# | 📅 2026-10-05 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
+[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,551 | 🐛 1,766 | 🌐 C# | 📅 2026-10-06 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
 
 [WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
 
@@ -5930,7 +5930,7 @@ automatically discovers the right configuration for your services.
 
 [Refit](https://github.com/reactiveui/refit) ⭐ 9,571 | 🐛 2 | 🌐 C# | 📅 2026-10-05 is the automatic type-safe REST library for .NET Core,.NET and Xamarin.
 
-[Pugixml](https://github.com/zeux/pugixml) ⭐ 4,656 | 🐛 17 | 🌐 C++ | 📅 2026-06-16 is a C++ XML processing library, which consists of a DOM-like interface with rich traversal/modification capabilities, an extremely fast XML parser which constructs the DOM tree from an XML file/buffer, and an XPath 1.0 implementation for complex data-driven tree queries.
+[Pugixml](https://github.com/zeux/pugixml) ⭐ 4,657 | 🐛 17 | 🌐 C++ | 📅 2026-06-16 is a C++ XML processing library, which consists of a DOM-like interface with rich traversal/modification capabilities, an extremely fast XML parser which constructs the DOM tree from an XML file/buffer, and an XPath 1.0 implementation for complex data-driven tree queries.
 
 [Serializer](https://symfony.com/serializer) is a component that makes it easier to handle serializing data structures, including object graphs, into array structures or other formats like XML and JSON. It can also handle deserializing XML and JSON back to object graphs.
 
@@ -5978,7 +5978,7 @@ automatically discovers the right configuration for your services.
 
 ## Tools
 
-[Apio](https://github.com/FPGAwars/apio) ⭐ 1,012 | 🐛 35 | 🌐 Python | 📅 2026-10-05 is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.
+[Apio](https://github.com/FPGAwars/apio) ⭐ 1,012 | 🐛 35 | 🌐 Python | 📅 2026-10-06 is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.
 
 [IceStorm](https://github.com/YosysHQ/icestorm) ⭐ 1,189 | 🐛 70 | 🌐 Python | 📅 2026-10-05 is a project that aims at documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.
 
@@ -6108,7 +6108,7 @@ automatically discovers the right configuration for your services.
 
 [OpenFermion](https://github.com/quantumlib/OpenFermion) ⭐ 1,743 | 🐛 31 | 🌐 Python | 📅 2026-10-04 is an open source library for compiling and analyzing quantum algorithms to simulate fermionic systems, including quantum chemistry.
 
-[QuTiP](https://github.com/qutip/qutip) ⭐ 2,081 | 🐛 121 | 🌐 Python | 📅 2026-10-05 is open-source software for simulating the dynamics of closed and open quantum systems. The QuTiP library uses the excellent Numpy, Scipy, and Cython packages as the numerical backend, and graphical output is provided by Matplotlib.
+[QuTiP](https://github.com/qutip/qutip) ⭐ 2,081 | 🐛 121 | 🌐 Python | 📅 2026-10-06 is open-source software for simulating the dynamics of closed and open quantum systems. The QuTiP library uses the excellent Numpy, Scipy, and Cython packages as the numerical backend, and graphical output is provided by Matplotlib.
 
 [ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ) ⭐ 977 | 🐛 42 | 🌐 Python | 📅 2026-10-05 is an open source software framework for quantum computing.
 
@@ -6116,11 +6116,11 @@ automatically discovers the right configuration for your services.
 
 [PennyLane](https://pennylane.ai) is a cross-platform Python library for [differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming) of quantum computers. By training a quantum computer the same way as a neural network.
 
-[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,040 | 🐛 32 | 🌐 Python | 📅 2026-10-05 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
+[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,040 | 🐛 31 | 🌐 Python | 📅 2026-10-05 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
 
 [BoTorch](https://botorch.org) is a library for Bayesian Optimization built on PyTorch.
 
-[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,109 | 🐛 1,361 | 🌐 Python | 📅 2026-10-05 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
+[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,109 | 🐛 1,361 | 🌐 Python | 📅 2026-10-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
 
 [Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,179 | 🐛 66 | 🌐 Jupyter Notebook | 📅 2026-09-22 is a scikit-learn compatible neural network library that wraps PyTorch.
 
@@ -6130,8 +6130,4051 @@ automatically discovers the right configuration for your services.
 
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/103180856-ace0e180-484e-11eb-8c0e-2e218333be07.png">
-  <br /
+  <br />
+  Data Structures & Algorithms Guide
+</h1>
+
+#### A guide covering Data Structures and Algorithms such as Arrays, Linked Lists, Trees, Hashtables, Stacks, Queues, Heaps, Graphs, Sorting & Searching, and Dynamic programming.
+
+## Resources
+
+[VisualGo: Visualising data structures and algorithms through animation](https://visualgo.net/en)
+
+[Data Structure & Algorithms Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+
+[Learning Data Structures and Algorithms courses on Coursera](https://www.coursera.org/specializations/data-structures-algorithms)
+
+[Learning Data Structures and Algorithms courses on Udemy](https://www.udemy.com/courses/search/?src=ukw\&q=Data+Structures+and+Algorithms)
+
+[Learning Data Structures and Algorithms courses on edX](https://www.edx.org/search?q=Algorithms%20and%20Data%20Structures)
+
+[Intro to Data Structures and Algorithms courses on Udacity](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513)
+
+[Learning Algorithms courses on Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
+
+[Data Structures and Algorithms course from Harvard University](https://online-learning.harvard.edu/course/data-structures-and-algorithms)
+
+[Data Structures and Algorithms course from Standford University(CS 166)](http://web.stanford.edu/class/cs166/)
+
+[Learning Data Structures and Algorithms on CodeChef](https://www.codechef.com/certification/data-structures-and-algorithms/prepare)
+
+[Learning Algorithms and Data Structures courses on Pluralsight](https://www.pluralsight.com/courses/algorithms-data-structures-part-one)
+
+[Data structure and algorithms online course on Learnbay.io](https://www.learnbay.io/data-structures-algorithms/)
+
+[Discrete Probability](https://en.wikibooks.org/wiki/High_School_Mathematics_Extensions/Discrete_Probability)
+
+[Mathematical Proofs](https://en.wikibooks.org/wiki/High_School_Mathematics_Extensions/Mathematical_Proofs)
+
+## Algorithmic Complexity Analysis
+
+* Big O Notation
+* Time Complexity
+* Space Complexity
+
+ <img src="https://user-images.githubusercontent.com/45159366/103180857-ad797800-484e-11eb-9996-293ef282af76.jpg">
+
+**Order of growth of algorithms specified in Big-O notation. Source: Big-O Cheat Sheet, 2016.**
+
+  <img src="https://user-images.githubusercontent.com/45159366/103180859-b1a59580-484e-11eb-96d9-30456b2dc123.jpg">
+
+**Complexity of operations on Data Structures. Source: Big-O Cheat Sheet, 2016.**
+
+ <img src="https://user-images.githubusercontent.com/45159366/103180858-b0746880-484e-11eb-91ce-40defb302a6f.jpg">
+
+**Complexity of Sorting algorithms. Source: Big-O Cheat Sheet, 2016.**
+
+## Data Structures
+
+[Arrays](https://www.cplusplus.com/doc/tutorial/arrays/) are a series of elements(numbers, booleans, or strings) of the same type placed in phyiscal memory locations that can be individually referenced by adding an index to a unique identifier.
+
+* [Vector](https://www.cplusplus.com/reference/vector/vector/) is a dynamic array, where the size can be increased when an element is inserted or deleted, with the storage being handled automatically by the container.
+
+[Linked Lists](https://en.wikipedia.org/wiki/Linked_list) is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, elements in a linked list are linked using pointers.
+
+* [Singly Linked List](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/) is a type of linked data structure where each node points to the next node in the sequence. It does not have any pointer that points to the previous node.
+
+* [Doubly-Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list) is a type of linked data structure in which each node apart from storing its data has two links. A node consists of three parts: node data, a pointer to the next node in sequence (next pointer), pointer to the previous node (previous pointer).
+
+[Trees](https://en.wikipedia.org/wiki/Tree_\(data_structure\)) is a nonlinear data structure unlike arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or in other instances a tree's structure consists of one node called the root and 0 or 1 or more subtrees.
+
+* Basic Tree
+* Binary Tree
+* Binary Search Tree
+* AVL Tree
+* Red-Black Tree
+* N-ary Tree
+
+[Hash Tables](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.1)is a data structure, much like an array, except you store each value (object) using a key. It is a basic key/value store for mapping known as a hash function.
+
+[Stacks](https://www.thedshandbook.com/stacks/) is a linear data structure that store data in an order known as the Last In First Out (LIFO) order.
+
+* LIFO (Last In First Out)
+* FILO (First In Last Out)
+
+[Queues](https://www.thedshandbook.com/queues/) is a linear data structure that stores data in an order known as the First In First Out(FIFO) order.
+
+[Heaps](https://en.wikipedia.org/wiki/Heap_\(data_structure\)) is a specialized tree-based data structure which is essentially an almost complete tree that satisfies the heap property.
+
+* Max Heap
+* Min-Heap
+* Binary Heap
+
+[Graphs](https://www.thedshandbook.com/graphs/) is a data structure that represent relations between pairs of objects. It consists of nodes (known as vertices) that are connected through links (known as edges).
+
+## Algorithms
+
+**Graph Algorithms**
+
+* Breadth First Search (BFS)
+* Depth First Search (DFS)
+* Shortest Path from source to all vertices **Dijkstra**
+* Shortest Path from every vertex to every other vertex **Floyd Warshall**
+* Minimum Spanning tree **Prim**
+* Minimum Spanning tree **Kruskal**
+* Topological Sort
+* Articulation Points (Cut Vertices) in a Graph
+* Bridges in a graph
+
+**Searching And Sorting**
+
+* Binary Search
+* Quick Sort
+* Merge Sort
+* Order Statistics
+* KMP algorithm
+* Rabin karp
+* Z’s algorithm
+* String Matching/String Parsing
+* Counting Sort
+
+**Dynamic Programming**
+
+* Longest Common Subsequence
+* Longest Increasing Subsequence
+* Edit Distance
+* Minimum Partition
+* Ways to Cover a Distance
+* Longest Path In Matrix
+* Subset Sum Problem
+* Optimal Strategy for a Game
+* 0-1 Knapsack Problem
+* Assembly Line Scheduling
+
+# 66. Differential Privacy
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/103486336-fd59c100-4db1-11eb-9780-a0b90bd5db1f.png">
+  <br />
+  Differential Privacy Guide
+</h1>
+
+#### A guide covering Differential Privacy including the applications, libraries and tools that will make you a better and more efficient developer with protecting users data and their privacy.
+
+<img src="https://user-images.githubusercontent.com/45159366/103486337-ff238480-4db1-11eb-9895-f7f49cc5715a.png">
+
+**Above is a simple diagram of how Differential Privacy-Preserving Data Sharing and Data Mining protects a User's Data**
+
+## Resources
+
+[Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy) is a system that simultaneously enables researchers and analysts to extract useful insights from datasets containing personal information and offers stronger privacy protections. This is achieved by introducing "statistical noise".
+
+[Statistical Noise](https://news.microsoft.com/on-the-issues/2020/08/27/statistical-noise-data-differential-privacy/) is a process that small aletrations to masked datasets. The statistical noise hides identifiable characteristics of individuals, ensuring that the privacy of personal information is protected, but it's small enough to not materially impact the accuracy of the answers extracted by analysts and researchers.
+
+[Laplacian Noise](https://en.wikipedia.org/wiki/Laplace_distribution) is a mechanism that adds Laplacian-distributed noise to a function.
+
+[Differential Privacy Blog Series by the National Institute of Standards and Technology(NIST)](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog)
+
+[Apple's Differential Privacy Overview](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf)
+
+[Learning with Privacy at Scale with Apple Machine Learning](https://machinelearning.apple.com/research/learning-with-privacy-at-scale)
+
+[Microsoft Research Differential Privacy Overview](https://www.microsoft.com/en-us/research/publication/differential-privacy/)
+
+[Responsible Machine Learning with Microsoft Azure](https://azure.microsoft.com/en-us/services/machine-learning/responsibleml/)
+
+[Responsible AI Resources with Microsoft AI](https://www.microsoft.com/en-us/ai/responsible-ai-resources)
+
+[Preserve data privacy by using differential privacy and the SmartNoise package](https://docs.microsoft.com/en-us/azure/machine-learning/concept-differential-privacy)
+
+[Open Differential Privacy(OpenDP) Initiative by Microsoft and Harvard](https://projects.iq.harvard.edu/opendp)
+
+[Google's Differential Privacy Library](https://github.com/google/differential-privacy) ⭐ 3,364 | 🐛 92 | 🌐 Go | 📅 2026-10-06
+
+[Computing Private Statistics with Privacy on Beam from Google Codelabs](https://codelabs.developers.google.com/codelabs/privacy-on-beam/#0)
+
+[Introducing TensorFlow Privacy: Learning with Differential Privacy for Training Data](https://blog.tensorflow.org/2020/06/introducing-new-privacy-testing-library.html)
+
+[TensorFlow Federated: Machine Learning on Decentralized Data](https://www.tensorflow.org/federated/)
+
+[Federated Analytics: Collaborative Data Science without Data Collection](https://ai.googleblog.com/2020/05/federated-analytics-collaborative-data.html)
+
+[Differentially-Private Stochastic Gradient Descent(DP-SGD)](https://github.com/tensorflow/privacy/blob/master/tutorials/walkthrough/README.md) ⭐ 2,038 | 🐛 136 | 🌐 Python | 📅 2026-08-26
+
+[Learning Differential Privacy from Harvard University Privacy Tools Project](https://privacytools.seas.harvard.edu/differential-privacy)
+
+[Harvard University Privacy Tools Project Courses & Educational Materials](https://privacytools.seas.harvard.edu/courses-educational-materials)
+
+[The Weaknesses of Differential Privacy course on Coursera](https://www.coursera.org/lecture/data-results/weaknesses-of-differential-privacy-50Y9k)
+
+[The Differential Privacy of Bayesian Inference](https://privacytools.seas.harvard.edu/publications/differential-privacy-bayesian-inference)
+
+[Simultaneous private learning of multiple concepts](https://privacytools.seas.harvard.edu/publications/simultaneous-private-learning-multiple-concepts)
+
+[The Complexity of Computing the Optimal Composition of Differential Privacy](https://privacytools.seas.harvard.edu/publications/complexity-computing-optimal-composition-differential-privacy)
+
+[Order revealing encryption and the hardness of private learning](https://privacytools.seas.harvard.edu/publications/order-revealing-encryption-and-hardness-private-learning)
+
+[SAP HANA data anonymization using SAP Software Solutions](https://www.sap.com/cmp/dg/crm-xt17-ddm-data-anony/index.html)
+
+[SAP HANA Security using their In-Memory Database](https://www.sap.com/products/hana/features/security.html)
+
+[DEFCON Differential Privacy Training Launch](https://opensource.googleblog.com/2020/08/defcon-differential-privacy-training.html)
+
+[Secure and Private AI course on Udacity](https://www.udacity.com/course/secure-and-private-ai--ud185)
+
+[Differential Privacy - Security and Privacy for Big Data - Part 1 course on Coursera](https://www.coursera.org/learn/security-privacy-big-data)
+
+[Differential Privacy - Security and Privacy for Big Data - Part 2 course on Coursera](https://www.coursera.org/learn/security-privacy-big-data-protection)
+
+[Certified Ethical Emerging Technologist Professional Certificate course on Coursera](https://www.coursera.org/professional-certificates/certified-ethical-emerging-technologist)
+
+## Tools
+
+[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,040 | 🐛 31 | 🌐 Python | 📅 2026-10-05 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
+
+[TensorFlow Privacy](https://github.com/tensorflow/privacy) ⭐ 2,038 | 🐛 136 | 🌐 Python | 📅 2026-08-26 is a  Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy. The library comes with tutorials and analysis tools for computing the privacy guarantees provided.
+
+[TensorFlow Federated (TFF)](https://github.com/tensorflow/federated) ⭐ 2,454 | 🐛 292 | 🌐 Python | 📅 2026-10-05 is an open-source framework for machine learning and other computations on decentralized data. TFF has been developed to facilitate open research and experimentation with [Federated Learning (FL)](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), an approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally.
+
+[Privacy on Beam](https://github.com/google/differential-privacy/tree/main/privacy-on-beam) ⭐ 3,364 | 🐛 92 | 🌐 Go | 📅 2026-10-06 is an end-to-end differential privacy solution built on [Apache Beam](https://beam.apache.org/documentation/). It is intended to be usable by all developers, regardless of their differential privacy expertise.
+
+[PyDP](https://github.com/OpenMined/PyDP) ⭐ 550 | 🐛 59 | 🌐 Python | 📅 2026-05-11 is a Python wrapper for Google's Differential Privacy project.
+
+[PennyLane](https://pennylane.ai) is a cross-platform Python library for [differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming) of quantum computers. By training a quantum computer the same way as a neural network.
+
+[BoTorch](https://botorch.org) is a library for Bayesian Optimization built on PyTorch.
+
+[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,109 | 🐛 1,361 | 🌐 Python | 📅 2026-10-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
+
+[Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,179 | 🐛 66 | 🌐 Jupyter Notebook | 📅 2026-09-22 is a scikit-learn compatible neural network library that wraps PyTorch.
+
+[Diffprivlib](https://github.com/IBM/differential-privacy-library) ⭐ 920 | 🐛 12 | 🌐 Python | 📅 2026-09-23 is the IBM Differential Privacy Library for experimenting with, investigating and developing applications in, differential privacy.
+
+[Opacus](https://opacus.ai/) is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance and allows the client to online track the privacy budget expended at any given moment.
+
+[Smart Noise](https://github.com/opendifferentialprivacy/smartnoise-sdk) ⭐ 304 | 🐛 39 | 🌐 Python | 📅 2026-07-01 is a toolkit that uses state-of-the-art differential privacy (DP) techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk.
+
+# 67. Raspberry Pi
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/103486513-4cecbc80-4db3-11eb-89a0-fa155cbcdbda.png">
+  <br />
+  Raspberry Pi Guide
+</h1>
+
+#### A guide covering Raspberry Pi devices such as the Raspberry Pi 4 Model B and Raspberry Pi 400. Along with a wide variety of operating systems that you can install on your Raspberry Pi device. Also, learn about cool projects that you can build with your Raspberry Pi device.
+
+**Raspberry Pi 4 Model B**
+
+<img src="https://user-images.githubusercontent.com/45159366/103486342-08acec80-4db2-11eb-8696-f51475c9787a.jpeg">
+
+[Check out the Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+
+**Raspberry Pi 4 Model B Hardware Specifications**
+
+* Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
+* 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
+* 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless
+* Bluetooth 5.0, BLE
+* Gigabit Ethernet
+* 2 USB 3.0 ports; 2 USB 2.0 ports.
+* Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous Pi boards)
+* 2 × micro-HDMI ports (up to 4kp60 supported)
+* OpenGL ES 3.0 graphics
+
+**Raspberry Pi 400 Personal Computer Kit**
+
+<img src="https://user-images.githubusercontent.com/45159366/103486343-09458300-4db2-11eb-989a-6f0cd451c7b0.png">
+
+[Check out the Raspberry Pi 400 Personal Computer Kit](https://www.raspberrypi.org/products/raspberry-pi-400/)
+
+**Raspberry Pi 400 Hardware Specifications**
+
+* Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
+* 4GB LPDDR4-3200 SDRAM
+* 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless
+* Bluetooth 5.0, BLE
+* Gigabit Ethernet
+* 2 USB 3.0 ports; 2 USB 2.0 ports.
+* Raspberry Pi standard 40 pin GPIO header
+* 2 × micro-HDMI ports (up to 4kp60 supported)
+* OpenGL ES 3.0 graphics
+
+**Raspberry Pi Pico microcontroller**
+
+<img src="https://user-images.githubusercontent.com/45159366/105645203-e6593c80-5e4e-11eb-96cb-66f64a9a4367.png">
+
+[Check out the Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/)
+
+**Raspberry Pi Pico Hardware Specifications**
+
+* RP2040 microcontroller chip designed by Raspberry Pi in the UK
+* Dual-core Arm Cortex-M0+ processor, flexible clock running up to 133 MHz
+* 264KB on-chip SRAM
+* 2MB on-board QSPI Flash
+* 26 multifunction GPIO pins, including 3 analogue inputs
+* 2 × UART, 2 × SPI controllers, 2 × I2C controllers, 16 × PWM channels
+* 1 × USB 1.1 controller and PHY, with host and device support
+* 8 × Programmable I/O (PIO) state machines for custom peripheral support
+* Castellated module allows soldering direct to carrier boards
+* Drag-and-drop programming using mass storage over USB
+* Low-power sleep and dormant modes
+* Accurate on-chip clock
+* Temperature sensor
+* Accelerated integer and floating-point libraries on-chip
+
+**Raspberry Pi OS. The default Operating System for every Raspberry Pi device**
+
+[Check out Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
+
+<img src="https://user-images.githubusercontent.com/45159366/103486345-0a76b000-4db2-11eb-9e96-e7f234bdc950.png">
+
+## Resources
+
+[Raspberry Pi](https://www.raspberrypi.org/) is an ARM powered single board computer(SBC) that is the size of a credit card and costs around $35.
+
+[Raspberry Pi Foundation](https://www.raspberrypi.org/about/) is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.
+
+[Getting Started with Raspberry Pi Projects](https://projects.raspberrypi.org/)
+
+[Online learning for the Raspberry Pi](https://www.raspberrypi.org/training/online/)
+
+[Raspberry Pi Training Program](https://www.raspberrypi.org/training/)
+
+[Raspberry Pi Online Courses on Udemy](https://www.udemy.com/topic/raspberry-pi/)
+
+[Raspberry Pi Online Courses on Coursera](https://www.coursera.org/courses?languages=en\&query=raspberry%20pi)
+
+[The Raspberry Pi Platform and Python Programming course on Coursera](https://www.coursera.org/learn/raspberry-pi-platform)
+
+[Learning Raspberry Pi with Online Courses on edX](https://www.edx.org/learn/raspberry-pi)
+
+[Raspberry Pi Online Training Courses on LinkedIn Learning](https://www.linkedin.com/learning/topics/raspberry-pi)
+
+[Getting Started with Raspberry Pi course on FutureLearn](https://www.futurelearn.com/courses/getting-started-with-your-raspberry-pi)
+
+[Home Assistant on Raspberry Pi](https://www.home-assistant.io/getting-started/)
+
+[PiSwitch: Build your own Nintendo Switch-style console](https://magpi.raspberrypi.org/articles/piswitch-nintendo-switch-console)
+
+## Raspberry Pi Operating Systems
+
+[Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
+
+[Hass.io(Home Assistant OS)](https://www.home-assistant.io/hassio/installation/)
+
+[OmniROM(Android 11) based on ASOP](https://forum.xda-developers.com/t/omnirom-android-r-11-for-pi-4.4183121/)
+
+[Manjaro Linux ARM](https://manjaro.org/download/#ARM)
+
+[Arch Linux ARM](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4)
+
+[Ubuntu MATE for Raspberry Pi](https://ubuntu-mate.org/ports/raspberry-pi/)
+
+[Ubuntu Desktop for Raspberry Pi](https://ubuntu.com/raspberry-pi)
+
+[Ubuntu Core on a Raspberry Pi](https://ubuntu.com/download/raspberry-pi-core)
+
+[Ubuntu Server for ARM](https://ubuntu.com/download/server/arm)
+
+[Fedora ARM](https://arm.fedoraproject.org)
+
+[Kali Linux for the Raspberry Pi](https://www.kali.org/docs/arm/kali-linux-raspberry-pi/)
+
+[Twister OS](https://twisteros.com/)
+
+[TitusPi](https://github.com/ChrisTitusTech/TitusPi) ⭐ 214 | 🐛 1 | 🌐 Lua | 📅 2024-03-25
+
+[RetroArch](https://www.retroarch.com/?page=platforms)
+
+[RetroPie](https://retropie.org.uk/)
+
+[LibreELEC](https://libreelec.tv/)
+
+[OSMC](https://osmc.tv)
+
+[RISC OS](https://www.riscosopen.org/content/)
+
+[DietPi](https://github.com/MichaIng/DietPi) ⭐ 6,320 | 🐛 445 | 🌐 Shell | 📅 2026-10-06
+
+[Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
+
+## Tools
+
+[Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+[Home Assistant](https://www.home-assistant.io/) is an open source home automation that puts local control and privacy first. Home Assistant is powered by a worldwide community of tinkerers and DIY enthusiasts that runs great on Raspberry Pi.
+
+[Gladys Assistant](https://github.com/gladysassistant/gladys) ⭐ 3,223 | 🐛 45 | 🌐 JavaScript | 📅 2026-10-06 is a  privacy-first, open-source home assistant and runs great on Raspberry Pi.
+
+[Kodi for Raspberry Pi](https://kodi.tv/download/853) is a free and open source media player application developed by the XBMC/Kodi Foundation.
+
+[Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
+
+[PiKVM](https://github.com/pikvm/pikvm) ⭐ 10,374 | 🐛 90 | 📅 2026-09-21 is a very simple and fully functional Raspberry Pi-based KVM over IP.
+
+[PiShrink](https://github.com/Drewsif/PiShrink) ⭐ 4,115 | 🐛 21 | 🌐 Shell | 📅 2026-05-10 is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot.
+
+[RPiPlay](https://github.com/FD-/RPiPlay) ⭐ 5,225 | 🐛 105 | 🌐 C++ | 📅 2023-04-14 is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
+
+[Gpiozero](https://github.com/gpiozero/gpiozero) ⭐ 2,141 | 🐛 181 | 🌐 Python | 📅 2026-07-27 is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
+
+[Balena Sound](https://sound.balenalabs.io/) is a single or multi-room streamer for an existing audio device using a Raspberry Pi! It supports Bluetooth, Airplay and Spotify Connect.
+
+[OpenBalena](https://balena.io/open) is a platform to deploy and manage connected devices.
+
+# 68. Arduino
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/104068298-878e9480-51b9-11eb-8ce3-3aecaddb6015.png">
+  <br />
+  Arduino Guide
+</h1>
+
+#### A guide covering Arduino devices such as the Arduino Uno and Arduino Nano. Along with the tools, applications and libraries that will make you a better and more efficient developer with Arduino devices. Also, learn about cool projects that you can build with your Arduino device.
+
+[Checkout the Arduino Starter Kit](https://store.arduino.cc/usa/arduino-starter-kit)
+
+<img src="https://user-images.githubusercontent.com/45159366/104068309-8a898500-51b9-11eb-9265-beb5a28e649b.jpg">
+
+[Checkout the Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
+
+<img src="https://user-images.githubusercontent.com/45159366/104068324-8eb5a280-51b9-11eb-942c-390f5b29b259.jpg">
+
+**Arduino Uno Hardware Specs**
+
+* Microcontroller	ATmega328P
+* Operating Voltage	5V
+* Input Voltage (recommended)	7-12V
+* Input Voltage (limit)	6-20V
+* Digital I/O Pins	14 (of which 6 provide PWM output)
+* Flash Memory	32 KB (ATmega328P) of which 0.5 KB used by bootloader
+* SRAM	2 KB (ATmega328P)
+* EEPROM	1 KB (ATmega328P)
+* Clock Speed	16 MHz
+
+[Checkout the Arduino Nano](https://store.arduino.cc/usa/arduino-nano)
+
+<img src="https://user-images.githubusercontent.com/45159366/104068320-8d847580-51b9-11eb-960d-8faa3ef525fc.jpg">
+
+**Arduino Nano Hardware Specs**
+
+* Microcontroller	ATmega328
+* Architecture	AVR
+* Operating Voltage	5 V
+* Flash Memory	32 KB of which 2 KB used by bootloader
+* SRAM	2 KB
+* Clock Speed	16 MHz
+* Input Voltage	7-12 V
+* Digital I/O Pins	22 (6 of which are PWM)
+
+## Resources
+
+[Arduino](https://www.arduino.cc/) is an open source electronic prototyping platform enabling users to create interactive electronic objects.
+
+[Arduino Reference Manual](https://www.arduino.cc/reference/)
+
+[Getting Started with Arduino](https://create.arduino.cc/getting-started)
+
+[Arduino Education](https://www.arduino.cc/education)
+
+[Arduino Store](https://store.arduino.cc/)
+
+[Arduino Forum](https://forum.arduino.cc/)
+
+[Arduino Courses on Udemy](https://www.udemy.com/topic/arduino/)
+
+[Arduino Courses on Coursera](https://www.coursera.org/courses?query=arduino)
+
+[Online Arduino Classes on Skillshare](https://www.skillshare.com/browse/arduino)
+
+[Introduction to Arduino course on Pluralsight](https://www.pluralsight.com/courses/arduino-introduction)
+
+[Arduino Training Courses on NobleProg](https://www.nobleprog.com/arduino-training)
+
+[Arduino with Python course from Real Python](https://realpython.com/arduino-python/)
+
+[200+ Arduino Projects on Instructables](https://www.instructables.com/Arduino-42/)
+
+## Tools
+
+[Arduino CLI](https://github.com/arduino/arduino-cli) ⭐ 5,052 | 🐛 278 | 🌐 Go | 📅 2026-10-05 is an all-in-one solution that provides builder, Boards/Library Manager, uploader, discovery and many other tools needed to use any Arduino compatible board and platforms.
+
+[Arduino IDE](https://www.arduino.cc/en/software) is an open source integrated development environment(IDE) for the Arduino computing platforms based on easy-to-use hardware and software.
+
+[Arduino Pro IDE](https://github.com/arduino/arduino-pro-ide) ⚠️ Archived is a professional version of the Arduino IDE that brings more features for advanced users and developers. The project is currently in the experimently version.
+
+[VSCode Arduino](https://github.com/Microsoft/vscode-arduino) ⚠️ Archived is a VSCode extension for Arduino.  The Arduino extension makes it easy to develop, build, deploy and debug your Arduino sketches in Visual Studio Code, with a rich set of functionalities.
+
+[Gobot](https://gobot.io/) is a framework using the [Golang](https://golang.org/)  programming language for robotics, physical computing, and the Internet of Things(IoT).
+
+[Tasmota](https://tasmota.github.io/docs) is an alternative firmware for [ESP8266](https://en.wikipedia.org/wiki/ESP8266) based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX.
+
+[Blynk](https://www.blynk.cc/) is a C++ library for embedded hardware. It works with over 400 hardware models such as Arduino, ESP8266, Raspberry Pi, Intel Edison/Galileo, LinkIt ONE, Particle Core/Photon, ARM mbed, etc.
+
+[Arduino Thread](https://github.com/ivanseidel/ArduinoThread) ⭐ 974 | 🐛 16 | 🌐 C++ | 📅 2022-03-09 is a library tha makes it simple to run Threads on Arduino.
+
+[PlatformIO](https://platformio.org/) is a professional collaborative platform for embedded development with no vendor lock-in. It provides support for multiplatforms and frameworks such as IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbed OS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V.
+
+[PlatformIO for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide) is a plugin that provides support for the PlatformIO IDE on VSCode.
+
+[Tock](https://www.tockos.org/) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers.
+
+[TinyGo](https://tinygo.org/) is a Go compiler(based on LLVM) intended for use in small places such as microcontrollers, WebAssembly (Wasm), and command-line tools.
+
+[LLVM](https://github.com/llvm/) is a library that has collection of modular/reusable compiler and toolchain  components (assemblers, compilers, debuggers, etc.). With these components LLVM can be used as a compiler framework, providing a front-end(parser and lexer) and a back-end (code that converts LLVM's representation to actual machine code).
+
+[Chipyard](https://chipyard.readthedocs.io/en/latest/) is an open source framework for agile development of Chisel-based systems-on-chip. It will allow you to leverage the Chisel HDL, Rocket Chip SoC generator, and other [Berkeley](https://berkeley.edu/) projects to produce a RISC-V SoC with everything from MMIO-mapped peripherals to custom accelerators.
+
+[The Eclipse Embedded CDT](https://github.com/eclipse-embed-cdt/eclipse-plugins) ⭐ 559 | 🐛 106 | 🌐 C | 📅 2026-09-09 is a collection of plug-ins for Arm & RISC-V C/C++ developers.
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,404 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+
+[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,642 | 🐛 244 | 🌐 C++ | 📅 2026-07-18 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
+
+# 69. FPGA
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/104069966-ab060f00-51ba-11eb-8295-d3479b485c86.png">
+  <br />
+  FPGA Guide
+</h1>
+
+#### A guide covering FPGA(Field Programmable Gate Arrays) devices such as the PolarFire®, Artix 7 , Spartan 6  and Zynq-7000. Along with the tools, applications and libraries that will make you a better and more efficient developer with FPGA devices. Also, learn about cool projects that you can build with your FPGA device.
+
+[Checkout the PolarFire® FPGA Development Kits](https://www.microsemi.com/product-directory/dev-kits-solutions/3864-polarfire-kits)
+
+<img src="https://user-images.githubusercontent.com/45159366/104068349-97a67400-51b9-11eb-82b5-d06f804400ee.png">
+
+[Checkout the Artix 7 FPGA Development board](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
+
+<img src="https://user-images.githubusercontent.com/45159366/104068359-9d03be80-51b9-11eb-9bd2-0045e8f45eb9.png">
+
+[Checkout the Spartan 6 FPGA Development board](https://store.digilentinc.com/anvyl-spartan-6-fpga-trainer-board/)
+
+<img src="https://user-images.githubusercontent.com/45159366/104068361-9e34eb80-51b9-11eb-9c68-0b59c5a107e1.png">
+
+[Checkout the Zynq-7000 for ARM/FPGA SoC Development board](https://store.digilentinc.com/cora-z7-zynq-7000-single-core-and-dual-core-options-for-arm-fpga-soc-development/)
+
+<img src="https://user-images.githubusercontent.com/45159366/104068367-a12fdc00-51b9-11eb-966a-08a0868fcfb7.png">
+
+## Resources
+
+[FPGA(Field Programmable Gate Arrays)](https://www.xilinx.com/products/silicon-devices/fpga/what-is-an-fpga.html) are semiconductor devices that are based around a matrix of configurable logic blocks (CLBs) connected via programmable interconnects. FPGAs can be reprogrammed to desired application or functionality requirements after manufacturing.
+
+[TinyFPGA](https://tinyfpga.com) is a new series of boards that are low-cost, [open source FPGA boards](https://github.com/tinyfpga) in a tiny form factor.
+
+[SiFive FPGA shells](https://github.com/sifive/fpga-shells) ⭐ 139 | 🐛 21 | 🌐 Scala | 📅 2022-05-13
+
+[FPGA & SoC Design Tools from Microsemi](https://www.microsemi.com/product-directory/fpga-soc/1637-design-resources)
+
+[QuickLogic Embedded FPGA (eFPGA) Intellectual Property (IP) and Software](https://www.quicklogic.com/products/efpga/efpga-ip-software/)
+
+[FPGA for Beginners with Development Boards from Digilent®](https://store.digilentinc.com/fpga-for-beginners/)
+
+[Hundreds of FPGA Projects on Instructables](https://www.instructables.com/circuits/howto/FPGA/)
+
+[FPGA Fundamentals from NI(National Instruments)](https://www.ni.com/en-us/innovations/white-papers/08/fpga-fundamentals.html)
+
+[Getting Started With LabVIEW FPGA from NI(National Instruments)](https://www.ni.com/tutorial/14532/en/)
+
+[Programming and FPGA Basics - INTEL® FPGAS](https://www.intel.com/content/www/us/en/products/programmable/fpga/new-to-fpgas/resource-center/overview.html)
+
+[Intel FPGA Training Program](https://www.intel.com/content/www/us/en/programmable/support/training/overview.html)
+
+[FPGA Courses on Coursera](https://www.coursera.org/courses?query=fpga)
+
+[FPGA Courses on Udemy](https://www.udemy.com/topic/fpga/)
+
+[FPGA Online Training Courses on LinkedIn Learning](https://www.linkedin.com/learning/topics/fpga)
+
+[UMass Lowell's Graduate Certificate in Field Programmable Gate Arrays(FPGA)](https://gps.uml.edu/certificates/grad/online-field-programmable-gate-arrays-bae-graduate-certificate.cfm)
+
+[FPGA Design Fundamentals Course (UC San Diego Extension)](https://extension.ucsd.edu/courses-and-programs/fpga-design-fundamentals)
+
+[FPGA II Course (UC San Diego Extension)](https://extension.ucsd.edu/courses-and-programs/fpga-embedded-design)
+
+[FPGAs & SoCs Training from Microsemi](https://www.microsemi.com/product-directory/training/4244-fpgas-socs-training)
+
+[DSP fundamentals for FPGAs course from MATLAB and Simulink Training](https://www.mathworks.com/training-schedule/dsp-for-fpgas.html)
+
+[Verilog Courses on Coursera](https://www.coursera.org/courses?query=verilog)
+
+## Tools
+
+[LabVIEW FPGA](https://www.ni.com/en-us/shop/software/products/labview-fpga-module.html) is a software add-on for LabVIEW that you can use to more efficiently and effectively design FPGA-based systems through a highly integrated development environment, IP libraries, a high-fidelity simulator, and debugging features.
+
+[Apio](https://github.com/FPGAwars/apio) ⭐ 1,012 | 🐛 35 | 🌐 Python | 📅 2026-10-06 is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.
+
+[IceStorm](https://github.com/YosysHQ/icestorm) ⭐ 1,189 | 🐛 70 | 🌐 Python | 📅 2026-10-05 is a project that aims at documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.
+
+[Icestudio](https://icestudio.io/) is a visual editor for open FPGA boards. Built on top of the Icestorm project using Apio.
+
+[FuseSoC](https://github.com/olofk/fusesoc) ⭐ 1,469 | 🐛 155 | 🌐 Python | 📅 2026-09-25 is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code and FPGA/ASIC development.
+
+[OpenWiFi](https://github.com/open-sdr/openwifi) ⭐ 4,830 | 🐛 98 | 🌐 C | 📅 2026-09-21 is an open-source IEEE802.11/Wi-Fi baseband chip/FPGA design.
+
+[PipeCNN](https://github.com/doonny/PipeCNN) ⭐ 1,390 | 🐛 44 | 🌐 C | 📅 2022-02-14 is an OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks (CNNs). Currently, there is a growing trend among developers in the FPGA community to utilize High Level Synthesis (HLS) tools to design and implement customized circuits on FPGAs.
+
+[Verilator](https://verilator.org/) is an open-source SystemVerilog simulator and lint system.
+
+[Verilog to Routing(VTR)](https://verilogtorouting.org/) is a collaborative project to provide a open-source framework for conducting FPGA architecture and CAD Research & Development. The VTR design flow takes as input a Verilog description of a digital circuit, and a description of the target FPGA architecture.
+
+[PlatformIO](https://platformio.org/) is a professional collaborative platform for embedded development with no vendor lock-in. It provides support for multiplatforms and frameworks such as IoT, Arduino, CMSIS, ESP-IDF, FreeRTOS, libOpenCM3, mbed OS, Pulp OS, SPL, STM32Cube, Zephyr RTOS, ARM, AVR, Espressif (ESP8266/ESP32), FPGA, MCS-51 (8051), MSP430, Nordic (nRF51/nRF52), NXP i.MX RT, PIC32, RISC-V.
+
+[PlatformIO for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide) is a plugin that provides support for the PlatformIO IDE on VSCode.
+
+[Tock](https://www.tockos.org/) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers.
+
+[OpenTimer](https://github.com/OpenTimer/OpenTimer) ⭐ 720 | 🐛 63 | 🌐 Verilog | 📅 2025-12-26 is a High-Performance Timing Analysis Tool for VLSI Systems.
+
+[LLVM](https://github.com/llvm/) is a library that has collection of modular/reusable compiler and toolchain  components (assemblers, compilers, debuggers, etc.). With these components LLVM can be used as a compiler framework, providing a front-end(parser and lexer) and a back-end (code that converts LLVM's representation to actual machine code).
+
+[TinyGo](https://tinygo.org/) is a Go compiler(based on LLVM) intended for use in small places such as microcontrollers, WebAssembly (Wasm), and command-line tools.
+
+[Chipyard](https://chipyard.readthedocs.io/en/latest/) is an open source framework for agile development of Chisel-based systems-on-chip. It will allow you to leverage the Chisel HDL, Rocket Chip SoC generator, and other [Berkeley](https://berkeley.edu/) projects to produce a RISC-V SoC with everything from MMIO-mapped peripherals to custom accelerators.
+
+[The Eclipse Embedded CDT](https://github.com/eclipse-embed-cdt/eclipse-plugins) ⭐ 559 | 🐛 106 | 🌐 C | 📅 2026-09-09 is a collection of plug-ins for Arm & RISC-V C/C++ developers.
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,404 | 🐛 229 | 🌐 C | 📅 2026-08-28 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+
+[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,642 | 🐛 244 | 🌐 C++ | 📅 2026-07-18 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
+
+[Reko](https://github.com/uxmal/reko) ⭐ 2,608 | 🐛 165 | 🌐 C# | 📅 2026-09-29 is a decompiler for machine code binaries.
+
+[Renode](https://renode.io/) is [Antmicro's](https://antmicro.com) virtual development framework for multinode embedded networks (both wired and wireless) and is intended to enable a scalable workflow for creating effective, tested and secure IoT systems.
+
+[Diosix](https://diosix.org/) is a lightweight, secure, multiprocessor bare-metal hypervisor written in Rust for RISC-V.
+
+# 70. Wayland
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/104235197-79cf4e00-5409-11eb-97a6-a12f7bd8ad2a.png">
+  <br />
+  Wayland Guide
+</h1>
+
+#### A guide covering Wayland a small display server protocol and IPC(Inter-process communication) library. This includes the applications, libraries and tools that will make you a better and more efficient developer with Wayland.
+
+**Running Wayland on Ubuntu 20.04**
+
+ <img src="https://user-images.githubusercontent.com/45159366/104235200-7a67e480-5409-11eb-8d51-1d26aa18f4a7.png">
+
+**Note:** Wayland does run by default on the [Fedora](https://getfedora.org/) desktop.
+
+## Resources
+
+[Wayland](https://wayland.freedesktop.org) is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol. The compositor can be a standalone display server running on Linux kernel modesetting and evdev input devices, an [X application](https://www.x.org/wiki/XServer/), or a wayland client itself.
+
+[Wayland Architecture](https://wayland.freedesktop.org/architecture.html)
+
+[Wayland Documentation](https://wayland.freedesktop.org/docs/html/)
+
+[Sotfware Toolkits that have Wayland support right now](https://wayland.freedesktop.org/toolkits.html)
+
+[Contribution instructions for Wayland](https://gitlab.freedesktop.org/wayland/wayland/blob/master/CONTRIBUTING.md)
+
+[Contribution instructions for Weston](https://gitlab.freedesktop.org/wayland/weston/blob/master/CONTRIBUTING.md)
+
+[Reporting Wayland bugs](https://gitlab.freedesktop.org/wayland/wayland/issues)
+
+[Reporting Weston bugs](https://gitlab.freedesktop.org/wayland/weston/issues)
+
+[WSLG: X11 and Wayland Applications in Windows Subsystem for Linux(WSL2)](https://linuxplumbersconf.org/event/9/contributions/611/attachments/702/1298/XDC2020_-_X11_and_Wayland_applications_in_WSL.pdf)
+
+[Qt Wayland Compositor](https://doc.qt.io/qt-5/qtwaylandcompositor-index.html)
+
+[Qt Wayland Compositor Examples](https://doc.qt.io/qt-5/qtwaylandcompositor-examples.html)
+
+[Wayland on ArchWiki](https://wiki.archlinux.org/index.php/Wayland)
+
+[Sway on ArchWiki](https://wiki.archlinux.org/index.php/Sway)
+
+[Wayland on Ubuntu Wiki](https://wiki.ubuntu.com/Wayland)
+
+[Wayland on Debian Wiki](https://wiki.debian.org/Wayland)
+
+[The Wayland Display Server on Fedora Docs](https://docs.fedoraproject.org/en-US/fedora/rawhide/system-administrators-guide/Wayland/)
+
+[Wayland features on Fedora Project Wiki](https://fedoraproject.org/wiki/Wayland_features)
+
+[Wayland on GNOME Wiki](https://wiki.gnome.org/Initiatives/Wayland)
+
+[KWin/Wayland on KDE Community Wiki](https://community.kde.org/index.php?title=KWin/Wayland)
+
+[Wayland Desktop Landscape on Gentoo Wiki](https://wiki.gentoo.org/wiki/Wayland_Desktop_Landscape)
+
+[Wayland in Void Linux Handbook](https://docs.voidlinux.org/config/graphical-session/wayland.html)
+
+[Wayland on Enlightenment DE](https://www.enlightenment.org/about-wayland)
+
+## Tools
+
+[Weston](https://gitlab.freedesktop.org/wayland/weston) is a lightweight and functional Wayland compositor.
+
+[XWayland](https://wayland.freedesktop.org/xserver.html) is an X Server running as a Wayland client(for backwards compatibility), allowing the [Xorg server](https://www.x.org/wiki/XServer/) can be modified to use wayland input devices for input and forward either the root window or individual top-level windows as wayland surfaces.
+
+[KWayland](https://github.com/KDE/kwayland-server) ⭐ 12 | 🐛 0 | 🌐 C++ | 📅 2022-10-14 is a Qt-style API to interact with the wayland-client and wayland-server API.
+
+[Qt](https://www.qt.io/) is the faster, smarter way to create innovative devices, modern UIs & applications for multiple screens. It is one of the most popular toolkits for the Wayland and X11 windowing.
+
+[GTK](https://www.gtk.org/) is a free and open source cross-platform widget toolkit for creating graphical user interfaces developed by [GNOME Project](https://www.gnome.org/). It is one of the most popular toolkits for the Wayland and X11 windowing.
+
+[NVIDIA Wayland EGL External Platform library](https://github.com/NVIDIA/egl-wayland) ⭐ 331 | 🐛 52 | 🌐 C | 📅 2026-09-27 is a work-in-progress implementation of a EGL External Platform library to add client-side Wayland support to EGL on top of EGLDevice and EGLStream families of extensions.
+
+[NVIDIA EGL External Platform Interface](https://github.com/NVIDIA/eglexternalplatform) ⭐ 70 | 🐛 1 | 🌐 C | 📅 2025-03-26 is a work-in-progress specification of the EGL External Platform interface for writing EGL platforms and their interactions with modern window systems on top of existing low-level EGL platform implementations. This keeps window system implementation specifics out of EGL drivers by using application-facing EGL functions.
+
+[Sway](https://swaywm.org/) is an [i3](https://i3wm.org/)-compatible Wayland compositor.
+
+[wlroots](https://github.com/swaywm/wlroots) ⚠️ Archived is a modular Wayland compositor library.
+
+[WayfireWM](https://github.com/WayfireWM/wayfire) ⭐ 3,058 | 🐛 127 | 🌐 C++ | 📅 2026-10-03 is a 3D Wayland compositor, inspired by [Compiz](https://launchpad.net/compiz) and based on [wlroots](https://github.com/swaywm/wlroots) ⚠️ Archived.
+
+[SDDM](https://github.com/sddm/sddm) ⭐ 2,353 | 🐛 754 | 🌐 C++ | 📅 2026-08-19 is a modern display manager for X11 and Wayland aiming to be fast, simple and beautiful. It uses modern technologies like QtQuick, which in turn gives the designer the ability to create smooth, animated user interfaces.
+
+[x11docker](https://github.com/mviereck/x11docker) ⭐ 6,324 | 🐛 31 | 🌐 Shell | 📅 2026-07-05 is an application that you allows to run graphical desktop applications (and entire desktops) in Docker Linux containers.
+
+[Mako](https://github.com/emersion/mako) ⭐ 3,276 | 🐛 136 | 🌐 C | 📅 2026-06-30 is alightweight notification daemon for Wayland. It also works on [Sway](https://swaywm.org/).
+
+[Wayland-rs](https://github.com/Smithay/wayland-rs) ⭐ 1,437 | 🐛 78 | 🌐 Rust | 📅 2026-09-29 is a Rust implementation of the wayland protocol (client and server).
+
+[Wine-wayland](https://github.com/varmd/wine-wayland) ⭐ 855 | 🐛 3 | 🌐 C | 📅 2026-05-12 is an application that allows you to running DX9/DX11 and Vulkan games using pure Wayland and Wine/DXVK.
+
+# 71. Electron
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/104788712-c5566480-5747-11eb-9233-d190e9c51df9.png">
+  <br />
+  Electron Guide
+</h1>
+
+#### A guide covering the Electron framework including the applications, libraries and tools that will make you a better and more efficient developer with Electron.
+
+## Resources
+
+[Electron](https://electronjs.org/) is a framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on [Node.js](https://nodejs.org/) and [Chromium](https://www.chromium.org/) and is used by the [Atom editor](https://github.com/atom/atom) ⚠️ Archived and many other [apps](https://electronjs.org/apps).
+
+[The OpenJS Foundation](https://openjsf.org/) is made up of 32 open source JavaScript projects including Appium, Dojo, Electron, jQuery, Node.js, and webpack. The foundation's mission is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.
+
+[Electron Apps](https://www.electronjs.org/apps)
+
+[Getting Started with Electron](https://www.electronjs.org/docs/tutorial/quick-start)
+
+[Electron Development](https://www.electronjs.org/docs/development)
+
+[Configuring JavaScript libraries in WebStorm](https://www.jetbrains.com/help/webstorm/configuring-javascript-libraries.html)
+
+[JavaScript in Visual Studio Code](https://code.visualstudio.com/Docs/languages/javascript)
+
+[JavaScript extensions for VS Code](https://code.visualstudio.com/docs/nodejs/extensions)
+
+[Master Electron: Desktop Apps with HTML, JavaScript & CSS course on Udemy](https://www.udemy.com/course/master-electron/)
+
+[Electron for Desktop Apps: The Complete Developer's Guide course on Udemy](https://www.udemy.com/course/electron-react-tutorial/)
+
+[Electron From Scratch: Build Desktop Apps With JavaScript course on Udemy](https://www.udemy.com/course/electron-from-scratch/)
+
+[Electron Courses on Coursera](https://www.coursera.org/courses?query=electron+js)
+
+[Electron Fundamentals on Pluralsight](https://www.pluralsight.com/courses/electron-fundamentals)
+
+## Tools
+
+[Electron Fiddle](https://electronjs.org/fiddle) is an application that lets you create and play with small Electron experiments. It greets you with a simple quick start template after opening. Simply choose the version of Electron you want to run with your project and then play around.
+
+[Electron Builder](https://www.electron.build/) is a complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box.
+
+[Photon](https://github.com/connors/photon) ⭐ 10,105 | 🐛 81 | 🌐 CSS | 📅 2026-04-03 is a UI toolkit for building desktop apps with Electron.
+
+[Electron.NET](https://github.com/ElectronNET/Electron.NET) ⭐ 7,597 | 🐛 10 | 🌐 C# | 📅 2026-10-01 is an application that builds cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
+
+[Angular Electron](https://github.com/maximegris/angular-electron) ⭐ 5,719 | 🐛 4 | 🌐 TypeScript | 📅 2026-09-04 is an application that bootstrap's and package's your project with Angular 11 and Electron 11 (Typescript + SASS + Hot Reload) for creating Desktop applications.
+
+[Selenium](https://selenium.dev/) is a browser automation framework and ecosystem. Selenium specifically provides an infrastructure for the [W3C WebDriver specification](https://w3c.github.io/webdriver/) as a platform and language-neutral coding interface compatible with all major web browsers(Firefox, Google Chrome and Safari).
+
+[Selenium IDE](https://selenium.dev/selenium-ide/) is an Open Source record and playback test automation for the web.
+
+[GitHub Codespaces](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces) is an integrated development environment(IDE) on GitHub. That allows developers to develop entirely in the cloud using Visual Studio and Visual Studio Code.
+
+[GitHub Actions](https://docs.github.com/en/actions) will automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow.[GitHub Actions for Azure](https://docs.microsoft.com/en-us/azure/developer/github/github-actions) you can create workflows that you can set up in your repository to build, test, package, release and deploy to Azure.Learn more about all other integrations with Azure.
+
+[WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
+
+[Visual Studio Code](https://code.visualstudio.com/) is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+
+[GraphQL](https://graphql.org/) is a query language for APIs and a runtime for fulfilling those queries with your existing data. It has support in Java, JavaScript, Ruby, Scala, and other programming languages.
+
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,662 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+
+[Nest](https://nestjs.com/) is a framework for building efficient, scalable [Node.js](http://nodejs.org/) server-side applications. It uses modern JavaScript, is built with TypeScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+
+[Quasar](https://quasar.dev/) is a framework that builds high-performance VueJS user interfaces in record time. Such as responsive Single Page Apps, SSR Apps, PWAs, Browser extensions, Hybrid Mobile Apps and Electron Apps.
+
+[Gatsby](https://www.gatsbyjs.com/) is a free and open source framework based on React that helps developers build blazing fast websites and apps.
+
+[React Starter Kit](https://www.reactstarterkit.com/) is an isomorphic web app boilerplate for web development built on top of [Node.js](https://nodejs.org/), [Express](http://expressjs.com/), [GraphQL](http://graphql.org/) and [React](https://facebook.github.io/react/), containing modern web development tools such as [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io/) and [Browsersync](https://www.browsersync.io/). Helping you to stay productive following the best practices.
+
+[Enzyme](https://github.com/enzymejs/enzyme) ⭐ 19,813 | 🐛 282 | 🌐 JavaScript | 📅 2025-10-22 is a JavaScript Testing utility for React that makes it easier to test your React Components' output. The user can also manipulate, traverse, and in some ways simulate runtime given the output.
+
+[Mocha](https://github.com/mochajs/mocha) ⭐ 22,893 | 🐛 242 | 🌐 JavaScript | 📅 2026-10-05 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
+
+[Express](https://expressjs.com/) is a fast, unopinionated, minimalist web framework for node.
+
+[Meteor](https://www.meteor.com/) is an ultra-simple environment for building modern web applications with JavavScript.
+
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,401 | 🐛 14 | 🌐 TypeScript | 📅 2026-10-06 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,481 | 🐛 15 | 🌐 TypeScript | 📅 2026-10-05 is a predictable state container for JavaScript apps.
+
+[Standard](https://standardjs.com/) is a JavaScript Style Guide, with linter & automatic code fixer.
+
+[Lowdb](https://github.com/typicode/lowdb) ⭐ 22,584 | 🐛 17 | 🌐 JavaScript | 📅 2026-03-27 is a small local JSON database powered by Lodash (supports Node, Electron and the browser).
+
+[Nativefier](https://github.com/jiahaog/nativefier) ⚠️ Archived is an application that lets you make any web page into a desktop electron application.
+
+# 72. jQuery
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/104789178-19ae1400-5749-11eb-85c8-85d1b4750f25.png">
+  <br />
+  jQuery Guide
+</h1>
+
+#### A guide covering jQuery(JavaScript library) including the applications, libraries and tools that will make you a better and more efficient developer with jQuery.
+
+## Resources
+
+[The OpenJS Foundation](https://openjsf.org/) is made up of 32 open source JavaScript projects including Appium, Dojo, Electron, jQuery, Node.js, and webpack. The foundation's mission is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.
+
+[jQuery](https://jquery.com/) is a fast and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of web browsers.
+
+[jQuery API Documentation](https://api.jquery.com/Jquery.ajax/)
+
+[jQuery Learning Center](https://learn.jquery.com)
+
+[Configuring JavaScript libraries in WebStorm](https://www.jetbrains.com/help/webstorm/configuring-javascript-libraries.html)
+
+[JavaScript in Visual Studio Code](https://code.visualstudio.com/Docs/languages/javascript)
+
+[JavaScript extensions for VS Code](https://code.visualstudio.com/docs/nodejs/extensions)
+
+[jQuery Courses on Coursera](https://www.coursera.org/courses?query=jquery)
+
+[jQuery Courses on Udemy](https://www.udemy.com/topic/jquery/)
+
+[jQuery Training Courses on LinkedIn Learning](https://www.linkedin.com/learning/topics/jquery)
+
+[Intro to jQuery on Udacity](https://www.udacity.com/course/intro-to-jquery--ud245)
+
+[Intro to AJAX on Udacity ](https://www.udacity.com/course/intro-to-ajax--ud110)
+
+[Learning jQuery on Codecademy](https://www.codecademy.com/learn/learn-jquery)
+
+[jQuery Best Practices Training on Learning Tree](https://www.learningtree.com/courses/1610/jquery-best-practices-for-legacy-and-today/)
+
+[Learning the jQuery Basics on Pluralsight](https://www.pluralsight.com/courses/code-school-try-jquery)
+
+[jQuery In-Depth on Pluralsight](https://www.pluralsight.com/courses/jquery-in-depth)
+
+[ASP.NET Ajax JavaScript and jQuery Course on Pluralsight](https://www.pluralsight.com/courses/aspdotnet-ajax-jscript)
+
+[jQuery Certification from W3Schools](https://www.w3schools.com/cert/cert_jquery.asp)
+
+## Tools
+
+[WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
+
+[Visual Studio Code](https://code.visualstudio.com/) is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+
+[GraphQL](https://graphql.org/) is a query language for APIs and a runtime for fulfilling those queries with your existing data. It has support in Java, JavaScript, Ruby, Scala, and other programming languages.
+
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,662 | 🐛 693 | 🌐 TypeScript | 📅 2026-10-04 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+
+[Cheerio](https://github.com/cheeriojs/cheerio) ⭐ 30,514 | 🐛 72 | 🌐 TypeScript | 📅 2026-10-06 is a fast, flexible, and lean implementation of core jQuery designed specifically for the server.
+
+[jQuery UI](https://jqueryui.com/) is a curated set of user interface interactions, effects, widgets, and themes built on top of jQuery. Though, it should not be used in core code.
+
+[jQuery Tools](https://github.com/jquerytools/jquerytools) ⭐ 1,775 | 🐛 273 | 🌐 JavaScript | 📅 2017-09-18 is a collection of the most important user-interface components for modern websites. Used by large sites all over the world.
+
+[Bridge.NET](https://bridge.net/) is an open source C#-to-JavaScript Compiler. Write your application in C# and run on billions of devices.
+
+[Phantomas](https://www.npmjs.com/package/phantomas) is a [Headless Chromium](https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md)-based web performance metrics collector and monitoring tool
+
+[Featherlight](https://github.com/noelboss/featherlight) ⭐ 2,068 | 🐛 97 | 🌐 JavaScript | 📅 2024-10-07 is a very lightweight jQuery lightbox plugin. It's simple yet flexible and easy to use.
+
+# 73. FinOps
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/105409940-0d610580-5be6-11eb-86c5-6fd14cd1feb3.png">
+  <br />
+  FinOps Guide
+</h1>
+
+#### A guide covering FinOps including the applications, tools and training that will make your development team better and more efficient at Cloud Financial Management.
+
+<img src="https://user-images.githubusercontent.com/45159366/105409942-0e923280-5be6-11eb-8c96-cf46449e0dd7.png">
+
+**FinOps Team Structure. Source: [FinOps Foundation](https://www.finops.org/what-is-finops/), 2020.**
+
+## Resources
+
+[FinOps(finance operations)](https://www.finops.org/) is the practice of bringing financial accountability to the variable spend model of cloud, enabling distributed teams to make business trade-offs between speed, cost, and quality. At its core, FinOps is a cultural practice for Cloud Financial Management. The [FinOps Foundation joins the Linux Foundation in August 2020](https://www.linuxfoundation.org/en/press-release/finops-foundation-quickly-gains-industry-wide-support-to-advance-cloud-financial-management-and-education/).
+
+[Linux Foundation](https://www.linuxfoundation.org/) is home to Linux, Node.js and other mission critical projects that form the backbone of modern internet services, including Pinterest. Joining The Linux Foundation is a great way for established companies like ours to support those communities.
+
+[FinOps Landscape](https://landscape.finops.org/)
+
+[FinOps Foundation Principles](https://www.finops.org/finops-foundation-values/)
+
+[FinOps Technical Advisory Council (TAC)](https://www.finops.org/technical-advisory-council/)
+
+[The FinOps Ambassadors program](https://www.finops.org/finops-ambassador/)
+
+[Introduction to FinOps](https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/)
+
+[FinOps Training & Certification](https://www.finops.org/certification/)
+
+[FinOps Certified Platform](https://www.finops.org/finops-certified-platform/)
+
+[FinOps Certified Service Provider](https://www.finops.org/finops-certified-service-provider/)
+
+[FinOps Training Partner](https://www.finops.org/finops-training-partner/)
+
+[FinOps Foundation Training Events](https://www.finops.org/events/)
+
+[FinOps at your Organization course on Udemy](https://www.udemy.com/course/finops-at-your-organization/)
+
+[FinOps Foundation GitHub](https://github.com/finopsfoundation)
+
+[Rate Optimization: Google Cloud CUD & Big Query Strategy](https://www.finops.org/blog/google-cloud-cud-big-query-strategy-session/)
+
+[AWS Savings Plans and FinOps](https://www.finops.org/blog/aws-savings-plans-and-finops/)
+
+[Introducing FinOps fro AWS Cloud](https://aws.amazon.com/blogs/enterprise-strategy/introducing-finops-excuse-me-devsecfinbizops/)
+
+[Using FinOps with AWS by Apptio Cloudability](https://www.apptio.com/blog/using-finops-with-aws/)
+
+[Cloud Economics v2.0 - Part 1: FinOps](https://www.linkedin.com/pulse/cloud-economics-v20-part-1-anders-bonde)
+
+## Tools
+
+[Dynamics 365 Finance and Operations Tools](https://marketplace.visualstudio.com/items?itemName=Dyn365FinOps.dynamics365-finops-tools) is an extension for Visual Studio provides Azure DevOps build and release tasks for Dynamics 365 Finance and Operations and Dynamics Lifecycle Services.
+
+[Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
+
+# 74. Telco 5G
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/105409947-12be5000-5be6-11eb-9e63-4a2ef4f13695.png">
+  <br />
+   Telco 5G Guide
+</h1>
+
+#### A guide covering Telco 5G including the applications, tools and training that will make your development team better and more efficient at implementing Telco 5G networking solutions.
+
+<img src="https://user-images.githubusercontent.com/45159366/105409952-14881380-5be6-11eb-84fc-b07db69698ed.png">
+
+**VMware Cloud First Approach. Source: [VMware](https://www.vmware.com/products/telco-cloud-automation.html), 2020.**
+
+ <img src="https://user-images.githubusercontent.com/45159366/105409956-1520aa00-5be6-11eb-8215-735c92a5470c.png">
+
+**VMware Telco Cloud Automation Components. Source: [VMware](https://www.vmware.com/products/telco-cloud-automation.html), 2020.**
+
+## Resources
+
+[HPE(Hewlett Packard Enterprise) Telco Blueprints overview](https://techhub.hpe.com/eginfolib/servers/docs/Telco/Blueprints/infocenter/index.html#GUID-9906A227-C1FB-4FD5-A3C3-F3B72EC81CAB.html)
+
+[Network Functions Virtualization Infrastructure (NFVI) by Cisco](https://www.cisco.com/c/en/us/solutions/service-provider/network-functions-virtualization-nfv-infrastructure/index.html)
+
+[Introduction to vCloud NFV Telco Edge from VMware](https://docs.vmware.com/en/VMware-vCloud-NFV-OpenStack-Edition/3.1/vloud-nfv-edge-reference-arch-31/GUID-744C45F1-A8D5-4523-9E5E-EAF6336EE3A0.html)
+
+[VMware Telco Cloud Automation(TCA) Architecture Overview](https://docs.vmware.com/en/VMware-Telco-Cloud-Platform-5G-Edition/1.0/telco-cloud-platform-5G-edition-reference-architecture/GUID-C19566B3-F42D-4351-BA55-DE70D55FB0DD.html)
+
+[5G Telco Cloud from VMware](https://telco.vmware.com/)
+
+[Maturing OpenStack Together To Solve Telco Needs from Red Hat](https://www.redhat.com/cms/managed-files/4.Nokia%20CloudBand%20&%20Red%20Hat%20-%20Maturing%20Openstack%20together%20to%20solve%20Telco%20needs%20Ehud%20Malik,%20Senior%20PLM,%20Nokia%20CloudBand.pdf)
+
+[Red Hat telco ecosystem program](https://connect.redhat.com/en/programs/telco-ecosystem)
+
+[OpenStack for Telcos by Canonical](https://ubuntu.com/blog/openstack-for-telcos-by-canonical)
+
+[Open source NFV platform for 5G from Ubuntu](https://ubuntu.com/telco)
+
+[Understanding 5G Technology from Verizon](https://www.verizon.com/5g/)
+
+[Verizon and Unity partner to enable 5G & MEC gaming and enterprise applications](https://www.verizon.com/about/news/verizon-unity-partner-5g-mec-gaming-enterprise)
+
+[Understanding 5G Technology from Intel](https://www.intel.com/content/www/us/en/wireless-network/what-is-5g.html)
+
+[Understanding 5G Technology from Qualcomm](https://www.qualcomm.com/invention/5g/what-is-5g)
+
+[Telco Acceleration with Xilinx](https://www.xilinx.com/applications/wired-wireless/telco.html)
+
+[VIMs on OSM Public Wiki](https://osm.etsi.org/wikipub/index.php/VIMs)
+
+[Amazon EC2 Overview and Networking Introduction for Telecom Companies](https://docs.aws.amazon.com/whitepapers/latest/ec2-networking-for-telecom/ec2-networking-for-telecom.pdf)
+
+[Citrix Certified Associate – Networking(CCA-N)](http://training.citrix.com/cms/index.php/certification/networking/)
+
+[Citrix Certified Professional – Virtualization(CCP-V)](https://www.globalknowledge.com/us-en/training/certification-prep/brands/citrix/section/virtualization/citrix-certified-professional-virtualization-ccp-v/)
+
+[CCNP Routing and Switching](https://learningnetwork.cisco.com/s/ccnp-enterprise)
+
+[Certified Information Security Manager(CISM)](https://www.isaca.org/credentialing/cism)
+
+[Wireshark Certified Network Analyst (WCNA)](https://www.wiresharktraining.com/certification.html)
+
+[Juniper Networks Certification Program Enterprise (JNCP)](https://www.juniper.net/us/en/training/certification/)
+
+[Cloud Native Computing Foundation Training and Certification Program](https://www.cncf.io/certification/training/)
+
+## Tools
+
+[Open Stack](https://www.openstack.org/) is an open source cloud platform, deployed as infrastructure-as-a-service (IaaS) to orchestrate data center operations on bare metal, private cloud hardware, public cloud resources, or both (hybrid/multi-cloud architecture). OpenStack includes advance use of virtualization & SDN for network traffic optimization to handle the core cloud-computing services of compute, networking, storage, identity, and image services.
+
+[StarlingX](https://www.starlingx.io/) is a complete cloud infrastructure software stack for the edge used by the most demanding applications in industrial IOT, telecom, video delivery and other ultra-low latency use cases.
+
+[Airship](https://www.airshipit.org/) is a collection of open source tools for automating cloud provisioning and management. Airship provides a declarative framework for defining and managing the life cycle of open infrastructure tools and the underlying hardware.
+
+[Network functions virtualization (NFV)](https://www.vmware.com/topics/glossary/content/network-functions-virtualization-nfv) is the replacement of network appliance hardware with virtual machines. The virtual machines use a hypervisor to run networking software and processes such as routing and load balancing. NFV allows for the separation of communication services from dedicated hardware, such as routers and firewalls. This separation means network operations can provide new services dynamically and without installing new hardware. Deploying network components with network functions virtualization only takes hours compared to months like with traditional networking solutions.
+
+[Software Defined Networking (SDN)](https://www.vmware.com/topics/glossary/content/software-defined-networking) is an approach to networking that uses software-based controllers or application programming interfaces (APIs) to communicate with underlying hardware infrastructure and direct traffic on a network. This model differs from that of traditional networks, which use dedicated hardware devices (routers and switches) to control network traffic.
+
+[Virtualized Infrastructure Manager (VIM)](https://www.cisco.com/c/en/us/td/docs/net_mgmt/network_function_virtualization_Infrastructure/3_2_2/install_guide/Cisco_VIM_Install_Guide_3_2_2/Cisco_VIM_Install_Guide_3_2_2_chapter_00.html) is a service delivery and reduce costs with high performance lifecycle management Manage the full lifecycle of the software and hardware comprising your NFV infrastructure (NFVI), and maintaining a live inventory and allocation plan of both physical and virtual resources.
+
+[Management and Orchestration(MANO)](https://www.etsi.org/technologies/open-source-mano) is an ETSI-hosted initiative to develop an Open Source NFV Management and Orchestration (MANO) software stack aligned with ETSI NFV. Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO.
+
+[Magma](https://www.magmacore.org/) is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Their mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. Magma is 3GPP generation (2G, 3G, 4G or upcoming 5G networks) and access network agnostic (cellular or WiFi). It can flexibly support a radio access network with minimal development and deployment effort.
+
+[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
+
+[Open vSwitch(OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
+
+[Edge](https://www.ibm.com/cloud/what-is-edge-computing) is a distributed computing framework that brings enterprise applications closer to data sources such as IoT devices or local edge servers. This proximity to data at its source can deliver strong business benefits, including faster insights, improved response times and better bandwidth availability.
+
+[Multi-access edge computing (MEC)](https://www.etsi.org/technologies/multi-access-edge-computing) is an Industry Specification Group (ISG) within ETSI to create a standardized, open environment which will allow the efficient and seamless integration of applications from vendors, service providers, and third-parties across multi-vendor Multi-access Edge Computing platforms.
+
+[Virtualized network functions(VNFs)](https://www.juniper.net/documentation/en_US/cso4.1/topics/concept/nsd-vnf-overview.html) is a software application used in a Network Functions Virtualization (NFV) implementation that has well defined interfaces, and provides one or more component networking functions in a defined way. For example, a security VNF provides Network Address Translation (NAT) and firewall component functions.
+
+[Cloud-Native Network Functions(CNF)](https://www.cncf.io/announcements/2020/11/18/cloud-native-network-functions-conformance-launched-by-cncf/) is a network function designed and implemented to run inside containers. CNFs inherit all the cloud native architectural and operational principles including Kubernetes(K8s) lifecycle management, agility, resilience, and observability.
+
+[Physical Network Function(PNF)](https://www.mpirical.com/glossary/pnf-physical-network-function) is a physical network node which has not undergone virtualization. Both PNFs and VNFs (Virtualized Network Functions) can be used to form an overall Network Service.
+
+[Network functions virtualization infrastructure(NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
+
+# 75. Ubuntu
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/106686312-ef4cbb00-657e-11eb-92d5-93d7d39b4cf6.png">
+  <br />
+  Ubuntu Guide
+</h1>
+
+#### A guide on setting up your Ubuntu Desktop with all the essential Applications, Tools, and Games to make your experience with Ubuntu great! This may not be perfect guide for everyone but I feel there is at least one or more perfect solutions for New and Advanced Ubuntu users.
+
+# Getting Started
+
+[Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise server, desktop, cloud, and IoT developed by Canonical. Also, checkout the new [Ubuntu Desktop Installer](https://discourse.ubuntu.com/t/refreshing-the-ubuntu-desktop-installer/20659), which will be available to test in the 21.10 release (October 2021) with the Final version being available in the 22.04 LTS release(April 2022).
+
+[Ubuntu Flavours](https://www.ubuntu.com/download/flavours) is for those that prefer an alternative desktop environment such as KDE Plasma Desktop, MATE; or Xfce, you can download a Flavour for your preferred desktop environment and use that to install Ubuntu, pre-configured for the desktop environment of your choice.
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/106686328-f5db3280-657e-11eb-9109-88a1df99983a.png">
+  <br />
+  Ubuntu Desktop
+</h1>
+
+## Additional Ubuntu Tools/Resources for Enterprise & Small Businesses
+
+[Ubuntu Community Hub](https://discourse.ubuntu.com/)
+
+[Ubuntu Tutorials](https://ubuntu.com/tutorials)
+
+[Multipass](https://multipass.run/) is a command line interface to launch, manage and generally test with instances of Linux(Ubuntu) in  a VM. It works on Linux, Windows and macOS.
+
+[LXD](https://linuxcontainers.org/lxd/) is a next generation system container manager. It offers a user experience similar to virtual machines but using Linux containers instead. It's image based with pre-made images available for a wide number of Linux distributions and is built around a very powerful, yet pretty simple, REST API.
+
+[MAAS](https://maas.io/) is an open source SDDC solution used by telcos, financial institutions, media companies and supercomputer admins to take care of all the low-level details. PXE, IPMI, ILO and all the custom protocols needed for diverse vendor hardware support come together in one clean REST API with Python bindings for easy integration and automation.
+
+[JuJu](https://juju.is/) is an open source application modeling tool for public and private clouds. It forms part of Ubuntu's cloud portfolio, together with Ubuntu Server, Ubuntu OpenStack, MAAS for bare-metal provisioning, and Landscape for systems management and monitoring.
+
+[JAAS (Juju as a Service)](https://jaas.ai/)  is a service that makes it easy to deploy [OpenStack](https://www.openstack.org/) at scale. Where you quickly and reliably build an enterprise-scale cloud running on Ubuntu.
+
+[Ubuntu OpenStack](https://ubuntu.com/openstack)is the #1 platform for [OpenStack](https://www.openstack.org/) and the #1 platform for public cloud operations on [AWS](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/) and [Google Cloud](https://cloud.google.com/).
+
+[Ubuntu is the reference platform for Kubernetes](https://ubuntu.com/kubernetes) on all major public clouds, including official support in Google's GKE, Microsoft's AKS and Amazon's EKS CAAS offerings.
+
+[Ubuntu on WSL](https://wiki.ubuntu.com/WSL) is a wiki guide on getting started with the latest version of Ubuntu installed and setup on WSL for Windows 10.
+
+[Ubuntu Pro for Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/canonical.0001-com-ubuntu-pro-focal?tab=Overview) is a premium image designed by Canonical optimized for production environments running on Azure. It includes security and compliance services, enabled by default, in a form suitable for small to large-scale Linux enterprise operations with no contract needed.
+
+[Ubuntu on AWS](https://ubuntu.com/aws)
+
+[Ubuntu on Azure](https://ubuntu.com/azure)
+
+## Installing Pop Shell on Ubuntu
+
+[Pop Shell](https://github.com/pop-os/shell) ⭐ 5,278 | 🐛 454 | 🌐 TypeScript | 📅 2026-08-20 is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows. The core feature of Pop Shell is the addition of advanced tiling window management similar to i3wm.
+
+In order to use Pop Shell your system must have the following applications installed.
+
+* GNOME Shell 3.36
+* TypeScript 3.8
+* GNU Make
+
+```sh
+sudo apt install node-typescript make
+git clone https://github.com/pop-os/shell
+cd shell
+./rebuild.sh
+```
+
+## Setting Up Wayland on Ubuntu
+
+[Wayland](https://wayland.freedesktop.org) is a protocol for a compositor to talk to its clients as well as a C library implementation of that protocol. The compositor can be a standalone display server running on Linux kernel modesetting and evdev input devices, an [X application](https://www.x.org/wiki/XServer/), or a wayland client itself.
+
+**Wayland has been available in Ubuntu since the Ubuntu 17.10 release. Simply go to your login screen and click on Settings in the bottom right corner and select 'Ubuntu on Wayland'. Also, Ubuntu will likely start shipping Wayland by default with their 21.04 release(April 2021).**
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686332-f70c5f80-657e-11eb-944b-8cd85e131539.png">
+
+## Vanilla GNOME in Ubuntu
+
+```sh
+sudo apt install gnome-session
+```
+
+**Complete this process by Logginh out of the system then will click on the settings button in bottom right corner and choose 'GNOME on Xorg'. After that just log back into your system and you will a Vanilla GNOME layout for your Ubuntu system.**
+
+## GNOME Tweaks
+
+```sh
+sudo apt install gnome-tweak-tool //let's you customize your desktop layout.
+```
+
+## Enable Firewall
+
+```sh
+sudo ufw enable  //enables ubuntu firewall
+sudo ufw status //checks status of firewall
+```
+
+# Getting Software
+
+## Ubuntu Software Center
+
+ <img src="https://user-images.githubusercontent.com/45159366/107094063-37582180-67bb-11eb-8fd8-a7eb1ca25e2c.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!\_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Setting up GNOME Software Center(for those that don't want to use Ubuntu Software Center)
+
+```sh
+sudo apt install gnome-software 
+sudo apt install snapd
+sudo apt install gnome-software-plugin-snap
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107159312-fb03fd00-6943-11eb-933c-188617e63fd1.png">
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Snaps
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## Flatpaks
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+```sh
+sudo add-apt-repository ppa:ernstp/mesarc
+sudo apt install corectrl
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**Or**
+
+```sh
+wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
+```
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+## Winetricks
+
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,545 | 🐛 191 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+
+this is needed to avoid adobeair error
+
+```sh
+sudo sed -i 's|echo "\${arg%%=\*}"=\\""${arg### \*=}"\\"|echo \${arg%%=\*}=\\"\${arg### \*=}\\"|g' /usr/local/bin/winetricks
+sudo apt install cabextract libncurses5:armhf
+```
+
+# Setting up a MacOS workspace
+
+[Back to the Top](https://github.com/mikeroyal/Perfect-Ubuntu-Guide/blob/main/README.md#table-of-contents) ⭐ 292 | 🐛 0 | 🌐 Shell | 📅 2024-01-04
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/ubuntu) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+[Back to the Top](https://github.com/mikeroyal/Perfect-Ubuntu-Guide/blob/main/README.md#table-of-contents) ⭐ 292 | 🐛 0 | 🌐 Shell | 📅 2024-01-04
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+# GNOME Extensions
+
+**Note: GNOME Extenions allow you customize your Desktop layout anyway you want.**
+
+**Easily turn GNOME Extensions On/Off using the [GNOME Shell integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/?utm_source=addons.mozilla.org\&utm_medium=referral\&utm_content=search) add-on in the Firefox web browser.**
+
+[Caffeine](https://extensions.gnome.org/extension/517/caffeine/) is a GNOME Shell extension that disables the screensaver and auto suspend
+
+[Arc Menu](https://extensions.gnome.org/extension/3628/arcmenu/) is a GNOME Shell extension that adds an Application Menu for GNOME.
+
+[Pop!\_OS Shell](https://github.com/pop-os/shell) ⭐ 5,278 | 🐛 454 | 🌐 TypeScript | 📅 2026-08-20is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows(tiling window management).
+
+[Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) is a GNOME Shell extension that adds a modern desktop interface for Linux - packaged as an extension for GNOME Shell. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.
+
+[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) is a GNOME Shell extension that adds a clipboard indicator to the top panel, and caches clipboard history.
+
+[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) is a GNOME Shell extension that adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+[GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) is a GNOME Shell extension that adds a complete implementation of KDE Connect especially for GNOME Shell with Nautilus, Chrome and Firefox integration. It does not rely on the KDE Connect desktop application and will not work with it installed.
+
+[Compiz alike windows effect](https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/) is a GNOME Shell extension that adds wobbly windows effect inspired by the Compiz one
+
+[CPU Power Manager](https://extensions.gnome.org/extension/945/cpu-power-manager/) is a GNOME Shell extension that enables you to manage Intel\_pstate CPU Frequency scaling driver.
+
+[CPU Power Governor](https://extensions.gnome.org/extension/3727/cpu-power-governor/) is a GNOME Shell extension that enables the ability to swap between kernel governors for the CPU useful for laptops.
+
+[CPUFreq](https://extensions.gnome.org/extension/1082/cpufreq/) is a GNOME Shell extension for System Monitor and Power Manager.
+
+[Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) is a GNOME Shell extension that shows an icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) is a GNOME Shell extension that shows a dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/) is a GNOME Shell extension that shows a status menu for accessing and unmounting removable devices.
+
+[Snap Manager](https://extensions.gnome.org/extension/3715/snap-manager/) is a GNOME Shell extension that shows a popup menu in the top bar to easily manage snap tasks (list, changes, refresh, remove, install...). Update notification at session startup.
+
+[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) is a GNOME Shell extension that shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. Various active ports like HDMI , Speakers etc. of the same device are also displayed for selection. V20+ needs python as dependency. If you want to continue with the old method without Python, use options to switch off New Port identification. But it works with only English
+
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/) is a GNOME Shell extension that lets you load shell themes from user directory.
+
+[WinTile: Windows 10 window tiling for GNOME](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)  is a hotkey driven window tiling system for GNOME that imitates the standard Win-Arrow keys of Windows 10, allowing you to maximize, maximize to sides, or 1/4 sized to corner across a single or multiple monitors using just Super+Arrow.
+
+[Gnome Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/) is a GNOME Shell extension that syncs gnome shell keybindings, tweaks settings and extensions with their configuration across all gnome installations.
+
+[Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) is a GNOME Shell extension which bring back Tray Icons to top panel, with additional features.
+
+[GitLab extension](https://extensions.gnome.org/extension/3535/gitlab-extension/) is a GNOME Shell extension that lets you utilizes the official GitLab API to provide a comfortable overview about your projects, commits & pipelines.
+
+## Advanced Topics
+
+**Below are some of my favorite Ubuntu tutorials from [DigitalOcean](https://www.digitalocean.com/).**
+
+[How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)
+
+[How To Configure Nginx as a Web Server and Reverse Proxy for Apache on One Ubuntu 20.04 Server](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-20-04-server)
+
+[How To Install and Configure Postfix on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04)
+
+[How To Install and Use SQLite on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04)
+
+[How To Deploy a React Application with Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-20-04)
+
+[How to Optimize WordPress on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-optimize-wordpress-on-ubuntu-20-04)
+
+[How To Acquire a Let's Encrypt Certificate Using DNS Validation with certbot-dns-digitalocean on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-certbot-dns-digitalocean-on-ubuntu-20-04)
+
+[How To Build a Slackbot in Python on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-build-a-slackbot-in-python-on-ubuntu-20-04)
+
+[How To Back Up, Restore, and Migrate a MongoDB Database on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-a-mongodb-database-on-ubuntu-20-04)
+
+[How To Set Up an Ubuntu 20.04 Server on a DigitalOcean Droplet](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ubuntu-20-04-server-on-a-digitalocean-droplet)
+
+[How To Set Up Physical Streaming Replication with PostgreSQL 12 on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-physical-streaming-replication-with-postgresql-12-on-ubuntu-20-04)
+
+[How To Install and Use Docker Compose on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
+
+[How To Remotely Access GUI Applications Using Docker and Caddy on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-remotely-access-gui-applications-using-docker-and-caddy-on-ubuntu-20-04)
+
+[How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+
+[How To Set Up Mattermost on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-mattermost-on-ubuntu-20-04)
+
+[How To Set Up a Remote Desktop with X2Go on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-remote-desktop-with-x2go-on-ubuntu-20-04)
+
+[How To Install and Configure Drone on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-drone-on-ubuntu-20-04)
+
+[How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04)
+
+[How To Install the Django Web Framework on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-20-04)
+
+[How To Install Jenkins on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04)
+
+[How To Use Traefik v2 as a Reverse Proxy for Docker Containers on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reverse-proxy-for-docker-containers-on-ubuntu-20-04)
+
+[How To Sandbox Processes With Systemd On Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-sandbox-processes-with-systemd-on-ubuntu-20-04)
+
+[How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
+
+# 76. Pop!\_OS
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107091607-eb0ae280-67b6-11eb-91af-c052daa76876.png">
+  <br />
+  Pop!_OS Guide
+</h1>
+
+#### A guide on setting up your Pop!\_OS Desktop with all the essential Applications, Tools, and Games to make your experience with Pop!\_OS great!
+
+# Getting Started
+
+[Pop!\_OS](https://pop.system76.com/) is an operating system(based on [Ubuntu](https://ubuntu.com/)) for STEM and creative professionals who use their computer as a tool to discover and create developed [System76](https://system76.com/).
+
+[Popsicle](https://github.com/pop-os/popsicle) ⭐ 858 | 🐛 31 | 🌐 Rust | 📅 2026-09-01 is a Linux utility for flashing multiple USB devices in parallel, written in Rust.
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+[Differences between Pop!\_OS and Ubuntu](https://support.system76.com/articles/difference-between-pop-ubuntu/)
+
+[Pop!\_OS GitHub](https://github.com/pop-os)
+
+[Pop!\_OS reddit](https://www.reddit.com/r/pop_os/)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107091581-e0e8e400-67b6-11eb-8357-51bf416bfb1d.png">
+  <br />
+  Pop!_OS Desktop
+</h1>
+
+## Installing KDE Plasma on Pop!\_OS
+
+```sh
+sudo apt install kde-plasma-desktop
+```
+
+OR
+
+```sh
+sudo apt install kde-standard
+```
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107159031-84b2cb00-6942-11eb-9b70-6a2f7e52e481.png">
+  <br />
+  KDE Plasma Desktop on Pop!_OS
+</h1>
+
+## GNOME Tweaks
+
+```sh
+Open the terminal and run: 
+sudo apt install gnome-tweak-tool //let's you customize your desktop layout.
+```
+
+## Enable Firewall
+
+```sh
+Open the terminal and run: 
+sudo ufw enable  //enables firewall
+sudo ufw status //checks status of firewall
+```
+
+# Getting Software
+
+## Pop Shop
+
+<img src="https://user-images.githubusercontent.com/45159366/107091582-e21a1100-67b6-11eb-9043-1385d2d8afd9.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line or need software not available in the Pop Shop checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[TeamViewer](https://www.teamviewer.com/en/download/linux/)
+
+[VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) is an ideal utility for running a single virtual machine on a Windows or Linux PC. Organizations use Workstation Player to deliver managed corporate desktops, while students and educators use it for learning and training.
+
+[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html) is the industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC. IT professionals, developers and businesses who build, test or demo software for any device, platform or cloud rely on Workstation Pro.
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Flatpaks
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## Snaps
+
+```sh
+sudo apt install snapd
+sudo apt install 'your app'
+```
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+```sh
+sudo add-apt-repository ppa:ernstp/mesarc
+sudo apt install corectrl
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**Or**
+
+```sh
+wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
+```
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+## Winetricks
+
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,545 | 🐛 191 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+
+this is needed to avoid adobeair error
+
+```sh
+sudo sed -i 's|echo "\${arg%%=\*}"=\\""${arg### \*=}"\\"|echo \${arg%%=\*}=\\"\${arg### \*=}\\"|g' /usr/local/bin/winetricks
+sudo apt install cabextract libncurses5:armhf
+```
+
+# Setting up a MacOS workspace
+
+[Back to the Top](https://github.com/mikeroyal/Pop_OS-Guide/blob/main/README.md#table-of-contents) ⭐ 333 | 🐛 2 | 🌐 Rust | 📅 2024-01-04
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/ubuntu) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+[Back to the Top](https://github.com/mikeroyal/Pop_OS-Guide/blob/main/README.md#table-of-contents) ⭐ 333 | 🐛 2 | 🌐 Rust | 📅 2024-01-04
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+# GNOME Extensions
+
+**Note: GNOME Extenions allow you customize your Desktop layout anyway you want.**
+
+**Easily turn GNOME Extensions On/Off using the [GNOME Shell integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/?utm_source=addons.mozilla.org\&utm_medium=referral\&utm_content=search) add-on in the Firefox web browser.**
+
+[Caffeine](https://extensions.gnome.org/extension/517/caffeine/) is a GNOME Shell extension that disables the screensaver and auto suspend
+
+[Arc Menu](https://extensions.gnome.org/extension/3628/arcmenu/) is a GNOME Shell extension that adds an Application Menu for GNOME.
+
+[Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) is a GNOME Shell extension that adds a modern desktop interface for Linux - packaged as an extension for GNOME Shell. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.
+
+[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) is a GNOME Shell extension that adds a clipboard indicator to the top panel, and caches clipboard history.
+
+[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) is a GNOME Shell extension that adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+[GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) is a GNOME Shell extension that adds a complete implementation of KDE Connect especially for GNOME Shell with Nautilus, Chrome and Firefox integration. It does not rely on the KDE Connect desktop application and will not work with it installed.
+
+[Compiz alike windows effect](https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/) is a GNOME Shell extension that adds wobbly windows effect inspired by the Compiz one
+
+[CPU Power Manager](https://extensions.gnome.org/extension/945/cpu-power-manager/) is a GNOME Shell extension that enables you to manage Intel\_pstate CPU Frequency scaling driver.
+
+[CPU Power Governor](https://extensions.gnome.org/extension/3727/cpu-power-governor/) is a GNOME Shell extension that enables the ability to swap between kernel governors for the CPU useful for laptops.
+
+[CPUFreq](https://extensions.gnome.org/extension/1082/cpufreq/) is a GNOME Shell extension for System Monitor and Power Manager.
+
+[Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) is a GNOME Shell extension that shows an icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) is a GNOME Shell extension that shows a dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/) is a GNOME Shell extension that shows a status menu for accessing and unmounting removable devices.
+
+[Snap Manager](https://extensions.gnome.org/extension/3715/snap-manager/) is a GNOME Shell extension that shows a popup menu in the top bar to easily manage snap tasks (list, changes, refresh, remove, install...). Update notification at session startup.
+
+[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) is a GNOME Shell extension that shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. Various active ports like HDMI , Speakers etc. of the same device are also displayed for selection. V20+ needs python as dependency. If you want to continue with the old method without Python, use options to switch off New Port identification. But it works with only English
+
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/) is a GNOME Shell extension that lets you load shell themes from user directory.
+
+[WinTile: Windows 10 window tiling for GNOME](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)  is a hotkey driven window tiling system for GNOME that imitates the standard Win-Arrow keys of Windows 10, allowing you to maximize, maximize to sides, or 1/4 sized to corner across a single or multiple monitors using just Super+Arrow.
+
+[Gnome Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/) is a GNOME Shell extension that syncs gnome shell keybindings, tweaks settings and extensions with their configuration across all gnome installations.
+
+[Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) is a GNOME Shell extension which bring back Tray Icons to top panel, with additional features.
+
+[GitLab extension](https://extensions.gnome.org/extension/3535/gitlab-extension/) is a GNOME Shell extension that lets you utilizes the official GitLab API to provide a comfortable overview about your projects, commits & pipelines.
+
+# Advanced Topics
+
+**Below are some of my favorite Ubuntu tutorials from [DigitalOcean](https://www.digitalocean.com/) that also work with Pop!\_OS.**
+
+[How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)
+
+[How To Configure Nginx as a Web Server and Reverse Proxy for Apache on One Ubuntu 20.04 Server](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-20-04-server)
+
+[How To Install and Configure Postfix on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04)
+
+[How To Install and Use SQLite on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04)
+
+[How To Deploy a React Application with Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-20-04)
+
+[How to Optimize WordPress on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-optimize-wordpress-on-ubuntu-20-04)
+
+[How To Acquire a Let's Encrypt Certificate Using DNS Validation with certbot-dns-digitalocean on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-certbot-dns-digitalocean-on-ubuntu-20-04)
+
+[How To Build a Slackbot in Python on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-build-a-slackbot-in-python-on-ubuntu-20-04)
+
+[How To Back Up, Restore, and Migrate a MongoDB Database on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-a-mongodb-database-on-ubuntu-20-04)
+
+[How To Set Up an Ubuntu 20.04 Server on a DigitalOcean Droplet](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ubuntu-20-04-server-on-a-digitalocean-droplet)
+
+[How To Set Up Physical Streaming Replication with PostgreSQL 12 on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-physical-streaming-replication-with-postgresql-12-on-ubuntu-20-04)
+
+[How To Install and Use Docker Compose on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
+
+[How To Remotely Access GUI Applications Using Docker and Caddy on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-remotely-access-gui-applications-using-docker-and-caddy-on-ubuntu-20-04)
+
+[How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+
+[How To Set Up Mattermost on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-mattermost-on-ubuntu-20-04)
+
+[How To Set Up a Remote Desktop with X2Go on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-remote-desktop-with-x2go-on-ubuntu-20-04)
+
+[How To Install and Configure Drone on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-drone-on-ubuntu-20-04)
+
+[How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04)
+
+[How To Install the Django Web Framework on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-20-04)
+
+[How To Install Jenkins on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04)
+
+[How To Use Traefik v2 as a Reverse Proxy for Docker Containers on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reverse-proxy-for-docker-containers-on-ubuntu-20-04)
+
+[How To Sandbox Processes With Systemd On Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-sandbox-processes-with-systemd-on-ubuntu-20-04)
+
+[How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
+
+# 77. Fedora
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107158826-6ef0d600-6941-11eb-83be-3e3f4461a56d.png">
+  <br />
+  Fedora Guide
+</h1>
+
+#### A guide on setting up your Fedora Desktop with all the essential Applications, Tools, and Games to make your experience with Fedora great!
+
+# Getting Started
+
+[Fedora](https://getfedora.org/) is a polished, easy to use operating system for laptop & desktop computers, with a complete set of tools for developers and makers of all kinds. The Fedora OS base is used to build/develop new versions of [Red Hat® Enterprise Linux® (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) the world's leading enterprise Linux platform. The OS serves as the foundation for which you can scale existing apps and roll out emerging technologies across bare-metal, virtual, container, and all types of cloud environments.
+
+[Fedora Silverblue](https://silverblue.fedoraproject.org/) is a variant of the Fedora Workstation that uses rpm-ostree to provide an immutable OS image with reliable updates and easy rollbacks.
+
+[Fedora CoreOS](https://getfedora.org/coreos?stream=stable) is an automatically-updating, minimal operating system for running containerized workloads securely and at scale.
+
+[Fedora Spins](https://spins.fedoraproject.org/) is for those that prefer an alternative desktop environment such as KDE Plasma Desktop, MATE; or Xfce, you can download a spin for your preferred desktop environment and use that to install Fedora, pre-configured for the desktop environment of your choice.
+
+[CentOS Stream](https://www.centos.org/centos-stream/) is a continuously delivered distro(uses the Fedora OS base) that tracks just ahead of Red Hat Enterprise Linux (RHEL) development, positioned as a midstream between Fedora Linux and RHEL.
+
+[Anaconda](http://fedoraproject.org/wiki/Anaconda) is an OS installer used by Fedora, Red Hat Enterprise Linux (RHEL), CentOS Stream and other Linux distributions.
+
+[Fedora Media Writer](https://fedoramagazine.org/make-fedora-usb-stick/) is a tool in Fedora that will set up your flash drive to run a "Live" version of Fedora Workstation, meaning that you can boot it from your flash drive and try it out right away without making any permanent changes to your computer.
+
+[Using Fedora with Microsoft’s WSL2](https://fedoramagazine.org/wsl-fedora-33/)
+
+[Fedora Project Wiki](http://fedoraproject.org/wiki/Fedora_Project_Wiki)
+
+[Fedora Developer Portal](https://developer.fedoraproject.org/start.html)
+
+[Fedora Project Forum](https://discussion.fedoraproject.org/)
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+ <h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107158827-70220300-6941-11eb-917b-dbdb7142a13b.png">
+  <br />
+  Fedora Desktop
+</h1>
+
+## Fedora, Red Hat Enterprise Linux (RHEL) and CentOS Stream Development Cycle
+
+ <img src="https://user-images.githubusercontent.com/45159366/107158836-7ca65b80-6941-11eb-95dd-5166023597a7.png">
+
+## GNOME Tweaks
+
+Open the terminal and run:
+
+```sh
+sudo dnf install gnome-tweak-tool //let's you customize your desktop layout.
+```
+
+## Setting up Pop Shell
+
+[Pop Shell](https://github.com/pop-os/shell) ⭐ 5,278 | 🐛 454 | 🌐 TypeScript | 📅 2026-08-20 is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows. The core feature of Pop Shell is the addition of advanced tiling window management similar to i3wm.
+
+```sh
+sudo dnf install gnome-shell-extension-pop-shell
+```
+
+## Enable Firewall
+
+[Using firewalld](https://docs.fedoraproject.org/en-US/quick-docs/firewalld/)
+
+Open the terminal and run:
+
+```sh
+//Checks firewall status
+sudo firewall-cmd --state
+sudo systemctl status firewalld
+```
+
+# Getting Software
+
+## GNOME Software Center
+
+<img src="https://user-images.githubusercontent.com/45159366/107158830-71ebc680-6941-11eb-893f-be3ad3e1c830.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line or need software not available in the Software Center checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[TeamViewer](https://www.teamviewer.com/en/download/linux/)
+
+[VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) is an ideal utility for running a single virtual machine on a Windows or Linux PC. Organizations use Workstation Player to deliver managed corporate desktops, while students and educators use it for learning and training.
+
+[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html) is the industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC. IT professionals, developers and businesses who build, test or demo software for any device, platform or cloud rely on Workstation Pro.
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Flatpaks
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## Snaps
+
+[Installing snap on Fedora](https://snapcraft.io/docs/installing-snap-on-fedora)
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+```sh
+sudo dnf install corectrl
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**OR**
+
+```sh
+sudo dnf install steam
+```
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+## Winetricks
+
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,545 | 🐛 191 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+
+this is needed to avoid adobeair error
+
+```sh
+sudo sed -i 's|echo "\${arg%%=\*}"=\\""${arg### \*=}"\\"|echo \${arg%%=\*}=\\"\${arg### \*=}\\"|g' /usr/local/bin/winetricks
+sudo dnf install cabextract libncurses5:armhf
+```
+
+# Setting up a MacOS workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+Open the terminal and run:
+
+```sh
+sudo dnf install qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/fedora) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+Open the terminal and run:
+
+```sh
+sudo dnf install qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+# GNOME Extensions
+
+**Note: GNOME Extenions allow you customize your Desktop layout anyway you want.**
+
+**Easily turn GNOME Extensions On/Off using the [GNOME Shell integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/?utm_source=addons.mozilla.org\&utm_medium=referral\&utm_content=search) add-on in the Firefox web browser.**
+
+[Caffeine](https://extensions.gnome.org/extension/517/caffeine/) is a GNOME Shell extension that disables the screensaver and auto suspend
+
+[Arc Menu](https://extensions.gnome.org/extension/3628/arcmenu/) is a GNOME Shell extension that adds an Application Menu for GNOME.
+
+[Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) is a GNOME Shell extension that adds a modern desktop interface for Linux - packaged as an extension for GNOME Shell. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.
+
+[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) is a GNOME Shell extension that adds a clipboard indicator to the top panel, and caches clipboard history.
+
+[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) is a GNOME Shell extension that adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+[GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) is a GNOME Shell extension that adds a complete implementation of KDE Connect especially for GNOME Shell with Nautilus, Chrome and Firefox integration. It does not rely on the KDE Connect desktop application and will not work with it installed.
+
+[Compiz alike windows effect](https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/) is a GNOME Shell extension that adds wobbly windows effect inspired by the Compiz one
+
+[CPU Power Manager](https://extensions.gnome.org/extension/945/cpu-power-manager/) is a GNOME Shell extension that enables you to manage Intel\_pstate CPU Frequency scaling driver.
+
+[CPU Power Governor](https://extensions.gnome.org/extension/3727/cpu-power-governor/) is a GNOME Shell extension that enables the ability to swap between kernel governors for the CPU useful for laptops.
+
+[CPUFreq](https://extensions.gnome.org/extension/1082/cpufreq/) is a GNOME Shell extension for System Monitor and Power Manager.
+
+[Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) is a GNOME Shell extension that shows an icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) is a GNOME Shell extension that shows a dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/) is a GNOME Shell extension that shows a status menu for accessing and unmounting removable devices.
+
+[Snap Manager](https://extensions.gnome.org/extension/3715/snap-manager/) is a GNOME Shell extension that shows a popup menu in the top bar to easily manage snap tasks (list, changes, refresh, remove, install...). Update notification at session startup.
+
+[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) is a GNOME Shell extension that shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. Various active ports like HDMI , Speakers etc. of the same device are also displayed for selection. V20+ needs python as dependency. If you want to continue with the old method without Python, use options to switch off New Port identification. But it works with only English
+
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/) is a GNOME Shell extension that lets you load shell themes from user directory.
+
+[WinTile: Windows 10 window tiling for GNOME](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)  is a hotkey driven window tiling system for GNOME that imitates the standard Win-Arrow keys of Windows 10, allowing you to maximize, maximize to sides, or 1/4 sized to corner across a single or multiple monitors using just Super+Arrow.
+
+[Gnome Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/) is a GNOME Shell extension that syncs gnome shell keybindings, tweaks settings and extensions with their configuration across all gnome installations.
+
+[Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) is a GNOME Shell extension which bring back Tray Icons to top panel, with additional features.
+
+[GitLab extension](https://extensions.gnome.org/extension/3535/gitlab-extension/) is a GNOME Shell extension that lets you utilizes the official GitLab API to provide a comfortable overview about your projects, commits & pipelines.
+
+# 78. Debian
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439772-7225c680-6ae7-11eb-90ae-05908496c8d1.png">
+  <br />
+  Debian Guide
+</h1>
+
+#### A guide on setting up your Debian Desktop with all the essential Applications, Tools, and Games to make your experience with Debian great!
+
+# Getting Started
+
+[Debian](https://www.debian.org/) is an operating system and a distribution of Free Software. It is maintained and updated through the work of many users who volunteer their time and effort.
+
+[Debian GitLab](https://salsa.debian.org/explore/projects)
+
+[Install Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
+
+[Installing Debian on WSL (Windows Subsystem for Linux)](https://wiki.debian.org/InstallingDebianOn/Microsoft/Windows/SubsystemForLinux)
+
+[Debian for WSL GitLab repo](https://salsa.debian.org/debian/WSL)
+
+[Debian Wiki](https://wiki.debian.org/NetworkConfiguration)
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439775-73ef8a00-6ae7-11eb-9037-6aa910fc3c74.png">
+  <br />
+  Debian Desktop
+</h1>
+
+## Installing KDE Plasma on Debian
+
+```sh
+sudo apt install kde-plasma-desktop
+```
+
+OR
+
+```sh
+sudo apt install kde-standard
+```
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439785-781ba780-6ae7-11eb-8900-d1ed0ee141a4.png">
+  <br />
+  KDE Plasma Desktop on Debian
+</h1>
+
+## Installing Pop Shell on Debian
+
+[Pop Shell](https://github.com/pop-os/shell) ⭐ 5,278 | 🐛 454 | 🌐 TypeScript | 📅 2026-08-20 is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows. The core feature of Pop Shell is the addition of advanced tiling window management similar to i3wm.
+
+In order to use Pop Shell your system must have the following applications installed.
+
+* GNOME Shell 3.36
+* TypeScript 3.8
+* GNU Make
+
+```sh
+sudo apt install node-typescript make
+git clone https://github.com/pop-os/shell
+cd shell
+./rebuild.sh
+```
+
+## GNOME Tweaks
+
+```sh
+sudo apt install gnome-tweak-tool //let's you customize your desktop layout.
+```
+
+## Enable Firewall
+
+```sh
+sudo systemctl enable ufw
+sudo systemctl start ufw
+```
+
+# Getting Software
+
+## GNOME Software Center
+
+<img src="https://user-images.githubusercontent.com/45159366/107158830-71ebc680-6941-11eb-893f-be3ad3e1c830.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!\_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Flatpaks
+
+```sh
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+```
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## Snaps
+
+```sh
+sudo apt install snapd
+sudo apt install gnome-software-plugin-snap
+```
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+```sh
+sudo add-apt-repository ppa:ernstp/mesarc
+sudo apt install corectrl
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**Or**
+
+```sh
+wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
+```
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+## Winetricks
+
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,545 | 🐛 191 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+
+this is needed to avoid adobeair error
+
+```sh
+sudo sed -i 's|echo "\${arg%%=\*}"=\\""${arg### \*=}"\\"|echo \${arg%%=\*}=\\"\${arg### \*=}\\"|g' /usr/local/bin/winetricks
+sudo apt install cabextract libncurses5:armhf
+```
+
+# Setting up a MacOS workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/debian) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+# GNOME Extensions
+
+**Note: GNOME Extenions allow you customize your Desktop layout anyway you want.**
+
+**Easily turn GNOME Extensions On/Off using the [GNOME Shell integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/?utm_source=addons.mozilla.org\&utm_medium=referral\&utm_content=search) add-on in the Firefox web browser.**
+
+[Caffeine](https://extensions.gnome.org/extension/517/caffeine/) is a GNOME Shell extension that disables the screensaver and auto suspend
+
+[Arc Menu](https://extensions.gnome.org/extension/3628/arcmenu/) is a GNOME Shell extension that adds an Application Menu for GNOME.
+
+[Pop!\_OS Shell](https://github.com/pop-os/shell) ⭐ 5,278 | 🐛 454 | 🌐 TypeScript | 📅 2026-08-20is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows(tiling window management).
+
+[Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) is a GNOME Shell extension that adds a modern desktop interface for Linux - packaged as an extension for GNOME Shell. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.
+
+[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) is a GNOME Shell extension that adds a clipboard indicator to the top panel, and caches clipboard history.
+
+[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) is a GNOME Shell extension that adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+[GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) is a GNOME Shell extension that adds a complete implementation of KDE Connect especially for GNOME Shell with Nautilus, Chrome and Firefox integration. It does not rely on the KDE Connect desktop application and will not work with it installed.
+
+[Compiz alike windows effect](https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/) is a GNOME Shell extension that adds wobbly windows effect inspired by the Compiz one
+
+[CPU Power Manager](https://extensions.gnome.org/extension/945/cpu-power-manager/) is a GNOME Shell extension that enables you to manage Intel\_pstate CPU Frequency scaling driver.
+
+[CPU Power Governor](https://extensions.gnome.org/extension/3727/cpu-power-governor/) is a GNOME Shell extension that enables the ability to swap between kernel governors for the CPU useful for laptops.
+
+[CPUFreq](https://extensions.gnome.org/extension/1082/cpufreq/) is a GNOME Shell extension for System Monitor and Power Manager.
+
+[Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) is a GNOME Shell extension that shows an icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) is a GNOME Shell extension that shows a dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/) is a GNOME Shell extension that shows a status menu for accessing and unmounting removable devices.
+
+[Snap Manager](https://extensions.gnome.org/extension/3715/snap-manager/) is a GNOME Shell extension that shows a popup menu in the top bar to easily manage snap tasks (list, changes, refresh, remove, install...). Update notification at session startup.
+
+[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) is a GNOME Shell extension that shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. Various active ports like HDMI , Speakers etc. of the same device are also displayed for selection. V20+ needs python as dependency. If you want to continue with the old method without Python, use options to switch off New Port identification. But it works with only English
+
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/) is a GNOME Shell extension that lets you load shell themes from user directory.
+
+[WinTile: Windows 10 window tiling for GNOME](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)  is a hotkey driven window tiling system for GNOME that imitates the standard Win-Arrow keys of Windows 10, allowing you to maximize, maximize to sides, or 1/4 sized to corner across a single or multiple monitors using just Super+Arrow.
+
+[Gnome Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/) is a GNOME Shell extension that syncs gnome shell keybindings, tweaks settings and extensions with their configuration across all gnome installations.
+
+[Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) is a GNOME Shell extension which bring back Tray Icons to top panel, with additional features.
+
+[GitLab extension](https://extensions.gnome.org/extension/3535/gitlab-extension/) is a GNOME Shell extension that lets you utilizes the official GitLab API to provide a comfortable overview about your projects, commits & pipelines.
+
+## Advanced Topics
+
+**Below are some of my favorite Ubuntu tutorials from [DigitalOcean](https://www.digitalocean.com/) that also work well with Debian.**
+
+[How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)
+
+[How To Configure Nginx as a Web Server and Reverse Proxy for Apache on One Ubuntu 20.04 Server](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-20-04-server)
+
+[How To Install and Configure Postfix on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04)
+
+[How To Install and Use SQLite on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04)
+
+[How To Deploy a React Application with Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-20-04)
+
+[How to Optimize WordPress on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-optimize-wordpress-on-ubuntu-20-04)
+
+[How To Acquire a Let's Encrypt Certificate Using DNS Validation with certbot-dns-digitalocean on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-certbot-dns-digitalocean-on-ubuntu-20-04)
+
+[How To Build a Slackbot in Python on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-build-a-slackbot-in-python-on-ubuntu-20-04)
+
+[How To Back Up, Restore, and Migrate a MongoDB Database on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-a-mongodb-database-on-ubuntu-20-04)
+
+[How To Set Up an Ubuntu 20.04 Server on a DigitalOcean Droplet](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ubuntu-20-04-server-on-a-digitalocean-droplet)
+
+[How To Set Up Physical Streaming Replication with PostgreSQL 12 on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-physical-streaming-replication-with-postgresql-12-on-ubuntu-20-04)
+
+[How To Install and Use Docker Compose on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
+
+[How To Remotely Access GUI Applications Using Docker and Caddy on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-remotely-access-gui-applications-using-docker-and-caddy-on-ubuntu-20-04)
+
+[How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+
+[How To Set Up Mattermost on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-mattermost-on-ubuntu-20-04)
+
+[How To Set Up a Remote Desktop with X2Go on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-remote-desktop-with-x2go-on-ubuntu-20-04)
+
+[How To Install and Configure Drone on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-drone-on-ubuntu-20-04)
+
+[How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04)
+
+[How To Install the Django Web Framework on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-20-04)
+
+[How To Install Jenkins on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04)
+
+[How To Use Traefik v2 as a Reverse Proxy for Docker Containers on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reverse-proxy-for-docker-containers-on-ubuntu-20-04)
+
+[How To Sandbox Processes With Systemd On Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-sandbox-processes-with-systemd-on-ubuntu-20-04)
+
+[How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
+
+# 79. SUSE/openSUSE
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439812-836ed300-6ae7-11eb-9c6c-2f8b2cbaab86.png">
+  <br />
+  SUSE/openSUSE Guide
+</h1>
+
+#### A guide on setting up your SUSE/openSUSE Desktop with all the essential Applications, Tools, and Games to make your experience with SUSE/openSUSE Linux great!
+
+# Getting Started
+
+[SUSE](https://www.suse.com/) is a leading Linux OS most adaptable Linux operating system and the only open Kubernetes management platform thanks to their acquistion of [Rancher](https://rancher.com/). They also developer of [SUSE Linux Enterprise](https://www.suse.com/download/) and the primary sponsor of the community-supported [openSUSE Project](https://software.opensuse.org/), which develops the openSUSE Linux distribution.
+
+[openSUSE Leap](https://en.opensuse.org/Portal:Leap) is a brand new way of building openSUSE and is new type of a hybrid Linux distribution. Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available.
+
+[openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) is a pure rolling release version of openSUSE containing the latest "stable" versions of all software instead of relying on rigid periodic release cycles. The project does this for users that want the newest stable software.
+
+[openSUSE for WSL (Windows Subsystem for Linux)](https://en.opensuse.org/openSUSE:WSL)
+
+[SUSE Linux Enterprise Server for WSL (Windows Subsystem for Linux)](https://www.microsoft.com/en-us/p/suse-linux-enterprise-server-15-sp1/9pn498vpmf3z?activetab=pivot:overviewtab)
+
+[Rancher](https://rancher.com) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads. They were [acquired by SUSE in July 2020](https://rancher.com/blog/2020/suse-to-acquire-rancher/).
+
+[openSUSE Wiki](https://en.opensuse.org/Main_Page)  is the source of information about the openSUSE project and distribution. The goal is to provide high quality documentation and a place for collaboration on all parts of the project.
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+ <h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439814-84a00000-6ae7-11eb-843c-7c1ecc4b60cf.png">
+  <br />
+  SUSE Linux Enterprise 12 Desktop
+</h1>
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439822-879af080-6ae7-11eb-9404-9f1113945c0e.png">
+  <br />
+  openSUSE Deskop
+</h1>
+
+## Installing KDE Plasma on openSUSE
+
+```sh
+sudo zypper install -t pattern kde kde_plasma
+```
+
+After Plasma is installed, you can log into it by simply logging out and selecting Plasma under Session Type at the login manager.
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439825-88cc1d80-6ae7-11eb-9271-f3d3345a3a42.png">
+  <br />
+  KDE Plasma Desktop on openSUSE
+</h1>
+
+## GNOME Tweaks
+
+Open the terminal and run:
+
+```sh
+sudo zypper gnome-tweak-tool //let's you customize your desktop layout.
+```
+
+## Enable Firewall
+
+[Using firewalld](https://en.opensuse.org/Firewalld)
+
+Open the terminal and run:
+
+```sh
+sudo zypper install susefirewall2-to-firewalld
+sudo susefirewall2-to-firewalld
+```
+
+# Getting Software
+
+## GNOME Software Center
+
+<img src="https://user-images.githubusercontent.com/45159366/107158830-71ebc680-6941-11eb-893f-be3ad3e1c830.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line or need software not available in the Software Center checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[TeamViewer](https://www.teamviewer.com/en/download/linux/)
+
+[VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) is an ideal utility for running a single virtual machine on a Windows or Linux PC. Organizations use Workstation Player to deliver managed corporate desktops, while students and educators use it for learning and training.
+
+[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html) is the industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC. IT professionals, developers and businesses who build, test or demo software for any device, platform or cloud rely on Workstation Pro.
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Flatpaks
+
+```sh
+sudo zypper install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## Snaps
+
+[Installing snap on openSUSE](https://snapcraft.io/docs/installing-snap-on-opensuse)
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+Install the [CoreCtrl package from OBS](https://software.opensuse.org/download.html?project=home:Dead_Mozay\&package=corectrl).
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Steam on ArchWiki](https://wiki.archlinux.org/index.php/Steam)
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**OR**
+
+[Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam)
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+# Setting up a MacOS workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+Open the terminal and run:
+
+```sh
+sudo zypper qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/opensuse) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+Open the terminal and run:
+
+```sh
+sudo zypper qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+# GNOME Extensions
+
+**Note: GNOME Extenions allow you customize your Desktop layout anyway you want.**
+
+**Easily turn GNOME Extensions On/Off using the [GNOME Shell integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/?utm_source=addons.mozilla.org\&utm_medium=referral\&utm_content=search) add-on in the Firefox web browser.**
+
+[Caffeine](https://extensions.gnome.org/extension/517/caffeine/) is a GNOME Shell extension that disables the screensaver and auto suspend
+
+[Arc Menu](https://extensions.gnome.org/extension/3628/arcmenu/) is a GNOME Shell extension that adds an Application Menu for GNOME.
+
+[Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) is a GNOME Shell extension that adds a modern desktop interface for Linux - packaged as an extension for GNOME Shell. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.
+
+[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) is a GNOME Shell extension that adds a clipboard indicator to the top panel, and caches clipboard history.
+
+[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) is a GNOME Shell extension that adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+[GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) is a GNOME Shell extension that adds a complete implementation of KDE Connect especially for GNOME Shell with Nautilus, Chrome and Firefox integration. It does not rely on the KDE Connect desktop application and will not work with it installed.
+
+[Compiz alike windows effect](https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/) is a GNOME Shell extension that adds wobbly windows effect inspired by the Compiz one
+
+[CPU Power Manager](https://extensions.gnome.org/extension/945/cpu-power-manager/) is a GNOME Shell extension that enables you to manage Intel\_pstate CPU Frequency scaling driver.
+
+[CPU Power Governor](https://extensions.gnome.org/extension/3727/cpu-power-governor/) is a GNOME Shell extension that enables the ability to swap between kernel governors for the CPU useful for laptops.
+
+[CPUFreq](https://extensions.gnome.org/extension/1082/cpufreq/) is a GNOME Shell extension for System Monitor and Power Manager.
+
+[Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) is a GNOME Shell extension that shows an icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) is a GNOME Shell extension that shows a dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/) is a GNOME Shell extension that shows a status menu for accessing and unmounting removable devices.
+
+[Snap Manager](https://extensions.gnome.org/extension/3715/snap-manager/) is a GNOME Shell extension that shows a popup menu in the top bar to easily manage snap tasks (list, changes, refresh, remove, install...). Update notification at session startup.
+
+[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) is a GNOME Shell extension that shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. Various active ports like HDMI , Speakers etc. of the same device are also displayed for selection. V20+ needs python as dependency. If you want to continue with the old method without Python, use options to switch off New Port identification. But it works with only English
+
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/) is a GNOME Shell extension that lets you load shell themes from user directory.
+
+[WinTile: Windows 10 window tiling for GNOME](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)  is a hotkey driven window tiling system for GNOME that imitates the standard Win-Arrow keys of Windows 10, allowing you to maximize, maximize to sides, or 1/4 sized to corner across a single or multiple monitors using just Super+Arrow.
+
+[Gnome Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/) is a GNOME Shell extension that syncs gnome shell keybindings, tweaks settings and extensions with their configuration across all gnome installations.
+
+[Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) is a GNOME Shell extension which bring back Tray Icons to top panel, with additional features.
+
+[GitLab extension](https://extensions.gnome.org/extension/3535/gitlab-extension/) is a GNOME Shell extension that lets you utilizes the official GitLab API to provide a comfortable overview about your projects, commits & pipelines.
+
+# 80. Arch Linux
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439842-91bcef00-6ae7-11eb-9e8b-bafe48a25bd7.png">
+  <br />
+  Arch Linux Guide
+</h1>
+
+#### A guide on setting up your Arch Linux Desktop with all the essential Applications, Tools, and Games to make your experience with Arch Linux great!
+
+# Getting Started
+
+[Arch Linux](https://archlinux.org/) is an independently developed, x86-64 general purpose GNU/Linux distribution versatile enough to suit any role. Development focuses on simplicity, minimalism, and code elegance. Arch is installed as a minimal base system, configured by the user upon which their own ideal environment is assembled by installing only what is required or desired for their unique purposes.
+
+[ArchWiki](https://wiki.archlinux.org) is the best source for Arch Linux documentation on the web.
+
+[Arch Linux on WSL(Windows Subsystem for Linux)](https://github.com/yuk7/ArchWSL) ⭐ 7,398 | 🐛 64 | 🌐 Makefile | 📅 2026-04-02
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+## Good Arch Linux Desktops for everyday use.
+
+ <h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439879-9da8b100-6ae7-11eb-81a5-219d713130dc.png">
+  <br />
+  Manjaro Linux Desktop
+</h1>
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107439882-9e414780-6ae7-11eb-819e-e87e7bcc7a97.png">
+  <br />
+  EndeavourOS Deskop
+</h1>
+
+## GNOME Tweaks
+
+<https://aur.archlinux.org/gnome-tweaks-git.git>
+
+Open the terminal and run:
+
+```sh
+sudo pacman -S gnome-tweak-tool //let's you customize your desktop layout.
+```
+
+## Setting up Pop Shell
+
+[Pop Shell](https://github.com/pop-os/shell) ⭐ 5,278 | 🐛 454 | 🌐 TypeScript | 📅 2026-08-20 is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows. The core feature of Pop Shell is the addition of advanced tiling window management similar to i3wm.
+
+```sh
+https://aur.archlinux.org/packages/gnome-shell-extension-pop-shell-git.git
+```
+
+## Enable Firewall
+
+[Using firewalld](https://wiki.archlinux.org/index.php/Firewalld)
+
+Open the terminal and run:
+
+```sh
+sudo firewall-cmd --state
+sudo systemctl status firewalld
+```
+
+# Getting Software
+
+## Arch Linux User Repository (AUR)
+
+[Arch Linux User Repository (AUR)](https://aur.archlinux.org/) contains thousands build scripts, for compiling nearly 68,000 installable packages from source using the Arch Linux makepkg application.
+
+## GNOME Software Center
+
+<img src="https://user-images.githubusercontent.com/45159366/107158830-71ebc680-6941-11eb-893f-be3ad3e1c830.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line or need software not available in the AUR or Software Center checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[TeamViewer](https://www.teamviewer.com/en/download/linux/)
+
+[VMware Workstation Player](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) is an ideal utility for running a single virtual machine on a Windows or Linux PC. Organizations use Workstation Player to deliver managed corporate desktops, while students and educators use it for learning and training.
+
+[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html) is the industry standard for running multiple operating systems as virtual machines (VMs) on a single Linux or Windows PC. IT professionals, developers and businesses who build, test or demo software for any device, platform or cloud rely on Workstation Pro.
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Flatpaks
+
+```sh
+sudo pacman -S flatpak
+```
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## Snaps
+
+[Installing snap on Arch Linux](https://snapcraft.io/docs/installing-snap-on-arch-linux)
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+With yay, run:
+
+```sh
+yay -Sy corectrl
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Steam in ArchWiki](https://wiki.archlinux.org/index.php/Steam)
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**OR**
+
+[Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam)
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net)is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+# Setting up a MacOS workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+Open the terminal and run:
+
+```sh
+sudo pacman -S qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/arch) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+Open the terminal and run:
+
+```sh
+sudo pacman -S qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+# GNOME Extensions
+
+**Note: GNOME Extenions allow you customize your Desktop layout anyway you want.**
+
+**Easily turn GNOME Extensions On/Off using the [GNOME Shell integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/?utm_source=addons.mozilla.org\&utm_medium=referral\&utm_content=search) add-on in the Firefox web browser.**
+
+[Caffeine](https://extensions.gnome.org/extension/517/caffeine/) is a GNOME Shell extension that disables the screensaver and auto suspend
+
+[Arc Menu](https://extensions.gnome.org/extension/3628/arcmenu/) is a GNOME Shell extension that adds an Application Menu for GNOME.
+
+[Material Shell](https://extensions.gnome.org/extension/3357/material-shell/) is a GNOME Shell extension that adds a modern desktop interface for Linux - packaged as an extension for GNOME Shell. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.
+
+[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) is a GNOME Shell extension that adds a clipboard indicator to the top panel, and caches clipboard history.
+
+[Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) is a GNOME Shell extension that adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+[GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) is a GNOME Shell extension that adds a complete implementation of KDE Connect especially for GNOME Shell with Nautilus, Chrome and Firefox integration. It does not rely on the KDE Connect desktop application and will not work with it installed.
+
+[Compiz alike windows effect](https://extensions.gnome.org/extension/2950/compiz-alike-windows-effect/) is a GNOME Shell extension that adds wobbly windows effect inspired by the Compiz one
+
+[CPU Power Manager](https://extensions.gnome.org/extension/945/cpu-power-manager/) is a GNOME Shell extension that enables you to manage Intel\_pstate CPU Frequency scaling driver.
+
+[CPU Power Governor](https://extensions.gnome.org/extension/3727/cpu-power-governor/) is a GNOME Shell extension that enables the ability to swap between kernel governors for the CPU useful for laptops.
+
+[CPUFreq](https://extensions.gnome.org/extension/1082/cpufreq/) is a GNOME Shell extension for System Monitor and Power Manager.
+
+[Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) is a GNOME Shell extension that shows an icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+
+[Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) is a GNOME Shell extension that shows a dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+[Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/) is a GNOME Shell extension that shows a status menu for accessing and unmounting removable devices.
+
+[Snap Manager](https://extensions.gnome.org/extension/3715/snap-manager/) is a GNOME Shell extension that shows a popup menu in the top bar to easily manage snap tasks (list, changes, refresh, remove, install...). Update notification at session startup.
+
+[Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) is a GNOME Shell extension that shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. Various active ports like HDMI , Speakers etc. of the same device are also displayed for selection. V20+ needs python as dependency. If you want to continue with the old method without Python, use options to switch off New Port identification. But it works with only English
+
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/) is a GNOME Shell extension that lets you load shell themes from user directory.
+
+[WinTile: Windows 10 window tiling for GNOME](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)  is a hotkey driven window tiling system for GNOME that imitates the standard Win-Arrow keys of Windows 10, allowing you to maximize, maximize to sides, or 1/4 sized to corner across a single or multiple monitors using just Super+Arrow.
+
+[Gnome Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/) is a GNOME Shell extension that syncs gnome shell keybindings, tweaks settings and extensions with their configuration across all gnome installations.
+
+[Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) is a GNOME Shell extension which bring back Tray Icons to top panel, with additional features.
+
+[GitLab extension](https://extensions.gnome.org/extension/3535/gitlab-extension/) is a GNOME Shell extension that lets you utilizes the official GitLab API to provide a comfortable overview about your projects, commits & pipelines.
+
+# 81. Linux Mint
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107585812-b8485c00-6bb3-11eb-9007-c99eb2c8aa8e.png">
+  <br />
+  Linux Mint Guide
+</h1>
+
+#### A guide on setting up your Linux Mint Desktop with all the essential Applications, Tools, and Games to make your experience with Linux Mint great!
+
+# Getting Started
+
+[Linux Mint](https://linuxmint.com/) is a modern, elegant, and comfortable open source operating system(based on Debian and Ubuntu), which is both powerful and easy to use for both new and advanced users. The flagsip version of Linux Mint uses the [Cinnamon desktop environment](https://cinnamon-spices.linuxmint.com/) similiar to Windows 7.
+
+[Linux Mint Xfce](https://linuxmint.com/edition.php?id=286) uses the [Xfce Desktop environment](https://xfce.org/).
+
+[Linux Mint MATE](https://linuxmint.com/edition.php?id=285) uses the [MATE Desktop environment](https://mate-desktop.org/).
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/107585814-ba121f80-6bb3-11eb-9012-f3ce437cbe09.png">
+  <br />
+  Linux Mint Desktop
+</h1>
+
+## Enable Firewall
+
+```sh
+sudo ufw enable  //enables firewall
+sudo ufw status //checks status of firewall
+```
+
+# Getting Software
+
+## Linux Mint Software Center
+
+ <img src="https://user-images.githubusercontent.com/45159366/107585817-bb434c80-6bb3-11eb-9625-6435dd9ad54e.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!\_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Setting up GNOME Software Center(for those that don't want to use the Linux Mint Software Center)
+
+```sh
+sudo apt install gnome-software 
+sudo apt install snapd
+sudo apt install gnome-software-plugin-snap
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+```
+
+ <img src="https://user-images.githubusercontent.com/45159366/107159312-fb03fd00-6943-11eb-933c-188617e63fd1.png">
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Flatpaks
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## Snaps
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+```sh
+sudo add-apt-repository ppa:ernstp/mesarc
+sudo apt install corectrl
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**Or**
+
+```sh
+wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
+```
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+## Winetricks
+
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,545 | 🐛 191 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+
+this is needed to avoid adobeair error
+
+```sh
+sudo sed -i 's|echo "\${arg%%=\*}"=\\""${arg### \*=}"\\"|echo \${arg%%=\*}=\\"\${arg### \*=}\\"|g' /usr/local/bin/winetricks
+sudo apt install cabextract libncurses5:armhf
+```
+
+# Setting up a MacOS workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/mint) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+## Advanced Topics
+
+**Below are some of my favorite Ubuntu tutorials from [DigitalOcean](https://www.digitalocean.com/) but also work well Linux Mint.**
+
+[How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)
+
+[How To Configure Nginx as a Web Server and Reverse Proxy for Apache on One Ubuntu 20.04 Server](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-20-04-server)
+
+[How To Install and Configure Postfix on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04)
+
+[How To Install and Use SQLite on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04)
+
+[How To Deploy a React Application with Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-20-04)
+
+[How to Optimize WordPress on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-optimize-wordpress-on-ubuntu-20-04)
+
+[How To Acquire a Let's Encrypt Certificate Using DNS Validation with certbot-dns-digitalocean on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-certbot-dns-digitalocean-on-ubuntu-20-04)
+
+[How To Build a Slackbot in Python on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-build-a-slackbot-in-python-on-ubuntu-20-04)
+
+[How To Back Up, Restore, and Migrate a MongoDB Database on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-a-mongodb-database-on-ubuntu-20-04)
+
+[How To Set Up an Ubuntu 20.04 Server on a DigitalOcean Droplet](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ubuntu-20-04-server-on-a-digitalocean-droplet)
+
+[How To Set Up Physical Streaming Replication with PostgreSQL 12 on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-physical-streaming-replication-with-postgresql-12-on-ubuntu-20-04)
+
+[How To Install and Use Docker Compose on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
+
+[How To Remotely Access GUI Applications Using Docker and Caddy on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-remotely-access-gui-applications-using-docker-and-caddy-on-ubuntu-20-04)
+
+[How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+
+[How To Set Up Mattermost on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-mattermost-on-ubuntu-20-04)
+
+[How To Set Up a Remote Desktop with X2Go on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-remote-desktop-with-x2go-on-ubuntu-20-04)
+
+[How To Install and Configure Drone on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-drone-on-ubuntu-20-04)
+
+[How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04)
+
+[How To Install the Django Web Framework on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-20-04)
+
+[How To Install Jenkins on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04)
+
+[How To Use Traefik v2 as a Reverse Proxy for Docker Containers on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reverse-proxy-for-docker-containers-on-ubuntu-20-04)
+
+[How To Sandbox Processes With Systemd On Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-sandbox-processes-with-systemd-on-ubuntu-20-04)
+
+[How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
+
+# 82. elementary OS
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/153963482-d13545f5-b165-4768-9ff8-b9206365dfa0.png">
+  <br />
+  elementaryOS Guide
+</h1>
+
+#### A guide on setting up your elementaryOS with all the essential Applications, Tools, and Games to make your experience with elementaryOS great!
+
+# Getting Started
+
+[elementaryOS](https://elementary.io/) is a modern, elegant, and comfortable open source operating system(based on Debian and Ubuntu), which is both powerful and easy to use for both new and advanced users. It promotes itself as a "fast, open, and privacy-respecting" replacement to macOS and Windows and has a pay-what-you-want model for their App Center.
+
+[Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
+
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/129622957-b1d731f1-76ce-407c-9682-80741b987dfc.png">
+  <br />
+  elementaryOS 6 Desktop
+</h1>
+
+## Enable Firewall
+
+```sh
+sudo ufw enable  //enables firewall
+sudo ufw status //checks status of firewall
+```
+
+# Getting Software
+
+## elementaryOS App Center
+
+ <img src="https://user-images.githubusercontent.com/45159366/107863674-00ad8700-6e0b-11eb-807c-58187c381670.png">
+
+**Note 1: All this software is also available in other popular Linux distributions such as [Debian](https://www.debian.org/), [Linux Mint](https://linuxmint.com/), [elementary OS](https://elementary.io/), [Pop!\_OS](https://pop.system76.com/), [Fedora](https://getfedora.org), [Manjaro Linux](https://manjaro.org/), [EndeavourOS](https://endeavouros.com/) and [Arch Linux](https://archlinux.org/).**
+
+**Note 2: For new users not comfortable with using the command-line checkout the Essential Apps section to get started. Also, if you scroll down further you'll see other easy ways to get software applications through Flathub, Snap Store, and AppImages.**
+
+## Setting up GNOME Software Center(for those that don't want to use the App Center)
+
+```sh
+sudo apt install gnome-software 
+sudo apt install snapd
+sudo apt install gnome-software-plugin-snap
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+```
+
+ <img src="https://user-images.githubusercontent.com/45159366/107159312-fb03fd00-6943-11eb-933c-188617e63fd1.png">
+
+## Essential Apps(depending on your workflow)
+
+[Google Chrome browser](https://www.google.com/chrome/)
+
+[Microsoft Edge browser](https://www.microsoftedgeinsider.com/en-us/download/?platform=linux)
+
+[Visual Studio Code](https://code.visualstudio.com/Download)
+
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/download-app)
+
+[Microsoft 365 with Office apps](https://www.microsoft.com/en-us/microsoft-365?legRedir=default\&CorrelationId=335c4ab6-175d-4c4f-888d-15cfd03e4d32)
+
+[Google Workspace (formerly G Suite)](https://workspace.google.com/)
+
+[Zoom](https://zoom.us/download?os=linux)
+
+[Slack](https://slack.com/downloads/linux)
+
+[Trello](https://trello.com/platforms)
+
+[Skype](https://www.skype.com/en/get-skype/)
+
+[Spotify](https://www.spotify.com/us/download/linux/)
+
+[Discord](https://discord.com/download)
+
+[CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
+
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,254 | 🐛 259 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+
+[DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
+
+[Reaper Audio editor](https://www.reaper.fm/download.php) is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
+
+[Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
+
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,296 | 🐛 229 | 🌐 Vala | 📅 2026-09-21 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,331 | 🐛 173 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+
+[Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
+
+## App Outlet
+
+[App Outlet](https://app-outlet.github.io/) is a Universal application store(Flatpaks, Snaps, and AppImages) inspired by the Linux App Store online service.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686354-0095c780-657f-11eb-892b-659d3252d6e7.png">
+
+## Flatpaks
+
+[FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
+
+[FlatHub Forum](https://discourse.flathub.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686365-055a7b80-657f-11eb-9b58-1de28abe2e5b.png">
+
+## Snaps
+
+[Snap Store](https://snapcraft.io/store) is a build and distribution service for Snap applications.
+
+[Snapcraft Forum](https://forum.snapcraft.io/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686375-08ee0280-657f-11eb-9918-5385d8c09148.png">
+ <img src="https://user-images.githubusercontent.com/45159366/106686378-0a1f2f80-657f-11eb-83aa-37ac96c7b032.png">
+
+## AppImages
+
+[AppImageHub](https://www.appimagehub.com) is a build and distribution service for AppImage applications.
+
+[AppImage Manager](https://github.com/AppImageCrafters/appimage-manager) ⭐ 119 | 🐛 8 | 🌐 Go | 📅 2023-10-24 is a package manager for AppImages.
+
+[AppImage Forum](https://discourse.appimage.org/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686382-0b505c80-657f-11eb-9d74-9a94ec0d0693.png">
+
+# Gaming
+
+## Game Streaming
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) use the **Chromebook version** to play all your games in Google Chrome or any Chromium-based web browser such as Brave, Vivaldi, and Microsoft Edge. Also, available as a Electron Desktop App in the [Snap store Geforce NOW](https://snapcraft.io/geforcenow). <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
+
+## Graphics Performance
+
+[GreenWithEnvy (GWE)](https://gitlab.com/leinardi/gwe) is a GTK system utility designed by Roberto Leinardi to provide information, control the fans and overclock your NVIDIA video card for better performance. Available in the Pop Shop as a Flatpak. <img src="https://user-images.githubusercontent.com/45159366/107091994-89974380-67b7-11eb-85ed-eedec7e3dfbf.png">
+
+[CoreCtrl](https://gitlab.com/corectrl/corectrl) is a free and open source Linux application that allows you to control your computer hardware with ease using application profiles for native and Windows applications, has basic CPU controls and full AMD GPUs controls (for both old and new models).
+
+```sh
+sudo add-apt-repository ppa:ernstp/mesarc
+sudo apt install corectrl
+```
+
+<img src="https://user-images.githubusercontent.com/45159366/107092000-8b610700-67b7-11eb-86f7-6fcb3d017cd0.png">
+
+## Performance Benchmarks
+
+[Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+## Steam
+
+[Get Steam](https://store.steampowered.com/about/)
+
+**Or**
+
+```sh
+wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
+```
+
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 32,996 | 🐛 5,216 | 🌐 C++ | 📅 2026-10-06 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+
+## Enable Proton in Steam
+
+* Click on “Steam” then “Settings” to open the Settings window at the far-left corner.
+* On the “Settings” window, click on “Steam Play.” Ensure you check the “Enable Steam Play for supported files” and “Enable Steam Play for   all other titles” checkboxes. Lastly, select the Proton version you wish to use from the drop-down menu.
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+## Lutris
+
+[Lutris](https://lutris.net) is a gaming client for Linux. It gives you access to all your video games with the exception of the current console generation. Also, integrates nicely with other stores like GOG, Steam, Battle.net, Origin, Uplay and many other sources that allow you to import your existing game library and community maintained install scripts give you a completely automated setup.
+
+[Add Epic Games Store](https://lutris.net/games/epic-games-store/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686406-14412e00-657f-11eb-97c4-c80c6e25a374.png">
+
+## GameHub
+
+[GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows you to store your games from different platforms into one program to make it easier for you to manage your games.
+
+<img src="https://user-images.githubusercontent.com/45159366/107862734-96451880-6e03-11eb-9b92-9d355b890083.png">
+
+**GameHub supports:**
+
+* native games for Linux
+
+* **multiple compatibility layers:**
+  * Wine
+  * Proton
+  * [DOSBox](https://www.dosbox.com/)
+  * [RetroArch](https://store.steampowered.com/app/1118310/RetroArch/)
+  * [ScummVM](https://www.scummvm.org/)
+  * [WineWrap](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post1) — a set of preconfigured wrappers for [supported games](https://www.gog.com/forum/general/adamhms_linux_wine_wrappers_news_faq_discussion/post3);
+  * custom emulators
+
+* **multiple game platforms:**
+  * [Steam](https://store.steampowered.com/)
+  * [GOG](https://www.gog.com/)
+  * [Humble Bundle (including Humble Trove)](https://www.humblebundle.com/)
+  * [itch.io](https://itch.io/)
+
+## Wine
+
+[WINE(Wine Is Not an Emulator)](https://www.winehq.org) is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+
+## Winetricks
+
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,545 | 🐛 191 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+
+this is needed to avoid adobeair error
+
+```sh
+sudo sed -i 's|echo "\${arg%%=\*}"=\\""${arg### \*=}"\\"|echo \${arg%%=\*}=\\"\${arg### \*=}\\"|g' /usr/local/bin/winetricks
+sudo apt install cabextract libncurses5:armhf
+```
+
+# Setting up a MacOS workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* A CPU with SSE4.1 support is required for >= macOS Sierra
+* A CPU with AVX2 support is required for >= macOS Mojave
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager dmg2img git wget libguestfs-tools p7zip
+```
+
+[Sosumi](https://snapcraft.io/install/sosumi/elementary) is a app that let's you download and install macOS in a VM. App is based on [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) ⭐ 13,940 | 🐛 362 | 🌐 Shell | 📅 2024-04-04. <img src="https://user-images.githubusercontent.com/45159366/107092234-0fb38a00-67b8-11eb-9f30-f4d16545624b.png">
+
+[OpenCore for macOS](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092246-15a96b00-67b8-11eb-91fb-27494c7f1d4f.jpg">
+
+# Setting up a Windows 10 workspace
+
+**REQUIREMENTS**
+
+* A modern Linux distribution
+* QEMU > 2.11.1
+* A CPU with Intel VT-x / AMD SVM support is required
+* [WindowsGuestDrivers/Download Drivers - KVM](https://www.linux-kvm.org/page/WindowsGuestDrivers/Download_Drivers)
+* Internet access for the installation process
+
+```sh
+Open the terminal and run: 
+sudo apt install qemu uml-utilities virt-manager gnome-boxes
+```
+
+[GNOME Boxes](https://wiki.gnome.org/Apps/Boxes) is an application that gives you access to virtual machines, running locally or remotely. It also allows you to connect to the display of a remote computer.
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092256-1cd07900-67b8-11eb-9ae9-f389045dad26.png">
+ <img src="https://user-images.githubusercontent.com/45159366/107093639-72a62080-67ba-11eb-8d88-477929a5516b.png">
+
+[OpenCore for Windows 10](https://dortania.github.io/OpenCore-Install-Guide/)
+
+ <img src="https://user-images.githubusercontent.com/45159366/107092270-222dc380-67b8-11eb-82cc-d41e9e8a39e0.png">
+
+## Advanced Topics
+
+**Below are some of my favorite Ubuntu tutorials from [DigitalOcean](https://www.digitalocean.com/) but also work well elementaryOS.**
+
+[How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)
+
+[How To Configure Nginx as a Web Server and Reverse Proxy for Apache on One Ubuntu 20.04 Server](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-20-04-server)
+
+[How To Install and Configure Postfix on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04)
+
+[How To Install and Use SQLite on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-sqlite-on-ubuntu-20-04)
+
+[How To Deploy a React Application with Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-react-application-with-nginx-on-ubuntu-20-04)
+
+[How to Optimize WordPress on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-optimize-wordpress-on-ubuntu-20-04)
+
+[How To Acquire a Let's Encrypt Certificate Using DNS Validation with certbot-dns-digitalocean on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-certbot-dns-digitalocean-on-ubuntu-20-04)
+
+[How To Build a Slackbot in Python on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-build-a-slackbot-in-python-on-ubuntu-20-04)
+
+[How To Back Up, Restore, and Migrate a MongoDB Database on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-a-mongodb-database-on-ubuntu-20-04)
+
+[How To Set Up an Ubuntu 20.04 Server on a DigitalOcean Droplet](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ubuntu-20-04-server-on-a-digitalocean-droplet)
+
+[How To Set Up Physical Streaming Replication with PostgreSQL 12 on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-physical-streaming-replication-with-postgresql-12-on-ubuntu-20-04)
+
+[How To Install and Use Docker Compose on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
+
+[How To Remotely Access GUI Applications Using Docker and Caddy on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-remotely-access-gui-applications-using-docker-and-caddy-on-ubuntu-20-04)
+
+[How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+
+[How To Set Up Mattermost on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-mattermost-on-ubuntu-20-04)
+
+[How To Set Up a Remote Desktop with X2Go on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-remote-desktop-with-x2go-on-ubuntu-20-04)
+
+[How To Install and Configure Drone on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-drone-on-ubuntu-20-04)
+
+[How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-20-04)
+
+[How To Install the Django Web Framework on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-20-04)
+
+[How To Install Jenkins on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04)
+
+[How To Use Traefik v2 as a Reverse Proxy for Docker Containers on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-use-traefik-v2-as-a-reverse-proxy-for-docker-containers-on-ubuntu-20-04)
+
+[How To Sandbox Processes With Systemd On Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-sandbox-processes-with-systemd-on-ubuntu-20-04)
+
+[How To Host a Website Using Cloudflare and Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-host-a-website-using-cloudflare-and-nginx-on-ubuntu-20-04)
+
+## Contribute
+
+* [x] If would you like to contribute to this handbook simply make a [Pull Request](https://github.com/mikeroyal/Developer-Handbook/pulls).
+
+## License
+
+[Back to the Top](https://github.com/mikeroyal/Developer-Handbook/blob/main/README.md#table-of-contents)
+
+Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-05._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-06._
