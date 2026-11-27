@@ -205,7 +205,7 @@ HandBook Version 1.0, 2021
 
 [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/) creates virtual machines on Windows 10. Hyper-V can be enabled in many ways including using the Windows 10 control panel, PowerShell or using the Deployment Imaging Servicing and Management tool (DISM).
 
-[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) ⭐ 6,582 | 🐛 200 | 🌐 Rust | 📅 2026-11-25 is an open source Virtual Machine Monitor (VMM) that runs on top of [KVM](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt). The project focuses on exclusively running modern, cloud workloads, on top of a limited set of hardware architectures and platforms. Cloud workloads refers to those that are usually run by customers inside a cloud provider. Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is based on the [rust-vmm](https://github.com/rust-vmm) crates.
+[Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) ⭐ 6,584 | 🐛 203 | 🌐 Rust | 📅 2026-11-27 is an open source Virtual Machine Monitor (VMM) that runs on top of [KVM](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt). The project focuses on exclusively running modern, cloud workloads, on top of a limited set of hardware architectures and platforms. Cloud workloads refers to those that are usually run by customers inside a cloud provider. Cloud Hypervisor is implemented in [Rust](https://www.rust-lang.org/) and is based on the [rust-vmm](https://github.com/rust-vmm) crates.
 
 [Intel® Graphics Virtualization Technology (Intel® GVT)](https://github.com/intel/gvt-linux) ⚠️ Archived is a full GPU virtualization solution with mediated pass-through, starting from 4th generation Intel Core (TM) processors with Intel processor graphics(Broadwell and newer). It can be used to virtualize the GPU for multiple guest virtual machines, effectively providing near-native graphics performance in the virtual machine and still letting your host use the virtualized GPU normally.
 
@@ -217,7 +217,7 @@ HandBook Version 1.0, 2021
 
 [Rancher](https://rancher.com/) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.
 
-[K3s](https://github.com/rancher/k3s) ⭐ 34,525 | 🐛 103 | 🌐 Go | 📅 2026-11-25 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
+[K3s](https://github.com/rancher/k3s) ⭐ 34,533 | 🐛 105 | 🌐 Go | 📅 2026-11-26 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
 
 [Rook](https://rook.io/) is an open source cloud-native storage orchestrator for Kubernetes that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.
 
@@ -243,17 +243,17 @@ HandBook Version 1.0, 2021
 
 [Helm](https://helm.sh/) is the Kubernetes Package Manager.
 
-[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal
+[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal
 
 [Red Hat OpenShift](https://www.openshift.com/) is focused on security at every level of the container stack and throughout the application lifecycle. It includes long-term, enterprise support from one of the leading Kubernetes contributors and open source software companies.
 
-[OpenShift Hive](https://github.com/openshift/hive) ⭐ 276 | 🐛 24 | 🌐 Go | 📅 2026-11-26 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
+[OpenShift Hive](https://github.com/openshift/hive) ⭐ 276 | 🐛 30 | 🌐 Go | 📅 2026-11-27 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
 [OKD](https://okd.io/) is a community distribution of Kubernetes optimized for continuous application development and multi-tenant deployment. OKD adds developer and operations-centric tools on top of Kubernetes to enable rapid application development, easy deployment and scaling, and long-term lifecycle maintenance for small and large teams.
 
 [Odo](https://odo.dev/) is a fast, iterative, and straightforward CLI tool for developers who write, build, and deploy applications on Kubernetes and OpenShift.
 
-[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 53 | 🐛 67 | 🌐 Go | 📅 2026-11-25 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
+[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 53 | 🐛 57 | 🌐 Go | 📅 2026-11-27 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
 
 [Knative](https://knative.dev/) is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads. Knative takes care of the operational overhead details of networking, autoscaling (even to zero), and revision tracking.
 
@@ -301,7 +301,7 @@ HandBook Version 1.0, 2021
 
 [Priam](https://github.com/Netflix/Priam) ⭐ 1,036 | 🐛 57 | 🌐 Java | 📅 2026-09-18 is a process/tool that runs alongside Apache Cassandra to automate backup/recovery, Deployments and Centralized Configuration management.
 
-[Chaos Monkey](https://github.com/Netflix/chaosmonkey) ⭐ 17,272 | 🐛 34 | 🌐 Go | 📅 2025-01-06 is a resiliency tool  used to randomly terminates virtual machine instances and containers that run inside of your production environment. Chaos Monkey should work with any backend that [Spinnaker](http://www.spinnaker.io/) supports (AWS, Google Compute Engine, Microsoft Azure, Kubernetes, and Cloud Foundry).
+[Chaos Monkey](https://github.com/Netflix/chaosmonkey) ⭐ 17,273 | 🐛 34 | 🌐 Go | 📅 2025-01-06 is a resiliency tool  used to randomly terminates virtual machine instances and containers that run inside of your production environment. Chaos Monkey should work with any backend that [Spinnaker](http://www.spinnaker.io/) supports (AWS, Google Compute Engine, Microsoft Azure, Kubernetes, and Cloud Foundry).
 
 [Falcor](https://netflix.github.io/falcor/) is a JavaScript library for efficient data fetching. Falcor lets you represent all your remote data sources as a single domain model via a virtual JSON graph, whether in memory on the client or over the network on the server.
 
@@ -409,7 +409,7 @@ HandBook Version 1.0, 2021
 
 [Raspbian](https://www.raspbian.org) is a Debian-based computer operating system for Raspberry Pi.
 
-[RIOT](https://github.com/RIOT-OS/RIOT) ⭐ 5,845 | 🐛 932 | 🌐 C | 📅 2026-11-25 is the friendly OS for IoT
+[RIOT](https://github.com/RIOT-OS/RIOT) ⭐ 5,847 | 🐛 937 | 🌐 C | 📅 2026-11-27 is the friendly OS for IoT
 
 [RabbitMQ](https://www.rabbitmq.com) is the most widely deployed open source message broker. With tens of thousands of users, RabbitMQ is one of the most popular open source message brokers. From T-Mobile to Runtastic, RabbitMQ is used worldwide at small startups and large enterprises. RabbitMQ is lightweight and easy to deploy on premises and in the cloud.
 
@@ -419,7 +419,7 @@ HandBook Version 1.0, 2021
 
 [OpenIoT](https://github.com/OpenIotOrg/openiot) ⭐ 471 | 🐛 98 | 🌐 Java | 📅 2023-02-22 is an open source middleware infrastructure will support flexible configuration and deployment of algorithms for collection, and filtering information streams stemming from the internet-connected objects, while at the same time generating and processing important business/applications events.
 
-[OpenRemote](https://github.com/openremote/openremote) ⭐ 2,191 | 🐛 498 | 🌐 Java | 📅 2026-11-25 is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools.
+[OpenRemote](https://github.com/openremote/openremote) ⭐ 2,196 | 🐛 497 | 🌐 Java | 📅 2026-11-26 is an open source middleware project, which integrates many different protocols and solutions available for smart building, and smart city automation, and offers visualization tools.
 
 [Kaa](https://www.kaaproject.org/platform/) is a Enterprise IoT Platform has been designed with heavy-duty, enterprise-grade IoT solutions in mind. It banishes a monolithic approach to architecture in favour of highly portable microservices, which allow for flexible rearrangement and customization even in the middle of the solution's lifecycle.
 
@@ -463,7 +463,7 @@ HandBook Version 1.0, 2021
 
 ### Home automation
 
-[Home Assistant](https://github.com/home-assistant/core) ⭐ 92,546 | 🐛 3,754 | 🌐 Python | 📅 2026-11-26 is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+[Home Assistant](https://github.com/home-assistant/core) ⭐ 92,582 | 🐛 3,768 | 🌐 Python | 📅 2026-11-26 is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
 [openHAB](https://github.com/openhab) is a cross-platform software with the aim to integrate all kinds of Smart Home technologies, devices, etc.
 
@@ -590,11 +590,11 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [AppArmor](https://www.apparmor.net/) is an effective and easy-to-use Linux application security system. AppArmor proactively protects the operating system and applications from external or internal threats, even zero-day attacks, by enforcing good behavior and preventing both known and unknown application flaws from being exploited. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC). It has been included in the mainline Linux kernel since version 2.6.36 and its development has been supported by Canonical since 2009.
 
-[SELinux](https://github.com/SELinuxProject/selinux) ⭐ 1,683 | 🐛 10 | 🌐 C | 📅 2026-11-23 is a security enhancement to Linux which allows users and administrators more control over access control. Access can be constrained on such variables as which users and applications can access which resources. These resources may take the form of files. Standard Linux access controls, such as file modes (-rwxr-xr-x) are modifiable by the user and the applications which the user runs. Conversely, SELinux access controls are determined by a policy loaded on the system which may not be changed by careless users or misbehaving applications.
+[SELinux](https://github.com/SELinuxProject/selinux) ⭐ 1,684 | 🐛 10 | 🌐 C | 📅 2026-11-23 is a security enhancement to Linux which allows users and administrators more control over access control. Access can be constrained on such variables as which users and applications can access which resources. These resources may take the form of files. Standard Linux access controls, such as file modes (-rwxr-xr-x) are modifiable by the user and the applications which the user runs. Conversely, SELinux access controls are determined by a policy loaded on the system which may not be changed by careless users or misbehaving applications.
 
 [Control Groups(Cgroups)](https://www.redhat.com/sysadmin/cgroups-part-one) is a Linux kernel feature that allows you to allocate resources such as CPU time, system memory, network bandwidth, or any combination of these resources for user-defined groups of tasks (processes) running on a system.
 
-[EarlyOOM](https://github.com/rfjakob/earlyoom) ⭐ 4,415 | 🐛 27 | 🌐 C | 📅 2026-11-23 is a daemon for Linux that enables users to more quickly recover and regain control over their system in low-memory situations with heavy swap usage.
+[EarlyOOM](https://github.com/rfjakob/earlyoom) ⭐ 4,419 | 🐛 27 | 🌐 C | 📅 2026-11-23 is a daemon for Linux that enables users to more quickly recover and regain control over their system in low-memory situations with heavy swap usage.
 
 [Libgcrypt](https://www.gnupg.org/related_software/libgcrypt/) is a general purpose cryptographic library originally based on code from GnuPG.
 
@@ -614,7 +614,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Cilium](https://cilium.io/) uses eBPF to accelerate getting data in and out of L7 proxies such as Envoy, enabling efficient visibility into API protocols like HTTP, gRPC, and Kafka.
 
-[Hubble](https://github.com/cilium/hubble) ⭐ 4,397 | 🐛 44 | 🌐 Makefile | 📅 2026-11-25 is a Network, Service & Security Observability for Kubernetes using eBPF.
+[Hubble](https://github.com/cilium/hubble) ⭐ 4,399 | 🐛 44 | 🌐 Makefile | 📅 2026-11-25 is a Network, Service & Security Observability for Kubernetes using eBPF.
 
 [Istio](https://istio.io/) is an open platform to connect, manage, and secure microservices. Istio's control plane provides an abstraction layer over the underlying cluster management platform, such as Kubernetes and Mesos.
 
@@ -622,7 +622,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Scapy](https://scapy.net/) is a python-based interactive packet manipulation program & library.
 
-[syzkaller](https://github.com/google/syzkaller) ⭐ 6,424 | 🐛 658 | 🌐 Go | 📅 2026-11-25 is an unsupervised, coverage-guided kernel fuzzer.
+[syzkaller](https://github.com/google/syzkaller) ⭐ 6,425 | 🐛 658 | 🌐 Go | 📅 2026-11-26 is an unsupervised, coverage-guided kernel fuzzer.
 
 [SchedViz](https://github.com/google/schedviz) ⚠️ Archived is a tool for gathering and visualizing kernel scheduling traces on Linux machines.
 
@@ -632,7 +632,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Metasploit Project](https://www.metasploit.com/) is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
 
-[Wfuzz](https://github.com/xmendez/wfuzz) ⭐ 6,610 | 🐛 117 | 🌐 Python | 📅 2026-01-21 was created to facilitate the task in web applications assessments and it is based on a simple concept: it replaces any reference to the FUZZ keyword by the value of a given payload.
+[Wfuzz](https://github.com/xmendez/wfuzz) ⭐ 6,609 | 🐛 117 | 🌐 Python | 📅 2026-01-21 was created to facilitate the task in web applications assessments and it is based on a simple concept: it replaces any reference to the FUZZ keyword by the value of a given payload.
 
 [Nmap](https://nmap.org/) is a security scanner used to discover hosts and services on a computer network, thus building a "map" of the network.
 
@@ -674,7 +674,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Contribute to FOSS](https://github.com/KillYourFM/contribute-foss) ⭐ 250 | 🐛 10 | 📅 2024-08-02 by Jason Evangelho, is an entensive Wiki page on how to contribute to the Linux and FOSS community.
 
-[The Open Source Computer Science Degree by Forrest Knight](https://github.com/ForrestKnight/open-source-cs) ⭐ 23,795 | 🐛 41 | 📅 2025-06-11
+[The Open Source Computer Science Degree by Forrest Knight](https://github.com/ForrestKnight/open-source-cs) ⭐ 23,798 | 🐛 41 | 📅 2025-06-11
 
 [My Windows Subsystem for Linux(WSl) Guide](https://github.com/mikeroyal/WSL-Guide) ⭐ 434 | 🐛 0 | 🌐 Rust | 📅 2024-01-04
 
@@ -826,7 +826,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
   Bspwm
 </h1>
 
-[Bspwm](https://github.com/baskerville/bspwm) ⭐ 8,339 | 🐛 352 | 🌐 C | 📅 2026-06-19, a tiling window manager based on binary space partitioning with a focus on resource efficiency.
+[Bspwm](https://github.com/baskerville/bspwm) ⭐ 8,340 | 🐛 352 | 🌐 C | 📅 2026-06-19, a tiling window manager based on binary space partitioning with a focus on resource efficiency.
 
 ![bspwm](https://user-images.githubusercontent.com/45159366/60765269-d7cce980-a04c-11e9-9a69-3ee236c07a8f.png?raw=true "image")
 
@@ -1072,7 +1072,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Xen](https://github.com/xen-project/xen) ⭐ 864 | 🐛 4 | 🌐 C | 📅 2026-11-26 is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
 
-[Ganeti](https://github.com/ganeti/ganeti) ⭐ 590 | 🐛 327 | 🌐 Python | 📅 2026-11-25 is a virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software. Once installed, the tool assumes management of the virtual instances (Xen DomU).
+[Ganeti](https://github.com/ganeti/ganeti) ⭐ 590 | 🐛 328 | 🌐 Python | 📅 2026-11-25 is a virtual machine cluster management tool built on top of existing virtualization technologies such as Xen or KVM and other open source software. Once installed, the tool assumes management of the virtual instances (Xen DomU).
 
 [Packer](https://www.packer.io/) is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.
 
@@ -1216,7 +1216,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rook](https://rook.io/) is an open source cloud-native storage orchestrator for Kubernetes that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.
 
-[Podman(the POD MANager)](https://github.com/containers/podman) ⭐ 33,395 | 🐛 1,017 | 🌐 Go | 📅 2026-11-25 is a tool for managing [OCI](https://opencontainers.org/) containers and pods.
+[Podman(the POD MANager)](https://github.com/containers/podman) ⭐ 33,399 | 🐛 1,019 | 🌐 Go | 📅 2026-11-26 is a tool for managing [OCI](https://opencontainers.org/) containers and pods.
 
 [Rkt](https://coreos.com/rkt/) is a pod-native container engine for Linux. It is composable, secure, and built on standards.
 
@@ -1320,23 +1320,23 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Odo](https://odo.dev/) is a fast, iterative, and straightforward CLI tool for developers who write, build, and deploy applications on Kubernetes and OpenShift.
 
-[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 53 | 🐛 67 | 🌐 Go | 📅 2026-11-25 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
+[Kata Operator](https://github.com/openshift/kata-operator) ⭐ 53 | 🐛 57 | 🌐 Go | 📅 2026-11-27 is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
 
 [Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 
-[OpenShift Hive](https://github.com/openshift/hive) ⭐ 276 | 🐛 24 | 🌐 Go | 📅 2026-11-26 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
+[OpenShift Hive](https://github.com/openshift/hive) ⭐ 276 | 🐛 30 | 🌐 Go | 📅 2026-11-27 is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
 [Rook](https://rook.io/) is a tool that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.
 
 [VMware Tanzu](https://tanzu.vmware.com/tanzu) is a centralized management platform for consistently operating and securing your Kubernetes infrastructure and modern applications across multiple teams and private/public clouds.
 
-[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,861 | 🐛 181 | 🌐 Jinja | 📅 2026-11-25 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.
+[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26, [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) ⭐ 18,863 | 🐛 178 | 🌐 Jinja | 📅 2026-11-26 (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.
 
 [KubeInit](https://github.com/kubeinit/kubeinit) ⭐ 222 | 🐛 5 | 🌐 Python | 📅 2025-12-05 provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions.
 
 [Rancher](https://rancher.com/) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.
 
-[K3s](https://github.com/rancher/k3s) ⭐ 34,525 | 🐛 103 | 🌐 Go | 📅 2026-11-25 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
+[K3s](https://github.com/rancher/k3s) ⭐ 34,533 | 🐛 105 | 🌐 Go | 📅 2026-11-26 is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
 
 [Helm](https://helm.sh/) is a Kubernetes Package Manager tool that makes it easier to install and manage Kubernetes applications.
 
@@ -1496,7 +1496,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Arduino IDE](https://www.arduino.cc/en/software) is an open-source integrated development environment for the Arduino platform that provides easy-to-use hardware and software.
 
-[Compute Library](https://github.com/ARM-software/ComputeLibrary) ⭐ 3,213 | 🐛 11 | 🌐 C++ | 📅 2026-11-23 is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies.
+[Compute Library](https://github.com/ARM-software/ComputeLibrary) ⭐ 3,213 | 🐛 13 | 🌐 C++ | 📅 2026-11-26 is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies.
 
 [LISA](https://github.com/ARM-software/lisa) ⭐ 207 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2026-10-30 is a project provides a toolkit that supports regression testing and interactive analysis of Linux kernel behavior. LISA stands for Linux Integrated/Interactive System Analysis. LISA's goal is to help Linux kernel developers to measure the impact of modifications in core parts of the kernel. The focus is on the scheduler (EAS), power management and thermal frameworks.
 
@@ -1512,11 +1512,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [TinyGo](https://tinygo.org/) is a Go compiler(based on LLVM) intended for use in small places such as microcontrollers, WebAssembly (Wasm), and command-line tools.
 
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,613 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,618 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
 [Tock](https://www.tockos.org/) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers.
 
-[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,665 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
+[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,666 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
 
 [faasd](https://openfaas.com/blog/introducing-faasd/) is a project similar to [OpenFaaS](https://github.com/openfaas/), but without the cost and complexity of Kubernetes. It runs on a single host with very modest requirements, making it fast and easy to manage. Under the hood it uses [containerd](https://containerd.io/) and [Container Networking Interface (CNI)](https://github.com/containernetworking/cni) ⭐ 6,165 | 🐛 163 | 🌐 Go | 📅 2026-10-26 along with the same core OpenFaaS components from the main project.
 
@@ -1598,9 +1598,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [PlatformIO for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide) is a plugin that provides support for the PlatformIO IDE on VSCode.
 
-[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,665 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
+[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,666 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
 
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,613 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,618 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
 # 10. Machine Learning
 
@@ -1686,9 +1686,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Weka](https://www.cs.waikato.ac.nz/ml/weka/) is an open source machine learning software that can be accessed through a graphical user interface, standard terminal applications, or a Java API. It is widely used for teaching, research, and industrial applications, contains a plethora of built-in tools for standard machine learning tasks, and additionally gives transparent access to well-known toolboxes such as scikit-learn, R, and Deeplearning4j.
 
-[Caffe](https://github.com/BVLC/caffe) ⭐ 34,552 | 🐛 1,176 | 🌐 C++ | 📅 2024-07-31 is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
+[Caffe](https://github.com/BVLC/caffe) ⭐ 34,551 | 🐛 1,176 | 🌐 C++ | 📅 2024-07-31 is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
 
-[Theano](https://github.com/Theano/Theano) ⭐ 10,018 | 🐛 699 | 🌐 Python | 📅 2024-01-15 is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently including tight integration with NumPy.
+[Theano](https://github.com/Theano/Theano) ⭐ 10,017 | 🐛 699 | 🌐 Python | 📅 2024-01-15 is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently including tight integration with NumPy.
 
 [nGraph](https://github.com/NervanaSystems/ngraph) ⚠️ Archived is an open source C++ library, compiler and runtime for Deep Learning. The nGraph Compiler aims to accelerate developing AI workloads using any deep learning framework and deploying to a variety of hardware targets.It provides the freedom, performance, and ease-of-use to AI developers.
 
@@ -1702,7 +1702,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Apache PredictionIO](https://predictionio.apache.org/) is an open source machine learning framework for developers, data scientists, and end users. It supports event collection, deployment of algorithms, evaluation, querying predictive results via REST APIs. It is based on scalable open source services like Hadoop, HBase (and other DBs), Elasticsearch, Spark and implements what is called a Lambda Architecture.
 
-[Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) ⭐ 11,913 | 🐛 521 | 🌐 Scala | 📅 2023-08-02 is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
+[Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) ⭐ 11,911 | 🐛 521 | 🌐 Scala | 📅 2023-08-02 is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
 
 [BigDL](https://bigdl-project.github.io/) is a distributed deep learning library for Apache Spark. With BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters.
 
@@ -1710,11 +1710,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Tensorman](https://github.com/pop-os/tensorman) ⭐ 206 | 🐛 11 | 🌐 Rust | 📅 2025-10-27 is a utility for easy management of Tensorflow containers by developed by [System76](https://system76.com).Tensorman allows Tensorflow to operate in an isolated environment that is contained from the rest of the system. This virtual environment can operate independent of the base system, allowing you to use any version of Tensorflow on any version of a Linux distribution that supports the Docker runtime.
 
-[Numba](https://github.com/numba/numba) ⭐ 11,226 | 🐛 1,848 | 🌐 Python | 📅 2026-11-25 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
+[Numba](https://github.com/numba/numba) ⭐ 11,227 | 🐛 1,848 | 🌐 Python | 📅 2026-11-25 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
-[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,417 | 🐛 702 | 🌐 Python | 📅 2026-11-25 for high performance training and inference.
+[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,417 | 🐛 703 | 🌐 Python | 📅 2026-11-25 for high performance training and inference.
 
-[cuML](https://github.com/rapidsai/cuml) ⭐ 5,328 | 🐛 787 | 🌐 Python | 📅 2026-11-25 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
+[cuML](https://github.com/rapidsai/cuml) ⭐ 5,329 | 🐛 788 | 🌐 Python | 📅 2026-11-26 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
 
 # 11. Python Guide
 
@@ -1778,9 +1778,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Python Tools for Visual Studio(PTVS)](https://microsoft.github.io/PTVS/) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.
 
-[Pylance](https://github.com/microsoft/pylance-release) ⭐ 2,172 | 🐛 30 | 🌐 Python | 📅 2026-11-24 is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
+[Pylance](https://github.com/microsoft/pylance-release) ⭐ 2,171 | 🐛 30 | 🌐 Python | 📅 2026-11-24 is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
 
-[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,765 | 🐛 417 | 🌐 Python | 📅 2026-11-24 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
+[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,764 | 🐛 418 | 🌐 Python | 📅 2026-11-24 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
 
 [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
@@ -1792,21 +1792,21 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Tornado](https://www.tornadoweb.org/) is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.
 
-[HTTPie](https://github.com/httpie/httpie) ⭐ 38,742 | 🐛 364 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+[HTTPie](https://github.com/httpie/httpie) ⭐ 38,746 | 🐛 365 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
 
 [Scrapy](https://scrapy.org/) is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
 
 [Sentry](https://sentry.io/) is a service that helps you monitor and fix crashes in realtime. The server is in Python, but it contains a full API for sending events from any language, in any application.
 
-[Pipenv](https://github.com/pypa/pipenv) ⭐ 25,024 | 🐛 6 | 🌐 Python | 📅 2026-11-25 is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.
+[Pipenv](https://github.com/pypa/pipenv) ⭐ 25,022 | 🐛 5 | 🌐 Python | 📅 2026-11-26 is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.
 
-[Python Fire](https://github.com/google/python-fire) ⭐ 28,230 | 🐛 233 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+[Python Fire](https://github.com/google/python-fire) ⭐ 28,229 | 🐛 233 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 
-[Bottle](https://github.com/bottlepy/bottle) ⭐ 8,804 | 🐛 289 | 🌐 Python | 📅 2026-10-25 is a fast, simple and lightweight [WSGI](https://www.wsgi.org/) micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the [Python Standard Library](https://docs.python.org/library/).
+[Bottle](https://github.com/bottlepy/bottle) ⭐ 8,802 | 🐛 289 | 🌐 Python | 📅 2026-10-25 is a fast, simple and lightweight [WSGI](https://www.wsgi.org/) micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the [Python Standard Library](https://docs.python.org/library/).
 
 [CherryPy](https://cherrypy.org) is a minimalist Python object-oriented HTTP web framework.
 
-[Sanic](https://github.com/huge-success/sanic) ⭐ 18,638 | 🐛 168 | 🌐 Python | 📅 2026-11-20 is a Python 3.6+ web server and web framework that's written to go fast.
+[Sanic](https://github.com/huge-success/sanic) ⭐ 18,638 | 🐛 169 | 🌐 Python | 📅 2026-11-20 is a Python 3.6+ web server and web framework that's written to go fast.
 
 [Pyramid](https://trypyramid.com) is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.
 
@@ -1818,11 +1818,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Dash](https://plotly.com/dash) is a popular Python framework for building ML & data science web apps for Python, R, Julia, and Jupyter.
 
-[Luigi](https://github.com/spotify/luigi) ⭐ 18,797 | 🐛 200 | 🌐 Python | 📅 2026-11-23 is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.
+[Luigi](https://github.com/spotify/luigi) ⭐ 18,798 | 🐛 197 | 🌐 Python | 📅 2026-11-26 is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.
 
-[Locust](https://github.com/locustio/locust) ⭐ 28,313 | 🐛 23 | 🌐 Python | 📅 2026-11-24 is an easy to use, scriptable and scalable performance testing tool.
+[Locust](https://github.com/locustio/locust) ⭐ 28,312 | 🐛 24 | 🌐 Python | 📅 2026-11-24 is an easy to use, scriptable and scalable performance testing tool.
 
-[spaCy](https://github.com/explosion/spaCy) ⭐ 34,094 | 🐛 276 | 🌐 Python | 📅 2026-11-21 is a library for advanced Natural Language Processing in Python and Cython.
+[spaCy](https://github.com/explosion/spaCy) ⭐ 34,095 | 🐛 278 | 🌐 Python | 📅 2026-11-21 is a library for advanced Natural Language Processing in Python and Cython.
 
 [NumPy](https://www.numpy.org/) is the fundamental package needed for scientific computing with Python.
 
@@ -1976,7 +1976,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
-[Airbnb CSS / Sass Style Guide](https://github.com/airbnb/css) ⭐ 6,961 | 🐛 23 | 📅 2024-06-04
+[Airbnb CSS / Sass Style Guide](https://github.com/airbnb/css) ⭐ 6,960 | 🐛 23 | 📅 2024-06-04
 
 [HTML Styles CSS](https://www.w3schools.com/html/html_css.asp)
 
@@ -2082,25 +2082,25 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,612 | 🐛 177 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
 
-[axios](https://github.com/axios/axios) ⭐ 109,445 | 🐛 144 | 🌐 JavaScript | 📅 2026-11-25 is a promise based HTTP client for the browser and node.js.
+[axios](https://github.com/axios/axios) ⭐ 109,468 | 🐛 143 | 🌐 JavaScript | 📅 2026-11-26 is a promise based HTTP client for the browser and node.js.
 
 [Storybook](https://storybook.js.org/) is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.It works with React, Vue, Angular, Ember, and other web frameworks.
 
-[Next.js](https://github.com/vercel/next.js) ⭐ 143,728 | 🐛 4,147 | 🌐 JavaScript | 📅 2026-11-26 is a React Framework for production gives you the best developer experience with all the features needed for production such as hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more.
+[Next.js](https://github.com/vercel/next.js) ⭐ 143,745 | 🐛 4,154 | 🌐 JavaScript | 📅 2026-11-27 is a React Framework for production gives you the best developer experience with all the features needed for production such as hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more.
 
 [React Boilerplate](https://www.reactboilerplate.com/) is a highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,676 | 🐛 768 | 🌐 TypeScript | 📅 2026-11-25 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,677 | 🐛 772 | 🌐 TypeScript | 📅 2026-11-26 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
-[Enzyme](https://github.com/enzymejs/enzyme) ⭐ 19,800 | 🐛 282 | 🌐 JavaScript | 📅 2025-10-22 is a JavaScript Testing utility for React that makes it easier to test your React Components' output. The user can also manipulate, traverse, and in some ways simulate runtime given the output.
+[Enzyme](https://github.com/enzymejs/enzyme) ⭐ 19,801 | 🐛 282 | 🌐 JavaScript | 📅 2025-10-22 is a JavaScript Testing utility for React that makes it easier to test your React Components' output. The user can also manipulate, traverse, and in some ways simulate runtime given the output.
 
-[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,445 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,446 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
 
-[Redux](https://github.com/reduxjs/redux) ⭐ 61,425 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,424 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
 
 [Inferno](https://infernojs.org/) is an insanely fast, React-like library for building high-performance user interfaces on both the client and server.
 
-[Expo](https://github.com/expo/expo) ⭐ 53,783 | 🐛 1,107 | 🌐 TypeScript | 📅 2026-11-26 is an open-source platform for making universal native apps with React.
+[Expo](https://github.com/expo/expo) ⭐ 53,801 | 🐛 1,033 | 🌐 TypeScript | 📅 2026-11-26 is an open-source platform for making universal native apps with React.
 
 [React Native Windows](https://microsoft.github.io/react-native-windows/) is a ramework for building native Windows apps with React. [React Native](https://reactnative.dev/) is a framework developed by Facebook that enables you to build world-class application experiences on native platforms using a consistent developer experience based on JavaScript and React.
 
@@ -2134,7 +2134,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Google's JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 
-[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) ⭐ 148,017 | 🐛 170 | 🌐 JavaScript | 📅 2026-04-16
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) ⭐ 148,014 | 🐛 170 | 🌐 JavaScript | 📅 2026-04-16
 
 [AngularJS Tutorial on W3Schools](https://www.w3schools.com/angular/)
 
@@ -2170,7 +2170,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,676 | 🐛 768 | 🌐 TypeScript | 📅 2026-11-25 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,677 | 🐛 772 | 🌐 TypeScript | 📅 2026-11-26 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [Storybook](https://storybook.js.org/) is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.It works with React, Vue, Angular, Ember, and other web frameworks.
 
@@ -2182,11 +2182,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [NgRx](https://ngrx.io/) is the Reactive libraries for Angular.
 
-[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,445 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,446 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
 
-[Redux](https://github.com/reduxjs/redux) ⭐ 61,425 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,424 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
 
-[Protractor](https://angular.github.io/protractor) is an end-to-end test framework for Angular and AngularJS applications. Protractor is a [Node.js](http://nodejs.org/) program built on top of [WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) ⭐ 34,616 | 🐛 186 | 🌐 Java | 📅 2026-11-26.
+[Protractor](https://angular.github.io/protractor) is an end-to-end test framework for Angular and AngularJS applications. Protractor is a [Node.js](http://nodejs.org/) program built on top of [WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) ⭐ 34,617 | 🐛 190 | 🌐 Java | 📅 2026-11-27.
 
 [Onsen UI](https://onsen.io/) is an open source framework that makes it easy to create native-feeling Progressive Web Apps (PWAs) and hybrid apps. It provides bindings for Angular 1, 2, React and Vue.js.
 
@@ -2256,7 +2256,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
 
-[Element](https://github.com/ElemeFE/element) ⭐ 53,967 | 🐛 2,974 | 🌐 Vue | 📅 2024-08-20 is a Vue.js 2.0 UI Toolkit for Web.
+[Element](https://github.com/ElemeFE/element) ⭐ 53,963 | 🐛 2,973 | 🌐 Vue | 📅 2024-08-20 is a Vue.js 2.0 UI Toolkit for Web.
 
 [Vuetify](https://vuetifyjs.com/) is a Material Component Framework for Vue.
 
@@ -2264,15 +2264,15 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Storybook](https://storybook.js.org/) is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.It works with React, Vue, Angular, Ember, and other web frameworks.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,676 | 🐛 768 | 🌐 TypeScript | 📅 2026-11-25 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,677 | 🐛 772 | 🌐 TypeScript | 📅 2026-11-26 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [Apollo Client](https://apollographql.com/client) is a fully-featured caching GraphQL client with integrations for React, Angular, and more. It allows you to easily build UI components that fetch data via GraphQL.
 
 [Vue-Apollo](http://apollo.vuejs.org/) is  the Apollo/GraphQL integration for VueJS.
 
-[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,445 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,446 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
 
-[Redux](https://github.com/reduxjs/redux) ⭐ 61,425 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,424 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
 
 [Onsen UI](https://onsen.io/) is an open source framework that makes it easy to create native-feeling Progressive Web Apps (PWAs) and hybrid apps. It provides bindings for Angular 1, 2, React and Vue.js.
 
@@ -2298,7 +2298,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Node.js](https://nodejs.org/) is a JavaScript runtime built on Chrome's V8 JavaScript engine that lets developers write command line tools and server-side scripts outside of a browser.
 
-[Node.js Build Working Group](https://github.com/nodejs/build) ⭐ 543 | 🐛 180 | 🌐 Jinja | 📅 2026-11-24 maintains and controls infrastructure used for continuous integration (CI), releases, benchmarks, web hosting (of nodejs.org and other Node.js web properties) and more.
+[Node.js Build Working Group](https://github.com/nodejs/build) ⭐ 543 | 🐛 178 | 🌐 Jinja | 📅 2026-11-24 maintains and controls infrastructure used for continuous integration (CI), releases, benchmarks, web hosting (of nodejs.org and other Node.js web properties) and more.
 
 [The OpenJS Foundation](https://openjsf.org/) is made up of 32 open source JavaScript projects including Appium, Dojo, Electron, jQuery, Node.js, and webpack. The foundation's mission is to support the healthy growth of JavaScript and web technologies by providing a neutral organization to host and sustain projects, as well as collaboratively fund activities that benefit the ecosystem as a whole.
 
@@ -2310,7 +2310,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Node.js App Hosting & Deployment in Microsoft Azure](https://azure.microsoft.com/en-us/develop/nodejs/)
 
-[The Node.js best practices list ](https://github.com/goldbergyoni/nodebestpractices) ⭐ 105,775 | 🐛 139 | 🌐 Dockerfile | 📅 2026-06-15
+[The Node.js best practices list ](https://github.com/goldbergyoni/nodebestpractices) ⭐ 105,774 | 🐛 139 | 🌐 Dockerfile | 📅 2026-06-15
 
 [Introduction to Node.js by W3Schools](https://www.w3schools.com/nodejs/nodejs_intro.asp)
 
@@ -2326,21 +2326,21 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [NPM](https://www.npmjs.com/) is the company behind Node package manager, the npm Registry, and npm CLI.
 
-[node-gyp](https://github.com/nodejs/node-gyp) ⭐ 10,737 | 🐛 175 | 🌐 Python | 📅 2026-11-25 is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
+[node-gyp](https://github.com/nodejs/node-gyp) ⭐ 10,739 | 🐛 175 | 🌐 Python | 📅 2026-11-25 is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
 
-[nvm ](https://github.com/nvm-sh/nvm) ⭐ 96,321 | 🐛 355 | 🌐 Shell | 📅 2026-11-25 is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
+[nvm ](https://github.com/nvm-sh/nvm) ⭐ 96,335 | 🐛 359 | 🌐 Shell | 📅 2026-11-25 is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and windows WSL.
 
 [node-docker](https://hub.docker.com/_/node/) is the official Node.js docker image, made with love by the node community.
 
-[Mocha](https://github.com/mochajs/mocha) ⭐ 22,907 | 🐛 249 | 🌐 JavaScript | 📅 2026-11-25 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
+[Mocha](https://github.com/mochajs/mocha) ⭐ 22,906 | 🐛 249 | 🌐 JavaScript | 📅 2026-11-25 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
 
-[AVA](https://github.com/avajs/ava) ⭐ 20,823 | 🐛 63 | 🌐 JavaScript | 📅 2026-11-25 is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence.
+[AVA](https://github.com/avajs/ava) ⭐ 20,823 | 🐛 61 | 🌐 JavaScript | 📅 2026-11-26 is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and process isolation that lets you develop with confidence.
 
 [egg](https://eggjs.org/) is a born to build better enterprise frameworks and apps with Node.js & Koa.
 
 [mysqljs](https://github.com/mysqljs/mysql) ⭐ 18,612 | 🐛 177 | 🌐 JavaScript | 📅 2024-06-25 is a pure node.js JavaScript Client implementing the MySQL protocol.
 
-[axios](https://github.com/axios/axios) ⭐ 109,445 | 🐛 144 | 🌐 JavaScript | 📅 2026-11-25 is a promise based HTTP client for the browser and node.js.
+[axios](https://github.com/axios/axios) ⭐ 109,468 | 🐛 143 | 🌐 JavaScript | 📅 2026-11-26 is a promise based HTTP client for the browser and node.js.
 
 [Fastify](https://www.fastify.io/) is a fast and low overhead web framework, for Node.js.
 
@@ -2424,13 +2424,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Nest](https://nestjs.com/) is a framework for building efficient, scalable [Node.js](http://nodejs.org/) server-side applications. It is built with TypeScript and combines elements of Object Oriented Programming(OOP), Functional Programming, and Functional Reactive Programming(FRP).
 
-[Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped) ⭐ 51,491 | 🐛 839 | 🌐 TypeScript | 📅 2026-11-26 is a repository for high quality TypeScript type definitions.
+[Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped) ⭐ 51,494 | 🐛 838 | 🌐 TypeScript | 📅 2026-11-26 is a repository for high quality TypeScript type definitions.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,676 | 🐛 768 | 🌐 TypeScript | 📅 2026-11-25 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,677 | 🐛 772 | 🌐 TypeScript | 📅 2026-11-26 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [NativeScript](https://www.nativescript.org/) empowers you to access native APIs from JavaScript directly. The framework currently provides iOS and Android runtimes for rich mobile development and can be utilized in a number of diverse use cases.
 
-[AssemblyScript](https://assemblyscript.org/) compiles a strict variant of TypeScript to [WebAssembly](http://webassembly.org/) using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 589 | 🌐 WebAssembly | 📅 2026-11-25.
+[AssemblyScript](https://assemblyscript.org/) compiles a strict variant of TypeScript to [WebAssembly](http://webassembly.org/) using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 591 | 🌐 WebAssembly | 📅 2026-11-25.
 
 [React Hook Form](https://react-hook-form.com/) is a performant, flexible and extensible forms with easy to use validation(Web + React Native).
 
@@ -2440,7 +2440,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rome](https://romefrontend.dev/) is a linter, compiler, bundler, and [more](https://romefrontend.dev/#development-status) for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.
 
-[Eclipse Theia](https://github.com/eclipse-theia/theia) ⭐ 21,793 | 🐛 1,524 | 🌐 TypeScript | 📅 2026-11-25 is an extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies.
+[Eclipse Theia](https://github.com/eclipse-theia/theia) ⭐ 21,795 | 🐛 1,527 | 🌐 TypeScript | 📅 2026-11-27 is an extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies.
 
 [InversifyJS](https://github.com/inversify/InversifyJS) ⭐ 12,042 | 🐛 2 | 🌐 TypeScript | 📅 2025-11-19 is a powerful and lightweight inversion of control(IoC) container for JavaScript & Node.js apps powered by TypeScript. An IoC container uses a class constructor to identify and inject its dependencies.
 
@@ -2450,7 +2450,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [TypeScript ESLint](https://typescript-eslint.io/) is a monorepo for all the tooling which enables ESLint to support TypeScript.
 
-[TS node](https://github.com/TypeStrong/ts-node) ⭐ 13,116 | 🐛 230 | 🌐 TypeScript | 📅 2024-07-18 is a TypeScript execution and REPL for node.js.
+[TS node](https://github.com/TypeStrong/ts-node) ⭐ 13,115 | 🐛 230 | 🌐 TypeScript | 📅 2024-07-18 is a TypeScript execution and REPL for node.js.
 
 # 19. Rust
 
@@ -2486,45 +2486,45 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 ## Tools
 
-[Cargo](https://github.com/rust-lang/cargo) ⭐ 15,800 | 🐛 1,723 | 🌐 Rust | 📅 2026-11-25 is a package manager that downloads your Rust project’s dependencies and compiles your project.
+[Cargo](https://github.com/rust-lang/cargo) ⭐ 15,806 | 🐛 1,727 | 🌐 Rust | 📅 2026-11-27 is a package manager that downloads your Rust project’s dependencies and compiles your project.
 
 [Crater](https://crater.rust-lang.org/) is a tool to run experiments across parts of the Rust ecosystem. Its primary purpose is to detect regressions in the Rust compiler, and it does this by building a large number of crates, running their test suites and comparing the results between two versions of the Rust compiler. It can operate locally (with Docker as the only dependency) or distributed on the cloud. It can operate locally (with Docker as the only dependency) or distributed on the cloud.
 
 [VSCode-Rust](https://github.com/rust-lang/vscode-rust) ⚠️ Archived is plugin that adds language support for Rust to Visual Studio Code. Rust support is powered by a separate language server - either by the official Rust Language Server (RLS) or rust-analyzer, depending on the user's preference. If you don't have it installed, the extension will install it for you (with permission). This extension is built and maintained by the Rust IDEs and editors team with the focus on providing a stable, high quality extension that makes the best use of the respective language server.
 
-[Apache Arrow](https://github.com/apache/arrow) ⭐ 17,347 | 🐛 2,172 | 🌐 C++ | 📅 2026-11-25 is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.
+[Apache Arrow](https://github.com/apache/arrow) ⭐ 17,356 | 🐛 2,173 | 🌐 C++ | 📅 2026-11-26 is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. Arrow's libraries are available for C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.
 
-[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,266 | 🐛 230 | 🌐 Rust | 📅 2026-11-25.
+[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,265 | 🐛 213 | 🌐 Rust | 📅 2026-11-25.
 
 [Firecracker](https://firecracker-microvm.github.io) is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers. Firecracker has also been integrated in container runtimes, for example [Kata Containers](https://github.com/kata-containers/documentation/wiki/Initial-release-of-Kata-Containers-with-Firecracker-support) ⚠️ Archived and [Weaveworks Ignite](https://github.com/weaveworks/ignite) ⚠️ Archived.
 
-[Tokio](https://github.com/tokio-rs/tokio) ⭐ 33,800 | 🐛 438 | 🌐 Rust | 📅 2026-11-24 is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.
+[Tokio](https://github.com/tokio-rs/tokio) ⭐ 33,810 | 🐛 442 | 🌐 Rust | 📅 2026-11-26 is an event-driven, non-blocking I/O platform for writing asynchronous applications with the Rust programming language.
 
-[TiKV](https://github.com/tikv/tikv) ⭐ 16,972 | 🐛 2,014 | 🌐 Rust | 📅 2026-11-25 is an open-source distributed transactional key-value database that also provides classical key-vlue APIs, but also transactional APIs with ACID compliance.
+[TiKV](https://github.com/tikv/tikv) ⭐ 16,972 | 🐛 2,016 | 🌐 Rust | 📅 2026-11-25 is an open-source distributed transactional key-value database that also provides classical key-vlue APIs, but also transactional APIs with ACID compliance.
 
 [Sonic](https://crates.io/crates/sonic-server) is a fast, lightweight and schema-less search backend similar to Elasticsearch in some use-cases.
 
-[Hyper](https://github.com/hyperium/hyper) ⭐ 16,467 | 🐛 226 | 🌐 Rust | 📅 2026-11-23 is a fast and correct HTTP library for Rust.
+[Hyper](https://github.com/hyperium/hyper) ⭐ 16,475 | 🐛 227 | 🌐 Rust | 📅 2026-11-23 is a fast and correct HTTP library for Rust.
 
-[Rocket](https://github.com/SergioBenitez/Rocket) ⭐ 25,814 | 🐛 72 | 🌐 Rust | 📅 2026-11-21 is an async web framework for Rust with a focus on usability, security, extensibility, and speed.
+[Rocket](https://github.com/SergioBenitez/Rocket) ⭐ 25,815 | 🐛 72 | 🌐 Rust | 📅 2026-11-21 is an async web framework for Rust with a focus on usability, security, extensibility, and speed.
 
 [Clippy](https://rust-lang.github.io/rust-clippy/) is a collection of lints to catch common mistakes and improve your Rust code.
 
-[Servo](https://github.com/servo/servo) ⭐ 38,649 | 🐛 3,175 | 🌐 Rust | 📅 2026-11-26 is a prototype web browser engine written in the Rust language.
+[Servo](https://github.com/servo/servo) ⭐ 38,675 | 🐛 3,161 | 🌐 Rust | 📅 2026-11-26 is a prototype web browser engine written in the Rust language.
 
 [Vector](https://vector.dev/) is a high-performance, end-to-end (agent & aggregator) observability data platform that puts the user in control of their observability data.
 
-[RustPython](https://github.com/RustPython/RustPython) ⭐ 22,508 | 🐛 334 | 🌐 Rust | 📅 2026-11-25 is a Python Interpreter written in Rust.
+[RustPython](https://github.com/RustPython/RustPython) ⭐ 22,509 | 🐛 329 | 🌐 Rust | 📅 2026-11-26 is a Python Interpreter written in Rust.
 
-[Miri](https://github.com/rust-lang/miri) ⭐ 6,771 | 🐛 191 | 🌐 Rust | 📅 2026-11-25 is an interpreter for Rust's mid-level intermediate representation. It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. Miri will alsowill also tell you about memory leaks: when there is memory still allocated at the end of the execution, and that memory is not reachable from a global static, Miri will raise an error.
+[Miri](https://github.com/rust-lang/miri) ⭐ 6,776 | 🐛 193 | 🌐 Rust | 📅 2026-11-26 is an interpreter for Rust's mid-level intermediate representation. It can run binaries and test suites of cargo projects and detect certain classes of undefined behavior. Miri will alsowill also tell you about memory leaks: when there is memory still allocated at the end of the execution, and that memory is not reachable from a global static, Miri will raise an error.
 
 [Chalk](https://rust-lang.github.io/chalk/book/) is an implementation and definition of the Rust trait system using a PROLOG-like logic solver.
 
 [stdarch](https://doc.rust-lang.org/stable/core/arch/) is Rust's standard library vendor-specific APIs and run-time feature detection.
 
-[Simpleinfra](https://github.com/rust-lang/simpleinfra) ⭐ 181 | 🐛 76 | 🌐 HCL | 📅 2026-11-25 is rep that contains the tools and automation written by the Rust infrastructure team to manage our services. Using some of the tools in this repo require privileges only infra team members have.
+[Simpleinfra](https://github.com/rust-lang/simpleinfra) ⭐ 181 | 🐛 78 | 🌐 HCL | 📅 2026-11-26 is rep that contains the tools and automation written by the Rust infrastructure team to manage our services. Using some of the tools in this repo require privileges only infra team members have.
 
-[Rustlings](https://github.com/rust-lang/rustlings) ⭐ 64,794 | 🐛 40 | 🌐 Rust | 📅 2026-11-10 is a small set of exercises to get you used to reading and writing Rust code.
+[Rustlings](https://github.com/rust-lang/rustlings) ⭐ 64,815 | 🐛 40 | 🌐 Rust | 📅 2026-11-10 is a small set of exercises to get you used to reading and writing Rust code.
 
 [Krustlet](https://krustlet.dev/) acts as a Kubernetes Kubelet(written in Rust) by listening on the event stream for new pods that the scheduler assigns to it based on specific Kubernetes [tolerations](https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/). The project is currently experimental.
 
@@ -2592,11 +2592,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) is an IDE for Java, but it also understands and provides intelligent coding assistance for a large variety of other languages such as Kotlin, SQL, JPQL, HTML, JavaScript, etc., even if the language expression is injected into a String literal in your Java code.
 
-[Gradle](https://github.com/gradle/gradle) ⭐ 18,952 | 🐛 3,491 | 🌐 Groovy | 📅 2026-11-25 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, which is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
+[Gradle](https://github.com/gradle/gradle) ⭐ 18,954 | 🐛 3,487 | 🌐 Groovy | 📅 2026-11-27 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, which is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
 
 [vue-kotlin](https://github.com/nosix/vue-kotlin) ⭐ 190 | 🐛 1 | 🌐 Kotlin | 📅 2019-02-23 is libraries and tools supporting the use of Vue.js in Kotlin.
 
-[kotlinx-lincheck](https://github.com/Kotlin/kotlinx-lincheck) ⭐ 706 | 🐛 101 | 🌐 Kotlin | 📅 2026-11-25 is a framework for testing concurrent data structures for correctness.
+[kotlinx-lincheck](https://github.com/Kotlin/kotlinx-lincheck) ⭐ 706 | 🐛 101 | 🌐 Kotlin | 📅 2026-11-26 is a framework for testing concurrent data structures for correctness.
 
 [kotlinx-io](https://github.com/Kotlin/kotlinx-io) ⭐ 1,548 | 🐛 121 | 🌐 Kotlin | 📅 2026-11-13 is a multiplatform library for processing binary data, working with memory blocks, interacting with the platform, and performing other low level operations.
 
@@ -2620,7 +2620,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Swift](https://developer.apple.com/swift/) is Apple's main programming language for iOS, macOS, watchOS, and tvOS app development. Though, many parts of Swift will be familiar to developers from their experience of developing in C and Objective-C.
 
-[Swift Evolution](https://github.com/apple/swift-evolution) ⭐ 15,889 | 🐛 100 | 🌐 Markdown | 📅 2026-11-23 maintains proposals for changes and user-visible enhancements to the Swift Programming Language.
+[Swift Evolution](https://github.com/apple/swift-evolution) ⭐ 15,890 | 🐛 100 | 🌐 Markdown | 📅 2026-11-23 maintains proposals for changes and user-visible enhancements to the Swift Programming Language.
 
 [Xcode + Swift](https://developer.apple.com/swift/resources/) makes developing applications for MacOS and iOS fast and fun.
 
@@ -2642,7 +2642,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Amazon EC2 Mac Instances](https://aws.amazon.com/ec2/instance-types/mac/)
 
-[Swift GitHub](https://github.com/apple/swift) ⭐ 70,614 | 🐛 9,652 | 🌐 Swift | 📅 2026-11-26
+[Swift GitHub](https://github.com/apple/swift) ⭐ 70,617 | 🐛 9,665 | 🌐 Swift | 📅 2026-11-26
 
 [Apple Developer Forums](https://developer.apple.com/forums/)
 
@@ -2680,17 +2680,17 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
-[Vapor](https://github.com/vapor/vapor) ⭐ 26,234 | 🐛 89 | 🌐 Swift | 📅 2026-11-24 is a web framework for Swift. It provides a beautifully expressive and easy to use foundation for your next website, API, or cloud project.
+[Vapor](https://github.com/vapor/vapor) ⭐ 26,236 | 🐛 89 | 🌐 Swift | 📅 2026-11-24 is a web framework for Swift. It provides a beautifully expressive and easy to use foundation for your next website, API, or cloud project.
 
 [Hero](https://github.com/HeroTransitions/Hero) ⭐ 22,497 | 🐛 42 | 🌐 Swift | 📅 2025-01-23 is a library for building iOS view controller transitions. It provides a declarative layer on top of the UIKit's cumbersome transition APIs—making custom transitions an easy task for developers.
 
-[Kingfisher](https://github.com/onevcat/Kingfisher) ⭐ 24,412 | 🐛 144 | 🌐 Swift | 📅 2026-11-21 is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
+[Kingfisher](https://github.com/onevcat/Kingfisher) ⭐ 24,414 | 🐛 144 | 🌐 Swift | 📅 2026-11-21 is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
 
 [Realm](https://github.com/realm/realm-cocoa) ⭐ 16,604 | 🐛 500 | 🌐 Objective-C | 📅 2026-09-27 is a mobile database that runs directly inside phones, tablets or wearables. This repository holds the source code for the iOS, macOS, tvOS & watchOS versions of Realm Swift & Realm Objective-C.
 
-[Perfect](https://github.com/PerfectlySoft/Perfect) ⭐ 13,716 | 🐛 54 | 📅 2026-10-28 is a complete and powerful toolbox, framework, and application server for Linux, iOS, and macOS (OS X). It provides everything a Swift engineer needs for developing lightweight, maintainable, and scalable apps and other REST services entirely in the Swift programming language for both client-facing and server-side applications.
+[Perfect](https://github.com/PerfectlySoft/Perfect) ⭐ 13,717 | 🐛 54 | 📅 2026-10-28 is a complete and powerful toolbox, framework, and application server for Linux, iOS, and macOS (OS X). It provides everything a Swift engineer needs for developing lightweight, maintainable, and scalable apps and other REST services entirely in the Swift programming language for both client-facing and server-side applications.
 
-[Alamofire](https://github.com/Alamofire/Alamofire) ⭐ 42,396 | 🐛 46 | 🌐 Swift | 📅 2026-11-18 is an HTTP networking library written in Swift.
+[Alamofire](https://github.com/Alamofire/Alamofire) ⭐ 42,398 | 🐛 46 | 🌐 Swift | 📅 2026-11-18 is an HTTP networking library written in Swift.
 
 [Eureka](https://github.com/xmartlabs/Eureka) ⭐ 11,803 | 🐛 179 | 🌐 Swift | 📅 2024-09-12 is an elegant iOS form builder in Swift
 
@@ -2720,7 +2720,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Google Developers Certification](https://developers.google.com/certification/)
 
-[Uber's Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md) ⭐ 17,786 | 🐛 39 | 🌐 Makefile | 📅 2026-04-15
+[Uber's Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md) ⭐ 17,796 | 🐛 39 | 🌐 Makefile | 📅 2026-04-15
 
 [GitLab's Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/)
 
@@ -2742,41 +2742,41 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Go in Visual Studio Code](https://code.visualstudio.com/docs/languages/go) is an extension that gives you language features like IntelliSense, code navigation, symbol search, bracket matching, snippets, and many more that will help you in Golang development.
 
-[Traefik](https://github.com/traefik/traefik) ⭐ 65,703 | 🐛 1,020 | 🌐 Go | 📅 2026-11-25 is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, etc.) and configures itself automatically and dynamically. Pointing Traefik at your orchestrator should be the only configuration step you need.
+[Traefik](https://github.com/traefik/traefik) ⭐ 65,735 | 🐛 1,024 | 🌐 Go | 📅 2026-11-26 is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy. Traefik integrates with your existing infrastructure components (Docker, Swarm mode, Kubernetes, Marathon, Consul, Etcd, Rancher, Amazon ECS, etc.) and configures itself automatically and dynamically. Pointing Traefik at your orchestrator should be the only configuration step you need.
 
-[Gitea](https://github.com/go-gitea/gitea) ⭐ 59,260 | 🐛 2,195 | 🌐 Go | 📅 2026-11-25 is Git with a cup of tea, painless self-hosted git service. Using Go, this can be done with an independent binary distribution across all platforms which Go supports, including Linux, macOS, and Windows on x86, amd64, ARM and PowerPC architectures.
+[Gitea](https://github.com/go-gitea/gitea) ⭐ 59,284 | 🐛 2,209 | 🌐 Go | 📅 2026-11-27 is Git with a cup of tea, painless self-hosted git service. Using Go, this can be done with an independent binary distribution across all platforms which Go supports, including Linux, macOS, and Windows on x86, amd64, ARM and PowerPC architectures.
 
-[OpenFaaS](https://github.com/openfaas/faas) ⭐ 26,269 | 🐛 31 | 🌐 Go | 📅 2026-10-23 is Serverless Functions Made Simple. It makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
+[OpenFaaS](https://github.com/openfaas/faas) ⭐ 26,271 | 🐛 31 | 🌐 Go | 📅 2026-10-23 is Serverless Functions Made Simple. It makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
 
-[micro](https://github.com/zyedidia/micro) ⭐ 29,972 | 🐛 910 | 🌐 Go | 📅 2026-11-26 is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals. As its name indicates, micro aims to be somewhat of a successor to the nano editor by being easy to install and use. It strives to be enjoyable as a full-time editor for people who prefer to work in a terminal, or those who regularly edit files over SSH.
+[micro](https://github.com/zyedidia/micro) ⭐ 29,978 | 🐛 911 | 🌐 Go | 📅 2026-11-27 is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the capabilities of modern terminals. As its name indicates, micro aims to be somewhat of a successor to the nano editor by being easy to install and use. It strives to be enjoyable as a full-time editor for people who prefer to work in a terminal, or those who regularly edit files over SSH.
 
-[Gravitational Teleport](https://github.com/gravitational/teleport) ⭐ 21,144 | 🐛 3,253 | 🌐 Go | 📅 2026-11-17 is a modern security gateway for remotely accessing into Clusters of Linux servers via SSH or SSH-over-HTTPS in a browser or Kubernetes clusters.
+[Gravitational Teleport](https://github.com/gravitational/teleport) ⭐ 21,148 | 🐛 3,253 | 🌐 Go | 📅 2026-11-26 is a modern security gateway for remotely accessing into Clusters of Linux servers via SSH or SSH-over-HTTPS in a browser or Kubernetes clusters.
 
 [NATS](https://nats.io/) is a simple, secure and performant communications system for digital systems, services and devices. NATS is part of the Cloud Native Computing Foundation (CNCF). NATS has over 30 client language implementations, and its server can run on-premise, in the cloud, at the edge, and even on a Raspberry Pi. NATS can secure and simplify design and operation of modern distributed systems.
 
-[Act](https://github.com/nektos/act) ⭐ 72,795 | 🐛 302 | 🌐 Go | 📅 2026-11-19 is a GO program that allows you to run our GitHub Actions locally.
+[Act](https://github.com/nektos/act) ⭐ 72,806 | 🐛 303 | 🌐 Go | 📅 2026-11-19 is a GO program that allows you to run our GitHub Actions locally.
 
-[Fiber](https://gofiber.io/) is an [Express](https://github.com/expressjs/express) ⭐ 69,748 | 🐛 267 | 🌐 JavaScript | 📅 2026-11-19 inspired web framework built on top of [Fasthttp](https://github.com/valyala/fasthttp) ⭐ 23,528 | 🐛 63 | 🌐 Go | 📅 2026-11-24, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
+[Fiber](https://gofiber.io/) is an [Express](https://github.com/expressjs/express) ⭐ 69,765 | 🐛 267 | 🌐 JavaScript | 📅 2026-11-19 inspired web framework built on top of [Fasthttp](https://github.com/valyala/fasthttp) ⭐ 23,528 | 🐛 69 | 🌐 Go | 📅 2026-11-24, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
 
-[Glide](https://github.com/Masterminds/glide) ⭐ 8,075 | 🐛 400 | 🌐 Go | 📅 2024-07-22 is a vendor Package Management for Golang.
+[Glide](https://github.com/Masterminds/glide) ⭐ 8,073 | 🐛 400 | 🌐 Go | 📅 2024-07-22 is a vendor Package Management for Golang.
 
-[BadgerDB](https://github.com/dgraph-io/badger) ⭐ 15,836 | 🐛 94 | 🌐 Go | 📅 2026-11-10 is an embeddable, persistent and fast key-value (KV) database written in pure Go. It is the underlying database for [Dgraph](https://dgraph.io/), a fast, distributed graph database. It's meant to be a performant alternative to non-Go-based key-value stores like RocksDB.
+[BadgerDB](https://github.com/dgraph-io/badger) ⭐ 15,841 | 🐛 94 | 🌐 Go | 📅 2026-11-10 is an embeddable, persistent and fast key-value (KV) database written in pure Go. It is the underlying database for [Dgraph](https://dgraph.io/), a fast, distributed graph database. It's meant to be a performant alternative to non-Go-based key-value stores like RocksDB.
 
 [Go kit](https://github.com/go-kit/kit) ⭐ 27,400 | 🐛 62 | 🌐 Go | 📅 2024-07-19 is a programming toolkit for building microservices (or elegant monoliths) in Go. We solve common problems in distributed systems and application architecture so you can focus on delivering business value.
 
-[Codis](https://github.com/CodisLabs/codis) ⭐ 13,211 | 🐛 305 | 🌐 Go | 📅 2024-04-15 is a proxy based high performance Redis cluster solution written in Go.
+[Codis](https://github.com/CodisLabs/codis) ⭐ 13,210 | 🐛 305 | 🌐 Go | 📅 2024-04-15 is a proxy based high performance Redis cluster solution written in Go.
 
 [zap](https://github.com/uber-go/zap) ⭐ 24,696 | 🐛 210 | 🌐 Go | 📅 2026-09-16 is a blazing fast, structured, leveled logging in Go.
 
-[HttpRouter](https://github.com/julienschmidt/httprouter) ⭐ 17,143 | 🐛 89 | 🌐 Go | 📅 2024-07-22 is a lightweight high performance HTTP request router (also called multiplexer or just mux for short) for Go.
+[HttpRouter](https://github.com/julienschmidt/httprouter) ⭐ 17,142 | 🐛 89 | 🌐 Go | 📅 2024-07-22 is a lightweight high performance HTTP request router (also called multiplexer or just mux for short) for Go.
 
-[Gorilla WebSocket](https://github.com/gorilla/websocket) ⭐ 24,881 | 🐛 90 | 🌐 Go | 📅 2025-03-19 is a Go implementation of the WebSocket protocol.
+[Gorilla WebSocket](https://github.com/gorilla/websocket) ⭐ 24,883 | 🐛 90 | 🌐 Go | 📅 2025-03-19 is a Go implementation of the WebSocket protocol.
 
-[Delve](https://github.com/go-delve/delve) ⭐ 24,991 | 🐛 81 | 🌐 Go | 📅 2026-11-21 is a debugger for the Go programming language.
+[Delve](https://github.com/go-delve/delve) ⭐ 24,991 | 🐛 82 | 🌐 Go | 📅 2026-11-21 is a debugger for the Go programming language.
 
-[GORM](https://github.com/go-gorm/gorm) ⭐ 40,001 | 🐛 565 | 🌐 Go | 📅 2026-10-24 is a fantastic ORM library for Golang, aims to be developer friendly.
+[GORM](https://github.com/go-gorm/gorm) ⭐ 40,001 | 🐛 572 | 🌐 Go | 📅 2026-10-24 is a fantastic ORM library for Golang, aims to be developer friendly.
 
-[Go Patterns](https://github.com/tmrts/go-patterns) ⭐ 28,349 | 🐛 64 | 🌐 Go | 📅 2024-05-14 is a curated collection of idiomatic design & application patterns for Go language.
+[Go Patterns](https://github.com/tmrts/go-patterns) ⭐ 28,350 | 🐛 64 | 🌐 Go | 📅 2024-05-14 is a curated collection of idiomatic design & application patterns for Go language.
 
 # 23. C++
 
@@ -2818,7 +2818,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,645 | 🐛 1,039 | 🌐 CMake | 📅 2026-11-26 is a C++ Library Manager for Windows, Linux, and MacOS.
+[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,649 | 🐛 1,044 | 🌐 CMake | 📅 2026-11-26 is a C++ Library Manager for Windows, Linux, and MacOS.
 
 [ReSharper C++](https://www.jetbrains.com/resharper-cpp/features/) is a Visual Studio Extension for C++ developers developed by JetBrains.
 
@@ -2836,7 +2836,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Cython](https://cython.org/) is a language that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations such as calling C functions and declaring C types on variables and class attributes.
 
-[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,821 | 🐛 57 | 🌐 C++ | 📅 2026-11-25 is a very fast, header-only/compiled, C++ logging library.
+[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,832 | 🐛 58 | 🌐 C++ | 📅 2026-11-25 is a very fast, header-only/compiled, C++ logging library.
 
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
@@ -2882,13 +2882,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rails](https://rubyonrails.org/) is a web-application framework that includes everything needed to create database-backed web applications according to the [Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model-view-controller) pattern. Understanding the MVC pattern is key to understanding Rails. MVC divides your application into three layers: Model, View, and Controller, each with a specific responsibility.
 
-[rbenv](https://github.com/rbenv/rbenv) ⭐ 16,750 | 🐛 21 | 🌐 Shell | 📅 2026-07-14 allows to pick a Ruby version for your application and guarantee that your development environment matches production. Put rbenv to work with Bundler for painless Ruby upgrades and bulletproof deployments.
+[rbenv](https://github.com/rbenv/rbenv) ⭐ 16,752 | 🐛 21 | 🌐 Shell | 📅 2026-07-14 allows to pick a Ruby version for your application and guarantee that your development environment matches production. Put rbenv to work with Bundler for painless Ruby upgrades and bulletproof deployments.
 
 [Prettier for Ruby](https://prettier.io/) is a plugin for the Ruby programming language and its ecosystem. prettier is an opinionated code formatter that supports multiple languages and integrates with most editors. The idea is to eliminate discussions of style in code review and allow developers to get back to thinking about code design instead.
 
 [Active Admin](https://activeadmin.info/) is a Ruby on Rails framework for creating elegant backends for website administration.
 
-[Capistrano](https://github.com/capistrano/capistrano) ⭐ 13,012 | 🐛 75 | 🌐 Ruby | 📅 2026-11-02 is a framework for building automated deployment scripts. Although Capistrano itself is written in Ruby, it can easily be used to deploy projects of any language or framework, be it Rails, Java, or PHP.
+[Capistrano](https://github.com/capistrano/capistrano) ⭐ 13,011 | 🐛 75 | 🌐 Ruby | 📅 2026-11-02 is a framework for building automated deployment scripts. Although Capistrano itself is written in Ruby, it can easily be used to deploy projects of any language or framework, be it Rails, Java, or PHP.
 
 [Spree](https://spreecommerce.org/) is an open source E-commerce platform for Rails 6 with a modern UX, optional PWA frontend, REST API, GraphQL, several official extensions and 3rd party integrations.
 
@@ -2898,13 +2898,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [React-Rails](https://github.com/reactjs/react-rails) ⭐ 6,772 | 🐛 38 | 🌐 JavaScript | 📅 2026-07-31 is a flexible tool to use [React](http://facebook.github.io/react/) with Rails. By integrating React.js with Rails views and controllers, the asset pipeline, or webpacker.
 
-[Pry](https://github.com/pry/pry) ⭐ 6,837 | 🐛 124 | 🌐 Ruby | 📅 2026-11-15 is a runtime developer console and IRB alternative with powerful introspection capabilities.
+[Pry](https://github.com/pry/pry) ⭐ 6,839 | 🐛 124 | 🌐 Ruby | 📅 2026-11-15 is a runtime developer console and IRB alternative with powerful introspection capabilities.
 
 [Brakeman](https://brakemanscanner.org/) is a static analysis tool which checks Ruby on Rails applications for security vulnerabilities.
 
-[dotenv](https://github.com/bkeepers/dotenv) ⭐ 6,769 | 🐛 19 | 🌐 Ruby | 📅 2026-06-22 is a Ruby gem to load environment variables from `.env`.
+[dotenv](https://github.com/bkeepers/dotenv) ⭐ 6,768 | 🐛 19 | 🌐 Ruby | 📅 2026-06-22 is a Ruby gem to load environment variables from `.env`.
 
-[Scientist](https://github.com/github/scientist) ⭐ 7,798 | 🐛 17 | 🌐 Ruby | 📅 2026-11-13 is a Ruby library for carefully refactoring critical paths.
+[Scientist](https://github.com/github/scientist) ⭐ 7,799 | 🐛 17 | 🌐 Ruby | 📅 2026-11-13 is a Ruby library for carefully refactoring critical paths.
 
 [fastlane](https://fastlane.tools/) is a tool written in Ruby for iOS and Android developers to automate tedious tasks like generating screenshots, dealing with provisioning profiles, and releasing your application.
 
@@ -2966,13 +2966,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [NetBeans](https://netbeans.org/features/java/index.html) is an IDE provides Java developers with all the tools needed to create professional desktop, mobile and enterprise applications. Creating, Editing, and Refactoring. The IDE provides wizards and templates to let you create Java EE, Java SE, and Java ME applications.
 
-[Java Design Patterns ](https://github.com/iluwatar/java-design-patterns) ⭐ 94,911 | 🐛 155 | 🌐 Java | 📅 2026-10-08 is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
+[Java Design Patterns ](https://github.com/iluwatar/java-design-patterns) ⭐ 94,913 | 🐛 155 | 🌐 Java | 📅 2026-10-08 is a collection of the best formalized practices a programmer can use to solve common problems when designing an application or system.
 
 [Elasticsearch](https://www.elastic.co/products/elasticsearch) is a distributed RESTful search engine built for the cloud written in Java.
 
-[RxJava](https://github.com/ReactiveX/RxJava) ⭐ 48,148 | 🐛 11 | 🌐 Java | 📅 2026-11-25 is a Java VM implementation of [Reactive Extensions](http://reactivex.io/): a library for composing asynchronous and event-based programs by using observable sequences. It extends the [observer pattern](http://en.wikipedia.org/wiki/Observer_pattern) to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.
+[RxJava](https://github.com/ReactiveX/RxJava) ⭐ 48,146 | 🐛 11 | 🌐 Java | 📅 2026-11-25 is a Java VM implementation of [Reactive Extensions](http://reactivex.io/): a library for composing asynchronous and event-based programs by using observable sequences. It extends the [observer pattern](http://en.wikipedia.org/wiki/Observer_pattern) to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.
 
-[Guava](https://github.com/google/guava) ⭐ 51,931 | 🐛 778 | 🌐 Java | 📅 2026-11-26 is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
+[Guava](https://github.com/google/guava) ⭐ 51,931 | 🐛 773 | 🌐 Java | 📅 2026-11-26 is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
 
 [okhttp](https://square.github.io/okhttp/) is a HTTP client for Java and Kotlin developed by Square.
 
@@ -3066,15 +3066,15 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Apache PredictionIO](https://predictionio.apache.org/) is an open source machine learning framework for developers, data scientists, and end users. It supports event collection, deployment of algorithms, evaluation, querying predictive results via REST APIs. It is based on scalable open source services like Hadoop, HBase (and other DBs), Elasticsearch, Spark and implements what is called a Lambda Architecture.
 
-[Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) ⭐ 11,913 | 🐛 521 | 🌐 Scala | 📅 2023-08-02 is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
+[Cluster Manager for Apache Kafka(CMAK)](https://github.com/yahoo/CMAK) ⭐ 11,911 | 🐛 521 | 🌐 Scala | 📅 2023-08-02 is a tool for managing [Apache Kafka](https://kafka.apache.org/) clusters.
 
 [BigDL](https://bigdl-project.github.io/) is a distributed deep learning library for Apache Spark. With BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters.
 
 [Eclipse Deeplearning4J (DL4J)](https://deeplearning4j.konduit.ai/) is a set of projects intended to support all the needs of a JVM-based(Scala, Kotlin, Clojure, and Groovy) deep learning application. This means starting with the raw data, loading and preprocessing it from wherever and whatever format it is in to building and tuning a wide variety of simple and complex deep learning networks.
 
-[Play Framework](https://github.com/playframework/playframework) ⭐ 12,626 | 🐛 487 | 🌐 Scala | 📅 2026-11-25 is a web framework combines productivity and performance making it easy to build scalable web applications with Java and Scala.
+[Play Framework](https://github.com/playframework/playframework) ⭐ 12,626 | 🐛 482 | 🌐 Scala | 📅 2026-11-26 is a web framework combines productivity and performance making it easy to build scalable web applications with Java and Scala.
 
-[Dotty](https://github.com/lampepfl/dotty) ⭐ 6,342 | 🐛 1,833 | 🌐 Scala | 📅 2026-11-25 is a research compiler that will become Scala 3.
+[Dotty](https://github.com/lampepfl/dotty) ⭐ 6,342 | 🐛 1,817 | 🌐 Scala | 📅 2026-11-26 is a research compiler that will become Scala 3.
 
 [AWScala](https://github.com/seratch/AWScala) ⚠️ Archived is a tool that enables Scala developers to easily work with Amazon Web Services in the Scala way.
 
@@ -3126,7 +3126,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [IntelliJ IDEA](https://www.jetbrains.com/idea/) is an IDE for Java, but it also understands and provides intelligent coding assistance for a large variety of other languages such as Kotlin, SQL, JPQL, HTML, JavaScript, etc., even if the language expression is injected into a String literal in your Java code.
 
-[Gradle](https://github.com/gradle/gradle) ⭐ 18,952 | 🐛 3,491 | 🌐 Groovy | 📅 2026-11-25 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, and is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
+[Gradle](https://github.com/gradle/gradle) ⭐ 18,954 | 🐛 3,487 | 🌐 Groovy | 📅 2026-11-27 is a build automation tool that supports multi-language development. If you're building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle is designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, Swift, and Groovy, and is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
 
 [Groovy Language Server](https://github.com/prominic/groovy-language-server) ⭐ 235 | 🐛 26 | 🌐 Java | 📅 2026-05-19 is a [language server](https://microsoft.github.io/language-server-protocol/) protocol for [Groovy](https://groovy-lang.org/).
 
@@ -3136,11 +3136,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rest-assured](https://github.com/rest-assured/rest-assured) ⭐ 7,150 | 🐛 548 | 🌐 Java | 📅 2026-11-13 is a Java DSL for easy testing of REST services.
 
-[Spock](https://github.com/spockframework/spock) ⭐ 3,630 | 🐛 208 | 🌐 Java | 📅 2026-11-24 is a BDD-style developer testing and specification framework for Java and Groovy applications.
+[Spock](https://github.com/spockframework/spock) ⭐ 3,630 | 🐛 209 | 🌐 Java | 📅 2026-11-24 is a BDD-style developer testing and specification framework for Java and Groovy applications.
 
 [Micronaut](https://micronaut.io) is a modern, JVM-based, full stack Java framework designed for building modular, easily testable JVM applications with support for Java, Kotlin and the Groovy language.
 
-[Nextflow](https://github.com/nextflow-io/nextflow) ⭐ 3,536 | 🐛 434 | 🌐 Groovy | 📅 2026-11-25 is a bioinformatics workflow manager that enables the development of portable and reproducible workflows. It supports deploying workflows on a variety of execution platforms including local, HPC schedulers, AWS Batch, Google Cloud Life Sciences, and Kubernetes. Additionally, it provides support for manage your workflow dependencies through built-in support for Conda, Docker, Singularity, and Modules.
+[Nextflow](https://github.com/nextflow-io/nextflow) ⭐ 3,537 | 🐛 435 | 🌐 Groovy | 📅 2026-11-26 is a bioinformatics workflow manager that enables the development of portable and reproducible workflows. It supports deploying workflows on a variety of execution platforms including local, HPC schedulers, AWS Batch, Google Cloud Life Sciences, and Kubernetes. Additionally, it provides support for manage your workflow dependencies through built-in support for Conda, Docker, Singularity, and Modules.
 
 [Dex : The Data Explorer](https://github.com/PatMartin/Dex) ⭐ 1,316 | 🐛 5 | 🌐 JavaScript | 📅 2019-02-12 is a data visualization tool written in Java/Groovy/JavaFX capable of powerful ETL and publishing web visualizations.
 
@@ -3186,13 +3186,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Riemann](https://riemann.io/) is a network event stream processing system for monitoring distributed systems, in Clojure.
 
-[Datascript](https://github.com/tonsky/datascript) ⭐ 5,798 | 🐛 76 | 🌐 Clojure | 📅 2026-08-15 is an immutable in-memory database and Datalog query engine in Clojure, ClojureScript, and JavaScript.
+[Datascript](https://github.com/tonsky/datascript) ⭐ 5,797 | 🐛 76 | 🌐 Clojure | 📅 2026-08-15 is an immutable in-memory database and Datalog query engine in Clojure, ClojureScript, and JavaScript.
 
 [Compojure](https://github.com/weavejester/compojure) ⭐ 4,116 | 🐛 7 | 🌐 Clojure | 📅 2025-09-15 is a small routing library for [Ring](https://github.com/ring-clojure/ring) ⭐ 3,891 | 🐛 40 | 🌐 Clojure | 📅 2026-11-10 that allows web applications to be composed of small, independent parts.
 
 [Ring](https://github.com/ring-clojure/ring) ⭐ 3,891 | 🐛 40 | 🌐 Clojure | 📅 2026-11-10 is a Clojure web applications library inspired by Python's WSGI and Ruby's Rack. By abstracting the details of HTTP into a simple, unified API, Ring allows web applications to be constructed of modular components that can be shared among a variety of applications, web servers, and web frameworks.
 
-[Hiccup](https://github.com/weavejester/hiccup) ⭐ 2,854 | 🐛 27 | 🌐 Clojure | 📅 2025-06-19 is a library for representing HTML in Clojure. It uses vectors to represent elements, and maps to represent an element's attributes.
+[Hiccup](https://github.com/weavejester/hiccup) ⭐ 2,855 | 🐛 27 | 🌐 Clojure | 📅 2025-06-19 is a library for representing HTML in Clojure. It uses vectors to represent elements, and maps to represent an element's attributes.
 
 [Onyx](https://github.com/onyx-platform/onyx) ⚠️ Archived is a distributed, masterless, high performance, fault tolerant data processing system.
 
@@ -3256,29 +3256,29 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [WebAssembly Studio](https://webassembly.studio/) is a tool that allows you to Learn, Teach, Work and Play with WebAssembly.
 
-[WABT](https://github.com/WebAssembly/wabt) ⭐ 8,221 | 🐛 242 | 🌐 C++ | 📅 2026-11-23 is a suite of tools for WebAssembly.
+[WABT](https://github.com/WebAssembly/wabt) ⭐ 8,222 | 🐛 241 | 🌐 C++ | 📅 2026-11-26 is a suite of tools for WebAssembly.
 
-[Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 589 | 🌐 WebAssembly | 📅 2026-11-25 is a compiler and toolchain infrastructure library for WebAssembly, written in C++. It aims to make [compiling to WebAssembly](https://github.com/WebAssembly/binaryen/wiki/Compiling-to-WebAssembly-with-Binaryen) ⭐ 8,689 | 🐛 589 | 🌐 WebAssembly | 📅 2026-11-25 easy, fast, and effective.
+[Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 591 | 🌐 WebAssembly | 📅 2026-11-25 is a compiler and toolchain infrastructure library for WebAssembly, written in C++. It aims to make [compiling to WebAssembly](https://github.com/WebAssembly/binaryen/wiki/Compiling-to-WebAssembly-with-Binaryen) ⭐ 8,689 | 🐛 591 | 🌐 WebAssembly | 📅 2026-11-25 easy, fast, and effective.
 
 [Lucet](https://github.com/alexcrichton/lucet) ⭐ 0 | 🐛 0 | 📅 2020-11-09 is a native WebAssembly compiler and runtime. It is designed to safely execute untrusted WebAssembly programs inside your application.
 
 [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) is a feature of ASP.NET, a popular web development framework that extends the.NET developer platform with tools and libraries for building web apps. Run on WebAssembly or the server Blazor can run your client-side C# code directly in the browser, using WebAssembly.
 
-[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,266 | 🐛 230 | 🌐 Rust | 📅 2026-11-25.
+[Wasmer](https://wasmer.io/) enables super lightweight containers based on [WebAssembly](https://webassembly.org/) that can run anywhere such as the Desktop to the Cloud and IoT devices, and also embedded in [any programming language](https://github.com/wasmerio/wasmer#language-integrations) ⭐ 21,265 | 🐛 213 | 🌐 Rust | 📅 2026-11-25.
 
-[AssemblyScript](https://github.com/AssemblyScript/assemblyscript) ⭐ 18,044 | 🐛 219 | 🌐 WebAssembly | 📅 2026-10-18 compiles a strict variant of TypeScript (JavaScript with types) to WebAssembly using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 589 | 🌐 WebAssembly | 📅 2026-11-25.
+[AssemblyScript](https://github.com/AssemblyScript/assemblyscript) ⭐ 18,043 | 🐛 219 | 🌐 WebAssembly | 📅 2026-10-18 compiles a strict variant of TypeScript (JavaScript with types) to WebAssembly using [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 591 | 🌐 WebAssembly | 📅 2026-11-25.
 
 [TinyGo](https://tinygo.org/) is a Go compiler(based on LLVM) intended for use in small places such as microcontrollers, WebAssembly (Wasm), and command-line tools.
 
-[Capstone](https://github.com/aquynh/capstone) ⭐ 9,219 | 🐛 354 | 🌐 C | 📅 2026-11-25 is a  disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86\_64, XCore) + bindings.
+[Capstone](https://github.com/aquynh/capstone) ⭐ 9,222 | 🐛 353 | 🌐 C | 📅 2026-11-26 is a  disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86\_64, XCore) + bindings.
 
 [Vecty](https://github.com/hexops/vecty) ⚠️ Archived is a tool that lets you build responsive and dynamic web frontends in Go using WebAssembly, competing with modern web frameworks like React & VueJS.
 
-[WebAssembly Micro Runtime (WAMR)](https://github.com/bytecodealliance/wasm-micro-runtime) ⭐ 6,236 | 🐛 656 | 🌐 C | 📅 2026-11-22 is a standalone WebAssembly (WASM) runtime with a small footprint.
+[WebAssembly Micro Runtime (WAMR)](https://github.com/bytecodealliance/wasm-micro-runtime) ⭐ 6,237 | 🐛 657 | 🌐 C | 📅 2026-11-22 is a standalone WebAssembly (WASM) runtime with a small footprint.
 
-[Pion WebRTC](https://github.com/pion/webrtc) ⭐ 16,926 | 🐛 105 | 🌐 Go | 📅 2026-11-25 is a pure Go implementation of [WebRTC API](https://w3c.github.io/webrtc-pc/).
+[Pion WebRTC](https://github.com/pion/webrtc) ⭐ 16,929 | 🐛 105 | 🌐 Go | 📅 2026-11-26 is a pure Go implementation of [WebRTC API](https://w3c.github.io/webrtc-pc/).
 
-[vim.wasm](http://rhysd.github.io/vim.wasm) is a port of the Vim ediotr to Webassemly using  [Emscripten](http://kripken.github.io/emscripten-site/) and [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 589 | 🌐 WebAssembly | 📅 2026-11-25.
+[vim.wasm](http://rhysd.github.io/vim.wasm) is a port of the Vim ediotr to Webassemly using  [Emscripten](http://kripken.github.io/emscripten-site/) and [Binaryen](https://github.com/WebAssembly/binaryen) ⭐ 8,689 | 🐛 591 | 🌐 WebAssembly | 📅 2026-11-25.
 
 # 30. CUDA
 
@@ -3324,15 +3324,15 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Minkowski Engine](https://nvidia.github.io/MinkowskiEngine) is an auto-differentiation library for sparse tensors. It supports all standard neural network layers such as convolution, pooling, unpooling, and broadcasting operations for sparse tensors.
 
-[CUTLASS](https://github.com/NVIDIA/cutlass) ⭐ 10,774 | 🐛 824 | 🌐 C++ | 📅 2026-11-25 is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.
+[CUTLASS](https://github.com/NVIDIA/cutlass) ⭐ 10,779 | 🐛 826 | 🌐 C++ | 📅 2026-11-25 is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.
 
 [CUB](https://github.com/NVIDIA/cub) ⚠️ Archived is a cooperative primitives for CUDA C++ kernel authors.
 
 [Tensorman](https://github.com/pop-os/tensorman) ⭐ 206 | 🐛 11 | 🌐 Rust | 📅 2025-10-27 is a utility for easy management of Tensorflow containers by developed by [System76](https://system76.com).Tensorman allows Tensorflow to operate in an isolated environment that is contained from the rest of the system. This virtual environment can operate independent of the base system, allowing you to use any version of Tensorflow on any version of a Linux distribution that supports the Docker runtime.
 
-[Numba](https://github.com/numba/numba) ⭐ 11,226 | 🐛 1,848 | 🌐 Python | 📅 2026-11-25 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
+[Numba](https://github.com/numba/numba) ⭐ 11,227 | 🐛 1,848 | 🌐 Python | 📅 2026-11-25 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
-[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,417 | 🐛 702 | 🌐 Python | 📅 2026-11-25 for high performance training and inference.
+[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,417 | 🐛 703 | 🌐 Python | 📅 2026-11-25 for high performance training and inference.
 
 [CuPy](https://cupy.dev/) is an implementation of NumPy-compatible multi-dimensional array on CUDA. CuPy consists of the core multi-dimensional array class, cupy.ndarray, and many functions on it. It supports a subset of numpy.ndarray interface.
 
@@ -3340,7 +3340,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [cuDF](https://rapids.ai/) is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data. cuDF provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.
 
-[cuML](https://github.com/rapidsai/cuml) ⭐ 5,328 | 🐛 787 | 🌐 Python | 📅 2026-11-25 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
+[cuML](https://github.com/rapidsai/cuml) ⭐ 5,329 | 🐛 788 | 🌐 Python | 📅 2026-11-26 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
 
 [ArrayFire](https://arrayfire.com/) is a general-purpose library that simplifies the process of developing software that targets parallel and massively-parallel architectures including CPUs, GPUs, and other hardware acceleration devices.
 
@@ -3418,7 +3418,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [JuMP.jl](https://jump.dev/) is a domain-specific modeling language for [mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) embedded in Julia.
 
-[Optim.jl](https://github.com/JuliaNLSolvers/Optim.jl) ⭐ 1,207 | 🐛 114 | 🌐 Julia | 📅 2026-11-06 is a univariate and multivariate optimization in Julia.
+[Optim.jl](https://github.com/JuliaNLSolvers/Optim.jl) ⭐ 1,207 | 🐛 113 | 🌐 Julia | 📅 2026-11-26 is a univariate and multivariate optimization in Julia.
 
 [RCall.jl](https://github.com/JuliaInterop/RCall.jl) ⭐ 339 | 🐛 51 | 🌐 Julia | 📅 2026-11-24 is a package that allows you to call R functions from Julia.
 
@@ -3486,7 +3486,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Rplugin](https://github.com/JetBrains/Rplugin) ⭐ 71 | 🐛 2 | 🌐 Kotlin | 📅 2026-10-30 is R Language supported plugin for the IntelliJ IDE.
 
-[Plotly](https://plotly-r.com/) is an R package for creating interactive web graphics via the open source JavaScript graphing library [plotly.js](https://github.com/plotly/plotly.js) ⭐ 18,390 | 🐛 820 | 🌐 JavaScript | 📅 2026-11-25.
+[Plotly](https://plotly-r.com/) is an R package for creating interactive web graphics via the open source JavaScript graphing library [plotly.js](https://github.com/plotly/plotly.js) ⭐ 18,391 | 🐛 825 | 🌐 JavaScript | 📅 2026-11-25.
 
 [Metaflow](https://metaflow.org/) is a Python/R library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.
 
@@ -3498,7 +3498,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [MLR](https://mlr.mlr-org.com/) is Machine Learning in R.
 
-[ML workspace](https://github.com/ml-tooling/ml-workspace) ⭐ 3,552 | 🐛 1 | 🌐 Jupyter Notebook | 📅 2024-07-26 is an all-in-one web-based IDE specialized for machine learning and data science. It is simple to deploy and gets you started within minutes to productively built ML solutions on your own machines. ML workspace is the ultimate tool for developers preloaded with a variety of popular data science libraries (Tensorflow, PyTorch, Keras, and MXnet) and dev tools (Jupyter, VS Code, and Tensorboard) perfectly configured, optimized, and integrated.
+[ML workspace](https://github.com/ml-tooling/ml-workspace) ⭐ 3,553 | 🐛 1 | 🌐 Jupyter Notebook | 📅 2024-07-26 is an all-in-one web-based IDE specialized for machine learning and data science. It is simple to deploy and gets you started within minutes to productively built ML solutions on your own machines. ML workspace is the ultimate tool for developers preloaded with a variety of popular data science libraries (Tensorflow, PyTorch, Keras, and MXnet) and dev tools (Jupyter, VS Code, and Tensorboard) perfectly configured, optimized, and integrated.
 
 [CatBoost](https://catboost.ai/) is a fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.
 
@@ -3568,7 +3568,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [SEA-MAT](https://sea-mat.github.io/sea-mat/) is a collaborative effort to organize and distribute Matlab tools for the Oceanographic Community.
 
-[Gramm](https://github.com/piermorel/gramm) ⭐ 827 | 🐛 10 | 🌐 MATLAB | 📅 2026-11-25 is a complete data visualization toolbox for Matlab. It provides an easy to use and high-level interface to produce publication-quality plots of complex data with varied statistical visualizations. Gramm is inspired by R's ggplot2 library.
+[Gramm](https://github.com/piermorel/gramm) ⭐ 827 | 🐛 9 | 🌐 MATLAB | 📅 2026-11-26 is a complete data visualization toolbox for Matlab. It provides an easy to use and high-level interface to produce publication-quality plots of complex data with varied statistical visualizations. Gramm is inspired by R's ggplot2 library.
 
 [hctsa](https://hctsa-users.gitbook.io/hctsa-manual) is a software package for running highly comparative time-series analysis using Matlab.
 
@@ -3652,7 +3652,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [VS Code Bash Debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug) is a bash debugger GUI frontend based on awesome bashdb scripts (bashdb now included in package).
 
-[VS Code Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode) is a Visual Studio Code extension utilizing the [bash language server](https://github.com/bash-lsp/bash-language-server/blob/master/bash-lsp) ⭐ 2,817 | 🐛 78 | 🌐 TypeScript | 📅 2026-11-25, that is based on [Tree Sitter](https://github.com/tree-sitter/tree-sitter) ⭐ 27,581 | 🐛 120 | 🌐 Rust | 📅 2026-11-26 and its [grammar for Bash](https://github.com/tree-sitter/tree-sitter-bash) ⭐ 335 | 🐛 102 | 🌐 C | 📅 2026-09-13 and supports [explainshell](https://explainshell.com/) integration.
+[VS Code Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode) is a Visual Studio Code extension utilizing the [bash language server](https://github.com/bash-lsp/bash-language-server/blob/master/bash-lsp) ⭐ 2,818 | 🐛 78 | 🌐 TypeScript | 📅 2026-11-26, that is based on [Tree Sitter](https://github.com/tree-sitter/tree-sitter) ⭐ 27,594 | 🐛 119 | 🌐 Rust | 📅 2026-11-27 and its [grammar for Bash](https://github.com/tree-sitter/tree-sitter-bash) ⭐ 335 | 🐛 102 | 🌐 C | 📅 2026-09-13 and supports [explainshell](https://explainshell.com/) integration.
 
 # 35. C\#
 
@@ -3700,7 +3700,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,558 | 🐛 1,948 | 🌐 C# | 📅 2026-11-25 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
+[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,557 | 🐛 1,946 | 🌐 C# | 📅 2026-11-26 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
 
 [Roslyn](https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/) is a .NET compiler developed by Microsoft that provides C# and Visual Basic languages with rich code analysis APIs.
 
@@ -3724,7 +3724,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Quasar](https://github.com/quasar/Quasar) ⚠️ Archived is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.
 
-[CodeMaid](https://github.com/codecadwallader/codemaid) ⭐ 1,986 | 🐛 507 | 🌐 C# | 📅 2025-10-13 is an open source Visual Studio extension to cleanup and simplify our C#, C++, F#, VB, PHP, PowerShell, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.
+[CodeMaid](https://github.com/codecadwallader/codemaid) ⭐ 1,985 | 🐛 507 | 🌐 C# | 📅 2025-10-13 is an open source Visual Studio extension to cleanup and simplify our C#, C++, F#, VB, PHP, PowerShell, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.
 
 [.NET Fiddle](https://dotnetfiddle.net/) is an advanced online compiler for C# that allows you to create, run and share your code online.
 
@@ -3736,9 +3736,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [ANTLR (ANother Tool for Language Recognition)](https://www.antlr.org/) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build parse trees and also generates a listener interface that makes it easy to respond to the recognition of phrases of interest.
 
-[AutoRest](https://github.com/Azure/autorest) ⭐ 4,787 | 🐛 21 | 🌐 TypeSpec | 📅 2026-11-16 is a tool generates client libraries for accessing RESTful web services using the [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) ⭐ 31,335 | 🐛 79 | 🌐 Markdown | 📅 2026-11-12 format. It Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python, Ruby.
+[AutoRest](https://github.com/Azure/autorest) ⭐ 4,787 | 🐛 22 | 🌐 TypeSpec | 📅 2026-11-16 is a tool generates client libraries for accessing RESTful web services using the [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) ⭐ 31,338 | 🐛 79 | 🌐 Markdown | 📅 2026-11-12 format. It Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python, Ruby.
 
-[Markdig](https://github.com/lunet-io/markdig) ⭐ 5,359 | 🐛 109 | 🌐 C# | 📅 2026-11-23 is a fast, powerful, [CommonMark](https://commonmark.org/) compliant, extensible Markdown processor for .NET.
+[Markdig](https://github.com/lunet-io/markdig) ⭐ 5,360 | 🐛 112 | 🌐 C# | 📅 2026-11-23 is a fast, powerful, [CommonMark](https://commonmark.org/) compliant, extensible Markdown processor for .NET.
 
 # 36. F\#
 
@@ -3832,7 +3832,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/introduction) is a cross-platform .NET implementation for websites, servers, and console apps on Windows, Linux, and macOS.The .NET Framework supports websites, services, desktop apps, and more on Windows. Xamarin/Mono is a .NET implementation for running apps on all the major mobile operating systems.
 
-[.NET runtime](https://github.com/dotnet/runtime) ⭐ 18,468 | 🐛 8,387 | 🌐 C# | 📅 2026-11-26 is a collection of libraries and shared host (dotnet) installers for all supported platforms, as well as the sources to .NET runtime and libraries.
+[.NET runtime](https://github.com/dotnet/runtime) ⭐ 18,470 | 🐛 8,406 | 🌐 C# | 📅 2026-11-26 is a collection of libraries and shared host (dotnet) installers for all supported platforms, as well as the sources to .NET runtime and libraries.
 
 [ASP.NET Core](https://asp.net/) is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.
 
@@ -3856,7 +3856,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [IdentityServer](https://identityserver.io/) is a free, open source [OpenID Connect](https://openid.net/connect/) and [OAuth 2.0](https://tools.ietf.org/html/rfc6749) framework for ASP.NET Core. IdentityServer4 incorporates all the protocol implementations and extensibility points needed to integrate token-based authentication, single-sign-on and API access control in your applications.
 
-[ILSpy](https://github.com/icsharpcode/ILSpy) ⭐ 27,169 | 🐛 159 | 🌐 C# | 📅 2026-11-24 is the open-source .NET assembly browser and decompiler.
+[ILSpy](https://github.com/icsharpcode/ILSpy) ⭐ 27,183 | 🐛 159 | 🌐 C# | 📅 2026-11-24 is the open-source .NET assembly browser and decompiler.
 
 [Hangfire](https://www.hangfire.io/) is an easy way to perform background job processing in your .NET and .NET Core applications with no Windows Service or Task Scheduler required.
 
@@ -3866,7 +3866,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Refit](https://reactiveui.github.io/refit/) is the automatic type-safe REST library for .NET Core, Xamarin and .NET.It's heavily inspired by Square's Retrofit library, Refit turns your REST API into a live interface.
 
-[MAUI](https://github.com/dotnet/maui) ⭐ 23,318 | 🐛 1,295 | 🌐 C# | 📅 2026-11-26 is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
+[MAUI](https://github.com/dotnet/maui) ⭐ 23,317 | 🐛 1,300 | 🌐 C# | 📅 2026-11-27 is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.
 
 [Quasar](https://github.com/quasar/Quasar) ⚠️ Archived is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.
 
@@ -3928,7 +3928,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Pub](https://dart.dev/tools/pub/cmd) is a  tool that has commands for managing packages and for deploying packages and command-line apps.
 
-[Analysis server](https://github.com/dart-lang/sdk/tree/master/pkg/analysis_server) ⭐ 11,368 | 🐛 8,596 | 🌐 Dart | 📅 2026-11-26 is designed to provide on-going analysis of one or more code bases as those code bases are changing.
+[Analysis server](https://github.com/dart-lang/sdk/tree/master/pkg/analysis_server) ⭐ 11,368 | 🐛 8,594 | 🌐 Dart | 📅 2026-11-27 is designed to provide on-going analysis of one or more code bases as those code bases are changing.
 
 [Dart VM](https://dart.dev/tools/dart-vm) is a tool to run Dart command-line apps such as server-side scripts, programs, and servers.
 
@@ -3962,7 +3962,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Flutter documentation](https://flutter.dev/docs)
 
-[Style Guide for Flutter](https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo) ⭐ 181,505 | 🐛 13,639 | 🌐 Dart | 📅 2026-11-26
+[Style Guide for Flutter](https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo) ⭐ 181,534 | 🐛 13,662 | 🌐 Dart | 📅 2026-11-27
 
 [Creating your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 
@@ -3998,9 +3998,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [FlutterFire](https://firebase.flutter.dev/) is a set of [Flutter plugins](https://flutter.io/platform-plugins/) that enable Flutter apps to use [Firebase](https://firebase.google.com/) services. You can follow an example that shows how to use these plugins in the [Firebase for Flutter](https://codelabs.developers.google.com/codelabs/flutter-firebase/index.html#0) codelab.
 
-[FlutterBoost](https://github.com/alibaba/flutter_boost) ⭐ 7,192 | 🐛 421 | 🌐 Dart | 📅 2026-06-09 is a Flutter plugin which enables hybrid integration of Flutter for your existing native apps with minimum efforts.
+[FlutterBoost](https://github.com/alibaba/flutter_boost) ⭐ 7,191 | 🐛 421 | 🌐 Dart | 📅 2026-06-09 is a Flutter plugin which enables hybrid integration of Flutter for your existing native apps with minimum efforts.
 
-[Go-flutter](https://github.com/go-flutter-desktop/go-flutter) ⭐ 5,931 | 🐛 65 | 🌐 Go | 📅 2026-11-09 is a package that brings Flutter to the desktop. project implements the [Flutter's Embedding API](https://github.com/flutter/flutter/wiki/Custom-Flutter-Engine-Embedders) ⭐ 181,505 | 🐛 13,639 | 🌐 Dart | 📅 2026-11-26 using a single code base that runs on Windows, macOS, and Linux. For rendering, [GLFW](https://github.com/go-gl/glfw) ⭐ 1,694 | 🐛 28 | 🌐 C | 📅 2026-08-23 fits the job because it provides the right abstractions over the OpenGL's Buffer/Mouse/Keyboard for each platform.
+[Go-flutter](https://github.com/go-flutter-desktop/go-flutter) ⭐ 5,931 | 🐛 65 | 🌐 Go | 📅 2026-11-09 is a package that brings Flutter to the desktop. project implements the [Flutter's Embedding API](https://github.com/flutter/flutter/wiki/Custom-Flutter-Engine-Embedders) ⭐ 181,534 | 🐛 13,662 | 🌐 Dart | 📅 2026-11-27 using a single code base that runs on Windows, macOS, and Linux. For rendering, [GLFW](https://github.com/go-gl/glfw) ⭐ 1,695 | 🐛 28 | 🌐 C | 📅 2026-08-23 fits the job because it provides the right abstractions over the OpenGL's Buffer/Mouse/Keyboard for each platform.
 
 [Appwrite](https://appwrite.io/) is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment.
 
@@ -4068,7 +4068,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [ML Kit](https://firebase.google.com/docs/ml-kit/) is a standalone library for on-device ML, which you can use with or without Firebase.
 
-[Firebase iOS](https://github.com/firebase/firebase-ios-sdk) ⭐ 7,000 | 🐛 312 | 🌐 C++ | 📅 2026-11-26 is all the Apple platform Firebase SDK source except FirebaseAnalytics, FirebasePerformance, and FirebaseML.
+[Firebase iOS](https://github.com/firebase/firebase-ios-sdk) ⭐ 7,002 | 🐛 323 | 🌐 C++ | 📅 2026-11-26 is all the Apple platform Firebase SDK source except FirebaseAnalytics, FirebasePerformance, and FirebaseML.
 
 [FlutterFire](https://firebase.flutter.dev/) is a set of [Flutter plugins](https://flutter.io/platform-plugins/) that enable Flutter apps to use [Firebase](https://firebase.google.com/) services. You can follow an example that shows how to use these plugins in the [Firebase for Flutter](https://codelabs.developers.google.com/codelabs/flutter-firebase/index.html#0) codelab.
 
@@ -4076,7 +4076,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Vuefire](https://vuefire.vuejs.org/) is Firebase bindings for Vue.js & Vuex.
 
-[Reactive Native Firebase](https://github.com/invertase/react-native-firebase) ⭐ 12,328 | 🐛 70 | 🌐 TypeScript | 📅 2026-11-25 is a well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.
+[Reactive Native Firebase](https://github.com/invertase/react-native-firebase) ⭐ 12,327 | 🐛 72 | 🌐 TypeScript | 📅 2026-11-26 is a well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.
 
 [React Redux Firebase](https://github.com/prescottprue/react-redux-firebase) ⭐ 2,530 | 🐛 129 | 🌐 JavaScript | 📅 2026-11-25 is Redux bindings for Firebase that includes React Hooks and Higher Order Components.
 
@@ -4132,15 +4132,15 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Realm](https://github.com/realm/realm-cocoa) ⭐ 16,604 | 🐛 500 | 🌐 Objective-C | 📅 2026-09-27 is a mobile database(replaces Core Data & SQLite) that runs directly inside phones, tablets or wearables.
 
-[Infer](https://github.com/facebook/infer) ⭐ 15,766 | 🐛 195 | 🌐 OCaml | 📅 2026-11-25 is a static analysis tool for Java, C++, Objective-C, and C.
+[Infer](https://github.com/facebook/infer) ⭐ 15,769 | 🐛 195 | 🌐 OCaml | 📅 2026-11-26 is a static analysis tool for Java, C++, Objective-C, and C.
 
 [Mantle](https://github.com/Mantle/Mantle) ⭐ 11,234 | 🐛 0 | 🌐 Objective-C | 📅 2022-10-18 is a model framework that makes it easy to write a simple model layer for your Cocoa or Cocoa Touch application.
 
-[Quick](https://github.com/Quick/Quick) ⭐ 9,820 | 🐛 49 | 🌐 Swift | 📅 2026-05-18 is a behavior-driven development framework for Swift and Objective-C.
+[Quick](https://github.com/Quick/Quick) ⭐ 9,821 | 🐛 49 | 🌐 Swift | 📅 2026-05-18 is a behavior-driven development framework for Swift and Objective-C.
 
 [Aspects](https://github.com/steipete/Aspects) ⚠️ Archived is a simple library for aspect oriented programming in Objective-C and Swift.
 
-[Hammerspoon](https://github.com/Hammerspoon/hammerspoon) ⭐ 16,488 | 🐛 709 | 🌐 Objective-C | 📅 2026-11-22 is a tool for powerful automation for macOS that acts as a bridge between the operating system and a Lua scripting engine.
+[Hammerspoon](https://github.com/Hammerspoon/hammerspoon) ⭐ 16,493 | 🐛 709 | 🌐 Objective-C | 📅 2026-11-22 is a tool for powerful automation for macOS that acts as a bridge between the operating system and a Lua scripting engine.
 
 [Nimbus](https://github.com/jverkoey/nimbus) ⚠️ Archived is an iOS framework whose feature set grows only as fast as its documentation.
 
@@ -4302,7 +4302,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [React Bootstrap](https://react-bootstrap.github.io/) is a package of Bootstrap components built with React.
 
-[React Router Bootstrap](https://github.com/react-bootstrap/react-router-bootstrap) ⭐ 1,676 | 🐛 31 | 🌐 JavaScript | 📅 2026-11-25 is a package that provides integration between [React Router](https://github.com/reactjs/react-router) ⭐ 56,651 | 🐛 189 | 🌐 TypeScript | 📅 2026-11-24 v4 and React Bootstrap.
+[React Router Bootstrap](https://github.com/react-bootstrap/react-router-bootstrap) ⭐ 1,676 | 🐛 31 | 🌐 JavaScript | 📅 2026-11-25 is a package that provides integration between [React Router](https://github.com/reactjs/react-router) ⭐ 56,654 | 🐛 193 | 🌐 TypeScript | 📅 2026-11-24 v4 and React Bootstrap.
 
 [Bootstrap Table](https://bootstrap-table.com/) is an extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation, Vue.js)
 
@@ -4350,9 +4350,9 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Plausible Analytics](https://plausible.io/) is a simple, lightweight (< 1 KB), open-source and privacy-friendly alternative to Google Analytics. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR. You can self-host Plausible or have us run it for you in the Cloud.
 
-[Credo](https://github.com/rrrene/credo) ⭐ 5,235 | 🐛 40 | 🌐 Elixir | 📅 2026-10-21 is a static code analysis tool for the Elixir language with a focus on code consistency and teaching.
+[Credo](https://github.com/rrrene/credo) ⭐ 5,236 | 🐛 40 | 🌐 Elixir | 📅 2026-10-21 is a static code analysis tool for the Elixir language with a focus on code consistency and teaching.
 
-[Absinthe](https://github.com/absinthe-graphql/absinthe) ⭐ 4,402 | 🐛 74 | 🌐 Elixir | 📅 2026-11-23 is a GraphQL toolkit for Elixir.
+[Absinthe](https://github.com/absinthe-graphql/absinthe) ⭐ 4,403 | 🐛 74 | 🌐 Elixir | 📅 2026-11-23 is a GraphQL toolkit for Elixir.
 
 [Guardian](https://github.com/ueberauth/guardian) ⭐ 3,515 | 🐛 0 | 🌐 Elixir | 📅 2026-08-18 is a token based authentication library for use with Elixir applications.
 
@@ -4410,7 +4410,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Lumen](https://github.com/lumen/lumen) ⚠️ Archived is a new compiler and runtime for BEAM languages, designed for WebAssembly.
 
-[Cowboy](https://github.com/ninenines/cowboy) ⭐ 7,524 | 🐛 62 | 🌐 Erlang | 📅 2026-11-25 is a small, fast and modern HTTP server for Erlang/OTP.
+[Cowboy](https://github.com/ninenines/cowboy) ⭐ 7,525 | 🐛 61 | 🌐 Erlang | 📅 2026-11-26 is a small, fast and modern HTTP server for Erlang/OTP.
 
 [Apache CouchDB](https://couchdb.apache.org/) is a seamless multi-master syncing database with an intuitive HTTP/JSON API, designed for reliability.
 
@@ -4460,13 +4460,13 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 ## Tools
 
-[Lua Language Server](https://github.com/sumneko/lua-language-server) ⭐ 4,421 | 🐛 733 | 🌐 Lua | 📅 2026-10-20 is an extension for VSCode that provides support for the Lua Language Server.
+[Lua Language Server](https://github.com/sumneko/lua-language-server) ⭐ 4,423 | 🐛 734 | 🌐 Lua | 📅 2026-11-26 is an extension for VSCode that provides support for the Lua Language Server.
 
-[Apache APISIX](https://github.com/apache/apisix) ⭐ 17,374 | 🐛 252 | 🌐 Lua | 📅 2026-11-25 is a dynamic, real-time, high-performance API gateway, based on the Nginx library and etcd.
+[Apache APISIX](https://github.com/apache/apisix) ⭐ 17,380 | 🐛 250 | 🌐 Lua | 📅 2026-11-26 is a dynamic, real-time, high-performance API gateway, based on the Nginx library and etcd.
 
 [NodeMCU](https://github.com/nodemcu/nodemcu-firmware) ⭐ 7,962 | 🐛 119 | 🌐 C | 📅 2026-11-22 is an open source Lua based firmware for the [ESP8266 WiFi SOC from Espressif](https://espressif.com/en/products/esp8266/) and uses an on-module flash-based [SPIFFS](https://github.com/pellepl/spiffs) ⭐ 1,637 | 🐛 104 | 🌐 C | 📅 2026-07-16 file system.
 
-[GopherLua](https://github.com/yuin/gopher-lua) ⭐ 7,013 | 🐛 128 | 🌐 Go | 📅 2026-04-01 is a Lua 5.1 VM and compiler written in Go.
+[GopherLua](https://github.com/yuin/gopher-lua) ⭐ 7,013 | 🐛 129 | 🌐 Go | 📅 2026-04-01 is a Lua 5.1 VM and compiler written in Go.
 
 [MoonScript](https://github.com/leafo/moonscript) ⭐ 3,488 | 🐛 158 | 🌐 C | 📅 2026-10-23 is a programmer friendly language that compiles into Lua.
 
@@ -4478,7 +4478,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Luakit](https://luakit.github.io/) is a fast, light and simple to use micro-browser framework extensible by Lua using the WebKit web content engine and the GTK+ toolkit.
 
-[Lua Resty HTTP](https://github.com/ledgetech/lua-resty-http) ⭐ 2,076 | 🐛 42 | 🌐 Lua | 📅 2026-11-23 is an HTTP client cosocket driver for [OpenResty](https://openresty.org/en/)/ [ngx\_lua](https://github.com/openresty/lua-nginx-module) ⭐ 11,800 | 🐛 392 | 🌐 C | 📅 2026-11-24.
+[Lua Resty HTTP](https://github.com/ledgetech/lua-resty-http) ⭐ 2,076 | 🐛 42 | 🌐 Lua | 📅 2026-11-23 is an HTTP client cosocket driver for [OpenResty](https://openresty.org/en/)/ [ngx\_lua](https://github.com/openresty/lua-nginx-module) ⭐ 11,801 | 🐛 392 | 🌐 C | 📅 2026-11-24.
 
 [NLua](https://github.com/NLua/NLua) ⭐ 2,247 | 🐛 113 | 🌐 C# | 📅 2026-09-13 is a bridge between Lua world and the .NET (compatible with .NET Core/UWP/Mac/Linux/Android/iOS/tvOS).
 
@@ -4530,7 +4530,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Code](https://github.com/elementary/code) ⭐ 528 | 🐛 153 | 🌐 Vala | 📅 2026-11-08 is a fast and lightweight code editor designed for elementary OS.
 
-[Granite](https://github.com/elementary/granite) ⭐ 336 | 🐛 127 | 🌐 Vala | 📅 2026-11-24 is a companion library for GTK+ and GLib. Also, it provides complex widgets and convenience functions designed for use in apps built for elementary OS.
+[Granite](https://github.com/elementary/granite) ⭐ 336 | 🐛 128 | 🌐 Vala | 📅 2026-11-24 is a companion library for GTK+ and GLib. Also, it provides complex widgets and convenience functions designed for use in apps built for elementary OS.
 
 [GameHub](https://github.com/tkashkin/GameHub) ⚠️ Archived is a unified library for all your games. It allows users to store all their games from different platforms(Windows, macOS, and Linux) into one program.
 
@@ -4568,11 +4568,11 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 ## Tools
 
-[Haskell Dockerfile Linter](https://github.com/hadolint/hadolint) ⭐ 12,551 | 🐛 198 | 🌐 Haskell | 📅 2026-10-19 is a smarter Dockerfile linter that helps you build [best practice](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices) Docker images.
+[Haskell Dockerfile Linter](https://github.com/hadolint/hadolint) ⭐ 12,553 | 🐛 199 | 🌐 Haskell | 📅 2026-10-19 is a smarter Dockerfile linter that helps you build [best practice](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices) Docker images.
 
 [ShellCheck](https://www.shellcheck.net/) is a shell script static analysis tool.
 
-[Haskell for Visual Studio Code](https://github.com/haskell/vscode-haskell) ⭐ 594 | 🐛 53 | 🌐 TypeScript | 📅 2026-11-23 is an extension adds language support for Haskell, powered by the [Haskell Language Server](https://github.com/haskell/haskell-language-server) ⭐ 2,967 | 🐛 571 | 🌐 Haskell | 📅 2026-11-25.
+[Haskell for Visual Studio Code](https://github.com/haskell/vscode-haskell) ⭐ 594 | 🐛 53 | 🌐 TypeScript | 📅 2026-11-23 is an extension adds language support for Haskell, powered by the [Haskell Language Server](https://github.com/haskell/haskell-language-server) ⭐ 2,969 | 🐛 571 | 🌐 Haskell | 📅 2026-11-25.
 
 [Haskelly](https://github.com/haskelly-dev/Haskelly) ⭐ 150 | 🐛 36 | 🌐 TypeScript | 📅 2023-07-08 is a VS Code extension that provides complete support for casual and expert Haskell development.
 
@@ -4626,7 +4626,7 @@ SSH: Secure shell is an encrypted protocol implemented in the application layer 
 
 [Composer](https://getcomposer.org/) is a tools helps you declare, manage, and install dependencies of PHP projects.
 
-[Guzzle](https://github.com/guzzle/guzzle) ⭐ 23,441 | 🐛 5 | 🌐 PHP | 📅 2026-11-22 is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.
+[Guzzle](https://github.com/guzzle/guzzle) ⭐ 23,444 | 🐛 5 | 🌐 PHP | 📅 2026-11-22 is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.
 
 [DesignPatternsPHP](https://designpatternsphp.readthedocs.io/) is a collection of known design patterns and some sample code how to implement them in PHP 7.4. Every pattern has a small list of examples.
 
@@ -4765,9 +4765,9 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Light Detection and Ranging(LiDAR)](https://en.wikipedia.org/wiki/Lidar) is a remote sensing method that uses light in the form of a pulsed laser at an object, and uses the time and wavelength of the reflected beam of light to estimate the distance and in some applications ([Laser Imaging](https://en.wikipedia.org/wiki/Laser_scanning)), to create a 3D representation of the object and its surface characteristics. This technology is commonly used in aircraft and self-driving vehicles.
 
-[AliceVision](https://github.com/alicevision/AliceVision) ⭐ 3,542 | 🐛 29 | 🌐 C++ | 📅 2026-11-25 is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms. AliceVision aims to provide strong software basis with state-of-the-art computer vision algorithms that can be tested, analyzed and reused. The project is a result of collaboration between academia and industry to provide cutting-edge algorithms with the robustness and the quality required for production usage.
+[AliceVision](https://github.com/alicevision/AliceVision) ⭐ 3,543 | 🐛 29 | 🌐 C++ | 📅 2026-11-26 is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms. AliceVision aims to provide strong software basis with state-of-the-art computer vision algorithms that can be tested, analyzed and reused. The project is a result of collaboration between academia and industry to provide cutting-edge algorithms with the robustness and the quality required for production usage.
 
-[CARLA](https://github.com/carla-simulator/carla) ⭐ 14,708 | 🐛 989 | 🌐 C++ | 📅 2026-11-25 is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
+[CARLA](https://github.com/carla-simulator/carla) ⭐ 14,715 | 🐛 989 | 🌐 C++ | 📅 2026-11-26 is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
 
 [ROS bridge](https://github.com/carla-simulator/ros-bridge) ⭐ 649 | 🐛 186 | 🌐 Python | 📅 2026-11-04 is a package to bridge ROS for CARLA Simulator.
 
@@ -4803,7 +4803,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 ## Resources
 
-[WSL 2 Linux Kernel on GitHub](https://github.com/microsoft/WSL2-Linux-Kernel) ⭐ 10,619 | 🐛 134 | 🌐 C | 📅 2026-11-23 is the source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2).
+[WSL 2 Linux Kernel on GitHub](https://github.com/microsoft/WSL2-Linux-Kernel) ⭐ 10,617 | 🐛 134 | 🌐 C | 📅 2026-11-23 is the source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2).
 
 [WSLConf](https://www.youtube.com/playlist?list=PLwFSk464RMxnZkvZ1HKrlNyj-s6Zq4fWe) is a community-initiated event on all things Windows Subsystem for Linux and WSL-related.
 
@@ -4843,9 +4843,9 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Visual Studio Code Remote - WSL extension](https://code.visualstudio.com/docs/remote/wsl) lets you use the Windows Subsystem for Linux (WSL) as your full-time development environment right from VS Code. You can develop in a Linux-based environment, use Linux-specific toolchains and utilities, and run and debug your Linux-based applications all from the comfort of Windows. The extension runs commands and other extensions directly in WSL so you can edit files located in WSL or the mounted Windows filesystem (for example /mnt/c) without worrying about pathing issues, binary compatibility, or other cross-OS challenges.
 
-[Windows Terminal](https://github.com/microsoft/terminal) ⭐ 105,515 | 🐛 1,783 | 🌐 C++ | 📅 2026-11-25 is a new, modern, feature-rich, productive terminal application for command-line users. It includes many of the features most frequently requested by the Windows command-line community including support for tabs, rich text, globalization, configurability, theming & styling, and more.
+[Windows Terminal](https://github.com/microsoft/terminal) ⭐ 105,525 | 🐛 1,795 | 🌐 C++ | 📅 2026-11-26 is a new, modern, feature-rich, productive terminal application for command-line users. It includes many of the features most frequently requested by the Windows command-line community including support for tabs, rich text, globalization, configurability, theming & styling, and more.
 
-[PowerShell Core](https://github.com/PowerShell/PowerShell) ⭐ 56,309 | 🐛 1,706 | 🌐 C# | 📅 2026-11-25 is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
+[PowerShell Core](https://github.com/PowerShell/PowerShell) ⭐ 56,329 | 🐛 1,709 | 🌐 C# | 📅 2026-11-26 is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
 [Docker Desktop WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/) creates an  architectural change that gvies a full Linux kernel built by Microsoft, allowing Linux containers to run natively without emulation. With Docker Desktop running on WSL 2, users can leverage Linux workspaces and avoid having to maintain both Linux and Windows build scripts. In addition, WSL 2 provides improvements to file system sharing, boot time, and allows access to some cool new features for Docker Desktop users.
 
@@ -4943,11 +4943,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform) is a powerful, multi-GPU, real-time simulation and collaboration platform for 3D production pipelines based on Pixar's Universal Scene Description and NVIDIA RTX.
 
-[Universal Scene Description](https://github.com/PixarAnimationStudios/USD) ⭐ 7,675 | 🐛 1,006 | 🌐 C++ | 📅 2026-11-25 is an efficient, scalable system for authoring, reading, and streaming time-sampled scene description for interchange between graphics applications.
+[Universal Scene Description](https://github.com/PixarAnimationStudios/USD) ⭐ 7,679 | 🐛 1,007 | 🌐 C++ | 📅 2026-11-25 is an efficient, scalable system for authoring, reading, and streaming time-sampled scene description for interchange between graphics applications.
 
-[OpenTimelineIO](https://github.com/PixarAnimationStudios/OpenTimelineIO) ⭐ 2,118 | 🐛 201 | 🌐 C++ | 📅 2026-11-25 is an interchange format and API for editorial cut information. OTIO is not a container format for media, rather it contains information about the order and length of cuts and references to external media. OTIO includes both a file format and an API for manipulating that format. It also includes a plugin architecture for writing adapters to convert from/to existing editorial timeline formats. It also implements a dependency- less library for dealing strictly with time, opentime.
+[OpenTimelineIO](https://github.com/PixarAnimationStudios/OpenTimelineIO) ⭐ 2,121 | 🐛 201 | 🌐 C++ | 📅 2026-11-25 is an interchange format and API for editorial cut information. OTIO is not a container format for media, rather it contains information about the order and length of cuts and references to external media. OTIO includes both a file format and an API for manipulating that format. It also includes a plugin architecture for writing adapters to convert from/to existing editorial timeline formats. It also implements a dependency- less library for dealing strictly with time, opentime.
 
-[OpenSubdiv](https://github.com/PixarAnimationStudios/OpenSubdiv) ⭐ 3,090 | 🐛 51 | 🌐 C++ | 📅 2026-10-26 is a set of open source libraries that implement high performance subdivision surface (subdiv) evaluation on massively parallel CPU and GPU architectures. This codepath is optimized for drawing deforming subdivs with static topology at interactive framerates. The resulting limit surface matches Pixar's Renderman to numerical precision.
+[OpenSubdiv](https://github.com/PixarAnimationStudios/OpenSubdiv) ⭐ 3,092 | 🐛 51 | 🌐 C++ | 📅 2026-10-26 is a set of open source libraries that implement high performance subdivision surface (subdiv) evaluation on massively parallel CPU and GPU architectures. This codepath is optimized for drawing deforming subdivs with static topology at interactive framerates. The resulting limit surface matches Pixar's Renderman to numerical precision.
 
 [Affinity Designer](https://affinity.serif.com/en-gb/designer/) is a professional vector graphics editor used by many industry leading illustrators, designers, and other creatives looking to create high-quality concept art.
 
@@ -4961,7 +4961,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [GNU Image Manipulation Program(GIMP)](https://www.gimp.org/) is a cross-platform raster graphics editor based on the GNU Image Manipulation Program(GIMP) available for Linux, macOS, and Windows. A great free alternative for Photoshop.
 
-[PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) ⭐ 18,589 | 🐛 46 | 🌐 Python | 📅 2026-10-25 is a simple Patch for [GIMP 2.10+](https://www.gimp.org/) to help all Adobe Photoshop Users feel at home.
+[PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) ⭐ 18,597 | 🐛 46 | 🌐 Python | 📅 2026-10-25 is a simple Patch for [GIMP 2.10+](https://www.gimp.org/) to help all Adobe Photoshop Users feel at home.
 
 [Photopea](https://www.photopea.com/) is an advanced online photo editor supporting Adobe Photoshop(PSD), GIMP(XCF), Sketch App(Sketch), Adobe XD(XD) and CorelDRAW(CDR) formats.
 
@@ -4975,7 +4975,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Dust3D](https://dust3d.org/) is a cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds. Use it to speed up your character modeling in game making, 3D printing, and so on.
 
-[Goxel](https://github.com/guillaumechereau/goxel) ⭐ 3,244 | 🐛 133 | 🌐 C++ | 📅 2026-07-26 is a free and Open Source 3D Voxel Editor.
+[Goxel](https://github.com/guillaumechereau/goxel) ⭐ 3,245 | 🐛 133 | 🌐 C++ | 📅 2026-07-26 is a free and Open Source 3D Voxel Editor.
 
 [Sketchfab](https://sketchfab.com/tags/open-source) gives you open-source 3D models ready to view, buy, and download for free.
 
@@ -5099,7 +5099,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [High Level Shading Language(HLSL)](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl) is the High Level Shading Language for DirectX. Using HLSL, the user can create C-like programmable shaders for the Direct3D pipeline. HLSL was first created with DirectX 9 to set up the programmable 3D pipeline.
 
-[DirectX 12 Ultimate](https://github.com/Microsoft/DirectX-Graphics-Samples) ⭐ 6,885 | 🐛 112 | 🌐 C++ | 📅 2026-10-28 is an API(for high performance 2D & 3D graphics) from Microsoft. DirectX 12 Ultimate brings support for ray tracing, mesh shaders, variable rate shading, and sampler feedback. Available in Windows 2004 version(May 2020 Update).
+[DirectX 12 Ultimate](https://github.com/Microsoft/DirectX-Graphics-Samples) ⭐ 6,887 | 🐛 112 | 🌐 C++ | 📅 2026-10-28 is an API(for high performance 2D & 3D graphics) from Microsoft. DirectX 12 Ultimate brings support for ray tracing, mesh shaders, variable rate shading, and sampler feedback. Available in Windows 2004 version(May 2020 Update).
 
 [Vulkan](https://www.khronos.org/vulkan/) is a modern cross-platform graphics and compute API that provides high-efficiency, cross-platform access to modern GPUs used in a wide variety of devices from PCs and consoles to mobile phones and embedded platforms. Vulkan is currently in development by the Khronos consortium.
 
@@ -5113,11 +5113,11 @@ commercially available industrial robot models that you can import, visualize, a
 
 [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform) is a powerful, multi-GPU, real-time simulation and collaboration platform for 3D production pipelines based on Pixar's Universal Scene Description and NVIDIA RTX.
 
-[LibGDX](https://github.com/libgdx/libgdx) ⭐ 25,560 | 🐛 339 | 🌐 Java | 📅 2026-11-19 is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your WebGL enabled browser and iOS.
+[LibGDX](https://github.com/libgdx/libgdx) ⭐ 25,562 | 🐛 340 | 🌐 Java | 📅 2026-11-26 is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your WebGL enabled browser and iOS.
 
-[cocos2d-x](https://github.com/cocos2d/cocos2d-x) ⭐ 19,256 | 🐛 1,603 | 🌐 C++ | 📅 2025-05-09 is a multi-platform framework for building 2d games, interactive books, demos and other graphical applications. It is based on cocos2d-iphone, but instead of using Objective-C, it uses C++. It works on iOS, Android, macOS, Windows and Linux.
+[cocos2d-x](https://github.com/cocos2d/cocos2d-x) ⭐ 19,255 | 🐛 1,603 | 🌐 C++ | 📅 2025-05-09 is a multi-platform framework for building 2d games, interactive books, demos and other graphical applications. It is based on cocos2d-iphone, but instead of using Objective-C, it uses C++. It works on iOS, Android, macOS, Windows and Linux.
 
-[MonoGame](https://github.com/MonoGame/MonoGame) ⭐ 14,671 | 🐛 783 | 🌐 C# | 📅 2026-11-25 is a framework for creating powerful cross-platform games. The spiritual successor to XNA with thousands of titles shipped across desktop, mobile, and console platforms. MonoGame is a fully managed .NET open source game framework without any black boxes.
+[MonoGame](https://github.com/MonoGame/MonoGame) ⭐ 14,675 | 🐛 783 | 🌐 C# | 📅 2026-11-26 is a framework for creating powerful cross-platform games. The spiritual successor to XNA with thousands of titles shipped across desktop, mobile, and console platforms. MonoGame is a fully managed .NET open source game framework without any black boxes.
 
 [Three.js](https://threejs.org) is a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using WebGL.
 
@@ -5683,9 +5683,9 @@ Every project is unique and always changing, which is why that project’s team 
 
 [PlatformIO for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide) is a plugin that provides support for the PlatformIO IDE on VSCode.
 
-[Ripes](https://github.com/mortbopet/Ripes) ⭐ 3,507 | 🐛 89 | 🌐 C++ | 📅 2026-11-19 is a graphical processor simulator and assembly editor for the RISC-V instruction set architecture(ISA).
+[Ripes](https://github.com/mortbopet/Ripes) ⭐ 3,508 | 🐛 90 | 🌐 C++ | 📅 2026-11-19 is a graphical processor simulator and assembly editor for the RISC-V instruction set architecture(ISA).
 
-[FireSim](https://github.com/firesim/firesim) ⭐ 1,064 | 🐛 253 | 🌐 Scala | 📅 2026-11-03 is an easy-to-use, Scalable, FPGA-accelerated Cycle-accurate Hardware Simulation.
+[FireSim](https://github.com/firesim/firesim) ⭐ 1,066 | 🐛 253 | 🌐 Scala | 📅 2026-11-03 is an easy-to-use, Scalable, FPGA-accelerated Cycle-accurate Hardware Simulation.
 
 [Tock](https://www.tockos.org/) is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M and RISC-V based embedded platforms. Tock's design centers around protection, both from potentially malicious applications and from device drivers.
 
@@ -5693,9 +5693,9 @@ Every project is unique and always changing, which is why that project’s team 
 
 [LLVM](https://github.com/llvm/) is a library that has collection of modular/reusable compiler and toolchain  components (assemblers, compilers, debuggers, etc.). With these components LLVM can be used as a compiler framework, providing a front-end(parser and lexer) and a back-end (code that converts LLVM's representation to actual machine code).
 
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,613 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,618 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
-[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,665 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
+[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,666 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
 
 [Reko](https://github.com/uxmal/reko) ⭐ 2,642 | 🐛 166 | 🌐 C# | 📅 2026-11-23 is a decompiler for machine code binaries.
 
@@ -5703,7 +5703,7 @@ Every project is unique and always changing, which is why that project’s team 
 
 [Jupiter](https://jupitersim.gitbook.io/) is an open source and education-oriented RISC-V assembler and runtime simulator written in Java.
 
-[RISC-V Rust](https://github.com/takahirox/riscv-rust) ⭐ 700 | 🐛 45 | 🌐 Rust | 📅 2023-04-06 is a RISC-V processor and peripheral devices emulator project written in Rust and compiled to WebAssembly.
+[RISC-V Rust](https://github.com/takahirox/riscv-rust) ⭐ 699 | 🐛 45 | 🌐 Rust | 📅 2023-04-06 is a RISC-V processor and peripheral devices emulator project written in Rust and compiled to WebAssembly.
 
 [Diosix](https://diosix.org/) is a lightweight, secure, multiprocessor bare-metal hypervisor written in Rust for RISC-V.
 
@@ -5795,7 +5795,7 @@ Every project is unique and always changing, which is why that project’s team 
 
 [AWS Serverless Application Model (SAM)](https://aws.amazon.com/serverless/sam/) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event source mappings.
 
-[AWS SAM CLI](https://github.com/aws/aws-sam-cli) ⭐ 6,744 | 🐛 541 | 🌐 Python | 📅 2026-11-25 is a CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM.
+[AWS SAM CLI](https://github.com/aws/aws-sam-cli) ⭐ 6,744 | 🐛 543 | 🌐 Python | 📅 2026-11-26 is a CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM.
 
 [AWS Copilot](https://aws.amazon.com/containers/copilot/) is a command line interface (CLI) that enables customers to quickly launch and easily manage containerized applications on AWS.
 
@@ -5803,11 +5803,11 @@ Every project is unique and always changing, which is why that project’s team 
 
 [Laravel Vapor](https://vapor.laravel.com/) is a serverless deployment platform for Laravel, powered by AWS.
 
-[Kong](https://github.com/Kong/kong) ⭐ 44,417 | 🐛 239 | 🌐 Lua | 📅 2026-11-23 is a Cloud-Native API Gateway.
+[Kong](https://github.com/Kong/kong) ⭐ 44,420 | 🐛 239 | 🌐 Lua | 📅 2026-11-23 is a Cloud-Native API Gateway.
 
 [faasd](https://openfaas.com/blog/introducing-faasd/) is a project similar to [OpenFaaS](https://github.com/openfaas/), but without the cost and complexity of Kubernetes. It runs on a single host with very modest requirements, making it fast and easy to manage. Under the hood it uses [containerd](https://containerd.io/) and [Container Networking Interface (CNI)](https://github.com/containernetworking/cni) ⭐ 6,165 | 🐛 163 | 🌐 Go | 📅 2026-10-26 along with the same core OpenFaaS components from the main project.
 
-[Firecracker](https://github.com/firecracker-microvm/firecracker) ⭐ 38,231 | 🐛 163 | 🌐 Rust | 📅 2026-11-25 is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
+[Firecracker](https://github.com/firecracker-microvm/firecracker) ⭐ 38,246 | 🐛 166 | 🌐 Rust | 📅 2026-11-25 is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
 
 [Gloo Edge](https://github.com/solo-io/gloo) ⭐ 173 | 🐛 1,812 | 🌐 Go | 📅 2026-11-25 is a feature-rich, Kubernetes-native ingress controller, and next-generation API gateway built on [Envoy](https://envoy.com/features/saas/).
 
@@ -5824,11 +5824,11 @@ Every project is unique and always changing, which is why that project’s team 
 [Traefik](https://traefik.io/traefik/) is an open-source Edge Router that makes publishing your services a fun and easy experience. It receives requests on behalf of your system and finds out which components are responsible for handling them. What sets Traefik apart, besides its many features, is that it
 automatically discovers the right configuration for your services.
 
-[TiDB](https://github.com/pingcap/tidb) ⭐ 40,775 | 🐛 7,868 | 🌐 Go | 📅 2026-11-25 is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads.
+[TiDB](https://github.com/pingcap/tidb) ⭐ 40,779 | 🐛 7,868 | 🌐 Go | 📅 2026-11-27 is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads.
 
 [Prisma](https://www.prisma.io) is open source ORM for Node.js, TypeScript, PostgreSQL, MySQL and SQLite.
 
-[Zappa](https://github.com/Miserlou/Zappa) ⭐ 11,809 | 🐛 685 | 🌐 Python | 📅 2023-03-23 is a tool for Serverless Python.
+[Zappa](https://github.com/Miserlou/Zappa) ⭐ 11,810 | 🐛 685 | 🌐 Python | 📅 2023-03-23 is a tool for Serverless Python.
 
 [Dapr](https://dapr.io/) is a portable, event-driven, runtime for building distributed applications across cloud and edge.
 
@@ -5840,7 +5840,7 @@ automatically discovers the right configuration for your services.
 
 [Knative Serving](https://knative.dev/docs/serving/) is a project that builds on Kubernetes to support deploying and serving of applications and functions as serverless containers.
 
-[KEDA](https://github.com/kedacore/keda) ⭐ 10,742 | 🐛 293 | 🌐 Go | 📅 2026-11-25 is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes.
+[KEDA](https://github.com/kedacore/keda) ⭐ 10,743 | 🐛 295 | 🌐 Go | 📅 2026-11-25 is a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes.
 
 [StreamAlert](https://streamalert.io/)  is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic the user defines.
 
@@ -5856,7 +5856,7 @@ automatically discovers the right configuration for your services.
 
 [Micronaut](https://micronaut.io/) is a modern, JVM-based, full stack Java framework designed for building modular, easily testable JVM applications with support for Java, Kotlin and the Groovy language.
 
-[Cube.js](https://github.com/cube-js/cube.js) ⭐ 21,294 | 🐛 1,229 | 🌐 Rust | 📅 2026-11-26 is an open-source analytical API platform. It is primarily used to build internal business intelligence tools or add customer-facing analytics to existing applications.
+[Cube.js](https://github.com/cube-js/cube.js) ⭐ 21,297 | 🐛 1,240 | 🌐 Rust | 📅 2026-11-26 is an open-source analytical API platform. It is primarily used to build internal business intelligence tools or add customer-facing analytics to existing applications.
 
 # 62. XML
 
@@ -5916,7 +5916,7 @@ automatically discovers the right configuration for your services.
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
-[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,558 | 🐛 1,948 | 🌐 C# | 📅 2026-11-25 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
+[MSBuild](https://github.com/dotnet/msbuild) ⭐ 5,557 | 🐛 1,946 | 🌐 C# | 📅 2026-11-26 is the build platform for .NET and Visual Studio. MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild to perform team builds through Azure DevOps Server, but MSBuild can run without Visual Studio.
 
 [WebStorm](https://www.jetbrains.com/webstorm/) is a professional IDE for JavaScript(including support for both HTML and CSS) developed by JetBrains. WebStorm comes with intelligent code completion, on-the-fly error detection, powerful navigation and refactoring for JavaScript, TypeScript, stylesheet languages, and all the most popular frameworks([Angular](https://angular.io/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), [Ionic](https://ionicframework.com/), [Apache Cordova](https://cordova.apache.org/), [React Native](https://reactnative.dev/), [Node.js](https://nodejs.org/), [Meteor](https://www.meteor.com/#!), and [Electron](https://www.electronjs.org/)).
 
@@ -5978,7 +5978,7 @@ automatically discovers the right configuration for your services.
 
 ## Tools
 
-[Apio](https://github.com/FPGAwars/apio) ⭐ 1,025 | 🐛 26 | 🌐 Python | 📅 2026-11-25 is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.
+[Apio](https://github.com/FPGAwars/apio) ⭐ 1,025 | 🐛 26 | 🌐 Python | 📅 2026-11-26 is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.
 
 [IceStorm](https://github.com/YosysHQ/icestorm) ⭐ 1,196 | 🐛 71 | 🌐 Python | 📅 2026-11-02 is a project that aims at documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.
 
@@ -6102,13 +6102,13 @@ automatically discovers the right configuration for your services.
 
 [Terra](https://qiskit.org/terra) is the foundation that the Qiskit SDK is built on. It allows the user to write quantum circuits easily, and takes care of the constraints of real hardware.
 
-[Cirq](https://github.com/quantumlib/Cirq) ⭐ 5,104 | 🐛 113 | 🌐 Python | 📅 2026-11-25 is a Python library for writing, manipulating, and optimizing Noisy Intermediate Scale Quantum (NISQ) circuits and running them against quantum computers and simulators.
+[Cirq](https://github.com/quantumlib/Cirq) ⭐ 5,105 | 🐛 112 | 🌐 Python | 📅 2026-11-26 is a Python library for writing, manipulating, and optimizing Noisy Intermediate Scale Quantum (NISQ) circuits and running them against quantum computers and simulators.
 
 [PyQuil](https://github.com/rigetti/pyquil) ⭐ 1,499 | 🐛 252 | 🌐 Python | 📅 2026-11-24 is a Python library for quantum programming using [Quil](https://arxiv.org/abs/1608.03355), the quantum instruction language developed at [Rigetti Computing](https://www.rigetti.com/).
 
-[OpenFermion](https://github.com/quantumlib/OpenFermion) ⭐ 1,751 | 🐛 25 | 🌐 Python | 📅 2026-11-22 is an open source library for compiling and analyzing quantum algorithms to simulate fermionic systems, including quantum chemistry.
+[OpenFermion](https://github.com/quantumlib/OpenFermion) ⭐ 1,752 | 🐛 25 | 🌐 Python | 📅 2026-11-22 is an open source library for compiling and analyzing quantum algorithms to simulate fermionic systems, including quantum chemistry.
 
-[QuTiP](https://github.com/qutip/qutip) ⭐ 2,107 | 🐛 109 | 🌐 Python | 📅 2026-11-26 is open-source software for simulating the dynamics of closed and open quantum systems. The QuTiP library uses the excellent Numpy, Scipy, and Cython packages as the numerical backend, and graphical output is provided by Matplotlib.
+[QuTiP](https://github.com/qutip/qutip) ⭐ 2,108 | 🐛 109 | 🌐 Python | 📅 2026-11-26 is open-source software for simulating the dynamics of closed and open quantum systems. The QuTiP library uses the excellent Numpy, Scipy, and Cython packages as the numerical backend, and graphical output is provided by Matplotlib.
 
 [ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ) ⭐ 974 | 🐛 47 | 🌐 Python | 📅 2026-11-16 is an open source software framework for quantum computing.
 
@@ -6116,13 +6116,13 @@ automatically discovers the right configuration for your services.
 
 [PennyLane](https://pennylane.ai) is a cross-platform Python library for [differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming) of quantum computers. By training a quantum computer the same way as a neural network.
 
-[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,064 | 🐛 6 | 🌐 Python | 📅 2026-11-25 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
+[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,064 | 🐛 6 | 🌐 Python | 📅 2026-11-26 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
 
 [BoTorch](https://botorch.org) is a library for Bayesian Optimization built on PyTorch.
 
-[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,155 | 🐛 1,413 | 🌐 Python | 📅 2026-11-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
+[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,157 | 🐛 1,414 | 🌐 Python | 📅 2026-11-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
 
-[Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,185 | 🐛 7 | 🌐 Jupyter Notebook | 📅 2026-11-10 is a scikit-learn compatible neural network library that wraps PyTorch.
+[Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,184 | 🐛 7 | 🌐 Jupyter Notebook | 📅 2026-11-10 is a scikit-learn compatible neural network library that wraps PyTorch.
 
 # 65. Data Structures & Algorithms
 
@@ -6343,11 +6343,11 @@ automatically discovers the right configuration for your services.
 
 ## Tools
 
-[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,064 | 🐛 6 | 🌐 Python | 📅 2026-11-25 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
+[PySyft](https://github.com/OpenMined/PySyft) ⭐ 10,064 | 🐛 6 | 🌐 Python | 📅 2026-11-26 is a Python library for secure and private Deep Learning. PySyft decouples private data from model training, using [Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), [Differential Privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy), and Encrypted Computation (like [Multi-Party Computation (MPC)](https://multiparty.org) and [Homomorphic Encryption (HE)](https://www.microsoft.com/en-us/research/project/homomorphic-encryption/) within the main Deep Learning frameworks like [PyTorch](https://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
 
 [TensorFlow Privacy](https://github.com/tensorflow/privacy) ⭐ 2,042 | 🐛 138 | 🌐 Python | 📅 2026-11-18 is a  Python library that includes implementations of TensorFlow optimizers for training machine learning models with differential privacy. The library comes with tutorials and analysis tools for computing the privacy guarantees provided.
 
-[TensorFlow Federated (TFF)](https://github.com/tensorflow/federated) ⭐ 2,453 | 🐛 292 | 🌐 Python | 📅 2026-11-25 is an open-source framework for machine learning and other computations on decentralized data. TFF has been developed to facilitate open research and experimentation with [Federated Learning (FL)](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), an approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally.
+[TensorFlow Federated (TFF)](https://github.com/tensorflow/federated) ⭐ 2,453 | 🐛 292 | 🌐 Python | 📅 2026-11-26 is an open-source framework for machine learning and other computations on decentralized data. TFF has been developed to facilitate open research and experimentation with [Federated Learning (FL)](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html), an approach to machine learning where a shared global model is trained across many participating clients that keep their training data locally.
 
 [Privacy on Beam](https://github.com/google/differential-privacy/tree/main/privacy-on-beam) ⭐ 3,380 | 🐛 87 | 🌐 Go | 📅 2026-11-25 is an end-to-end differential privacy solution built on [Apache Beam](https://beam.apache.org/documentation/). It is intended to be usable by all developers, regardless of their differential privacy expertise.
 
@@ -6357,11 +6357,11 @@ automatically discovers the right configuration for your services.
 
 [BoTorch](https://botorch.org) is a library for Bayesian Optimization built on PyTorch.
 
-[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,155 | 🐛 1,413 | 🌐 Python | 📅 2026-11-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
+[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric) ⭐ 24,157 | 🐛 1,414 | 🌐 Python | 📅 2026-11-06 is a geometric deep learning extension library for [PyTorch](https://pytorch.org/).
 
-[Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,185 | 🐛 7 | 🌐 Jupyter Notebook | 📅 2026-11-10 is a scikit-learn compatible neural network library that wraps PyTorch.
+[Skorch](https://github.com/skorch-dev/skorch) ⭐ 6,184 | 🐛 7 | 🌐 Jupyter Notebook | 📅 2026-11-10 is a scikit-learn compatible neural network library that wraps PyTorch.
 
-[Diffprivlib](https://github.com/IBM/differential-privacy-library) ⭐ 921 | 🐛 18 | 🌐 Python | 📅 2026-11-25 is the IBM Differential Privacy Library for experimenting with, investigating and developing applications in, differential privacy.
+[Diffprivlib](https://github.com/IBM/differential-privacy-library) ⭐ 921 | 🐛 18 | 🌐 Python | 📅 2026-11-26 is the IBM Differential Privacy Library for experimenting with, investigating and developing applications in, differential privacy.
 
 [Opacus](https://opacus.ai/) is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance and allows the client to online track the privacy budget expended at any given moment.
 
@@ -6510,7 +6510,7 @@ automatically discovers the right configuration for your services.
 
 [RISC OS](https://www.riscosopen.org/content/)
 
-[DietPi](https://github.com/MichaIng/DietPi) ⭐ 6,444 | 🐛 322 | 🌐 Shell | 📅 2026-11-25
+[DietPi](https://github.com/MichaIng/DietPi) ⭐ 6,451 | 🐛 321 | 🌐 Shell | 📅 2026-11-26
 
 [Windows 10 IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core)
 
@@ -6528,13 +6528,13 @@ automatically discovers the right configuration for your services.
 
 [Pi-hole](https://pi-hole.net/) is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content, without installing any client-side software, intended for use on a private network. It is designed for use on embedded devices with network capability, such as the Raspberry Pi, but it can be used on other machines running Linux and cloud implementations.
 
-[PiKVM](https://github.com/pikvm/pikvm) ⭐ 10,500 | 🐛 87 | 📅 2026-11-03 is a very simple and fully functional Raspberry Pi-based KVM over IP.
+[PiKVM](https://github.com/pikvm/pikvm) ⭐ 10,502 | 🐛 87 | 📅 2026-11-03 is a very simple and fully functional Raspberry Pi-based KVM over IP.
 
-[PiShrink](https://github.com/Drewsif/PiShrink) ⭐ 4,149 | 🐛 24 | 🌐 Shell | 📅 2026-05-10 is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot.
+[PiShrink](https://github.com/Drewsif/PiShrink) ⭐ 4,150 | 🐛 24 | 🌐 Shell | 📅 2026-05-10 is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot.
 
-[RPiPlay](https://github.com/FD-/RPiPlay) ⭐ 5,231 | 🐛 106 | 🌐 C++ | 📅 2023-04-14 is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
+[RPiPlay](https://github.com/FD-/RPiPlay) ⭐ 5,230 | 🐛 106 | 🌐 C++ | 📅 2023-04-14 is an open-source implementation of an AirPlay mirroring server for the Raspberry Pi that supports iOS 9 and later.
 
-[Gpiozero](https://github.com/gpiozero/gpiozero) ⭐ 2,137 | 🐛 189 | 🌐 Python | 📅 2026-11-19 is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
+[Gpiozero](https://github.com/gpiozero/gpiozero) ⭐ 2,137 | 🐛 190 | 🌐 Python | 📅 2026-11-19 is a simple interface to GPIO(General-Purpose Input/Output) devices with the Raspberry Pi.
 
 [Balena Sound](https://sound.balenalabs.io/) is a single or multi-room streamer for an existing audio device using a Raspberry Pi! It supports Bluetooth, Airplay and Spotify Connect.
 
@@ -6617,7 +6617,7 @@ automatically discovers the right configuration for your services.
 
 ## Tools
 
-[Arduino CLI](https://github.com/arduino/arduino-cli) ⭐ 5,100 | 🐛 292 | 🌐 Go | 📅 2026-11-25 is an all-in-one solution that provides builder, Boards/Library Manager, uploader, discovery and many other tools needed to use any Arduino compatible board and platforms.
+[Arduino CLI](https://github.com/arduino/arduino-cli) ⭐ 5,102 | 🐛 293 | 🌐 Go | 📅 2026-11-26 is an all-in-one solution that provides builder, Boards/Library Manager, uploader, discovery and many other tools needed to use any Arduino compatible board and platforms.
 
 [Arduino IDE](https://www.arduino.cc/en/software) is an open source integrated development environment(IDE) for the Arduino computing platforms based on easy-to-use hardware and software.
 
@@ -6646,9 +6646,9 @@ automatically discovers the right configuration for your services.
 [Chipyard](https://chipyard.readthedocs.io/en/latest/) is an open source framework for agile development of Chisel-based systems-on-chip. It will allow you to leverage the Chisel HDL, Rocket Chip SoC generator, and other [Berkeley](https://berkeley.edu/) projects to produce a RISC-V SoC with everything from MMIO-mapped peripherals to custom accelerators.
 
 [The Eclipse Embedded CDT](https://github.com/eclipse-embed-cdt/eclipse-plugins) ⭐ 559 | 🐛 110 | 🌐 C | 📅 2026-09-09 is a collection of plug-ins for Arm & RISC-V C/C++ developers.
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,613 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,618 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
-[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,665 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
+[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,666 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
 
 # 69. FPGA
 
@@ -6724,17 +6724,17 @@ automatically discovers the right configuration for your services.
 
 [LabVIEW FPGA](https://www.ni.com/en-us/shop/software/products/labview-fpga-module.html) is a software add-on for LabVIEW that you can use to more efficiently and effectively design FPGA-based systems through a highly integrated development environment, IP libraries, a high-fidelity simulator, and debugging features.
 
-[Apio](https://github.com/FPGAwars/apio) ⭐ 1,025 | 🐛 26 | 🌐 Python | 📅 2026-11-25 is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.
+[Apio](https://github.com/FPGAwars/apio) ⭐ 1,025 | 🐛 26 | 🌐 Python | 📅 2026-11-26 is a multiplatform toolbox, with static pre-built packages, project configuration tools and easy command interface to verify, synthesize, simulate and upload your verilog designs.
 
 [IceStorm](https://github.com/YosysHQ/icestorm) ⭐ 1,196 | 🐛 71 | 🌐 Python | 📅 2026-11-02 is a project that aims at documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.
 
 [Icestudio](https://icestudio.io/) is a visual editor for open FPGA boards. Built on top of the Icestorm project using Apio.
 
-[FuseSoC](https://github.com/olofk/fusesoc) ⭐ 1,489 | 🐛 118 | 🌐 Python | 📅 2026-11-25 is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code and FPGA/ASIC development.
+[FuseSoC](https://github.com/olofk/fusesoc) ⭐ 1,490 | 🐛 122 | 🌐 Python | 📅 2026-11-25 is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code and FPGA/ASIC development.
 
-[OpenWiFi](https://github.com/open-sdr/openwifi) ⭐ 4,883 | 🐛 98 | 🌐 C | 📅 2026-11-16 is an open-source IEEE802.11/Wi-Fi baseband chip/FPGA design.
+[OpenWiFi](https://github.com/open-sdr/openwifi) ⭐ 4,886 | 🐛 98 | 🌐 C | 📅 2026-11-16 is an open-source IEEE802.11/Wi-Fi baseband chip/FPGA design.
 
-[PipeCNN](https://github.com/doonny/PipeCNN) ⭐ 1,396 | 🐛 44 | 🌐 C | 📅 2022-02-14 is an OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks (CNNs). Currently, there is a growing trend among developers in the FPGA community to utilize High Level Synthesis (HLS) tools to design and implement customized circuits on FPGAs.
+[PipeCNN](https://github.com/doonny/PipeCNN) ⭐ 1,397 | 🐛 44 | 🌐 C | 📅 2022-02-14 is an OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks (CNNs). Currently, there is a growing trend among developers in the FPGA community to utilize High Level Synthesis (HLS) tools to design and implement customized circuits on FPGAs.
 
 [Verilator](https://verilator.org/) is an open-source SystemVerilog simulator and lint system.
 
@@ -6755,9 +6755,9 @@ automatically discovers the right configuration for your services.
 [Chipyard](https://chipyard.readthedocs.io/en/latest/) is an open source framework for agile development of Chisel-based systems-on-chip. It will allow you to leverage the Chisel HDL, Rocket Chip SoC generator, and other [Berkeley](https://berkeley.edu/) projects to produce a RISC-V SoC with everything from MMIO-mapped peripherals to custom accelerators.
 
 [The Eclipse Embedded CDT](https://github.com/eclipse-embed-cdt/eclipse-plugins) ⭐ 559 | 🐛 110 | 🌐 C | 📅 2026-09-09 is a collection of plug-ins for Arm & RISC-V C/C++ developers.
-[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,613 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
+[Unicorn](https://github.com/unicorn-engine/unicorn) ⭐ 9,618 | 🐛 283 | 🌐 C | 📅 2026-11-10 is a lightweight, multi-platform, multi-architecture CPU emulator framework(ARM, AArch64, M68K, Mips, Sparc, X86) based on [QEMU](https://www.qemu.org/).
 
-[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,665 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
+[Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,666 | 🐛 243 | 🌐 C++ | 📅 2026-11-08 is a lightweight multi-platform, multi-architecture(Arm, Arm64, Hexagon, Mips, PowerPC, Sparc, SystemZ & X86) assembler framework.
 
 [Reko](https://github.com/uxmal/reko) ⭐ 2,642 | 🐛 166 | 🌐 C# | 📅 2026-11-23 is a decompiler for machine code binaries.
 
@@ -6851,11 +6851,11 @@ automatically discovers the right configuration for your services.
 
 [WayfireWM](https://github.com/WayfireWM/wayfire) ⭐ 3,084 | 🐛 141 | 🌐 C++ | 📅 2026-11-15 is a 3D Wayland compositor, inspired by [Compiz](https://launchpad.net/compiz) and based on [wlroots](https://github.com/swaywm/wlroots) ⚠️ Archived.
 
-[SDDM](https://github.com/sddm/sddm) ⭐ 2,393 | 🐛 764 | 🌐 C++ | 📅 2026-11-18 is a modern display manager for X11 and Wayland aiming to be fast, simple and beautiful. It uses modern technologies like QtQuick, which in turn gives the designer the ability to create smooth, animated user interfaces.
+[SDDM](https://github.com/sddm/sddm) ⭐ 2,393 | 🐛 763 | 🌐 C++ | 📅 2026-11-18 is a modern display manager for X11 and Wayland aiming to be fast, simple and beautiful. It uses modern technologies like QtQuick, which in turn gives the designer the ability to create smooth, animated user interfaces.
 
-[x11docker](https://github.com/mviereck/x11docker) ⭐ 6,348 | 🐛 37 | 🌐 Shell | 📅 2026-07-05 is an application that you allows to run graphical desktop applications (and entire desktops) in Docker Linux containers.
+[x11docker](https://github.com/mviereck/x11docker) ⭐ 6,349 | 🐛 37 | 🌐 Shell | 📅 2026-07-05 is an application that you allows to run graphical desktop applications (and entire desktops) in Docker Linux containers.
 
-[Mako](https://github.com/emersion/mako) ⭐ 3,320 | 🐛 142 | 🌐 C | 📅 2026-10-29 is alightweight notification daemon for Wayland. It also works on [Sway](https://swaywm.org/).
+[Mako](https://github.com/emersion/mako) ⭐ 3,321 | 🐛 142 | 🌐 C | 📅 2026-10-29 is alightweight notification daemon for Wayland. It also works on [Sway](https://swaywm.org/).
 
 [Wayland-rs](https://github.com/Smithay/wayland-rs) ⭐ 1,453 | 🐛 85 | 🌐 Rust | 📅 2026-11-13 is a Rust implementation of the wayland protocol (client and server).
 
@@ -6909,9 +6909,9 @@ automatically discovers the right configuration for your services.
 
 [Photon](https://github.com/connors/photon) ⭐ 10,111 | 🐛 81 | 🌐 CSS | 📅 2026-04-03 is a UI toolkit for building desktop apps with Electron.
 
-[Electron.NET](https://github.com/ElectronNET/Electron.NET) ⭐ 7,598 | 🐛 7 | 🌐 C# | 📅 2026-11-25 is an application that builds cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
+[Electron.NET](https://github.com/ElectronNET/Electron.NET) ⭐ 7,598 | 🐛 7 | 🌐 C# | 📅 2026-11-26 is an application that builds cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
 
-[Angular Electron](https://github.com/maximegris/angular-electron) ⭐ 5,704 | 🐛 4 | 🌐 TypeScript | 📅 2026-11-07 is an application that bootstrap's and package's your project with Angular 11 and Electron 11 (Typescript + SASS + Hot Reload) for creating Desktop applications.
+[Angular Electron](https://github.com/maximegris/angular-electron) ⭐ 5,705 | 🐛 4 | 🌐 TypeScript | 📅 2026-11-07 is an application that bootstrap's and package's your project with Angular 11 and Electron 11 (Typescript + SASS + Hot Reload) for creating Desktop applications.
 
 [Selenium](https://selenium.dev/) is a browser automation framework and ecosystem. Selenium specifically provides an infrastructure for the [W3C WebDriver specification](https://w3c.github.io/webdriver/) as a platform and language-neutral coding interface compatible with all major web browsers(Firefox, Google Chrome and Safari).
 
@@ -6927,7 +6927,7 @@ automatically discovers the right configuration for your services.
 
 [GraphQL](https://graphql.org/) is a query language for APIs and a runtime for fulfilling those queries with your existing data. It has support in Java, JavaScript, Ruby, Scala, and other programming languages.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,676 | 🐛 768 | 🌐 TypeScript | 📅 2026-11-25 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,677 | 🐛 772 | 🌐 TypeScript | 📅 2026-11-26 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
 [Nest](https://nestjs.com/) is a framework for building efficient, scalable [Node.js](http://nodejs.org/) server-side applications. It uses modern JavaScript, is built with TypeScript (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
@@ -6937,21 +6937,21 @@ automatically discovers the right configuration for your services.
 
 [React Starter Kit](https://www.reactstarterkit.com/) is an isomorphic web app boilerplate for web development built on top of [Node.js](https://nodejs.org/), [Express](http://expressjs.com/), [GraphQL](http://graphql.org/) and [React](https://facebook.github.io/react/), containing modern web development tools such as [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io/) and [Browsersync](https://www.browsersync.io/). Helping you to stay productive following the best practices.
 
-[Enzyme](https://github.com/enzymejs/enzyme) ⭐ 19,800 | 🐛 282 | 🌐 JavaScript | 📅 2025-10-22 is a JavaScript Testing utility for React that makes it easier to test your React Components' output. The user can also manipulate, traverse, and in some ways simulate runtime given the output.
+[Enzyme](https://github.com/enzymejs/enzyme) ⭐ 19,801 | 🐛 282 | 🌐 JavaScript | 📅 2025-10-22 is a JavaScript Testing utility for React that makes it easier to test your React Components' output. The user can also manipulate, traverse, and in some ways simulate runtime given the output.
 
-[Mocha](https://github.com/mochajs/mocha) ⭐ 22,907 | 🐛 249 | 🌐 JavaScript | 📅 2026-11-25 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
+[Mocha](https://github.com/mochajs/mocha) ⭐ 22,906 | 🐛 249 | 🌐 JavaScript | 📅 2026-11-25 is a simple, flexible, fun JavaScript test framework for Node.js & The Browser.
 
 [Express](https://expressjs.com/) is a fast, unopinionated, minimalist web framework for node.
 
 [Meteor](https://www.meteor.com/) is an ultra-simple environment for building modern web applications with JavavScript.
 
-[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,445 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
+[RxDB](https://github.com/pubkey/rxdb) ⭐ 23,446 | 🐛 29 | 🌐 TypeScript | 📅 2026-11-26 is a NoSQL-database for JavaScript Applications like Websites, hybrid Apps, Electron-Apps, Progressive Web Apps and NodeJs.
 
-[Redux](https://github.com/reduxjs/redux) ⭐ 61,425 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
+[Redux](https://github.com/reduxjs/redux) ⭐ 61,424 | 🐛 17 | 🌐 TypeScript | 📅 2026-11-24 is a predictable state container for JavaScript apps.
 
 [Standard](https://standardjs.com/) is a JavaScript Style Guide, with linter & automatic code fixer.
 
-[Lowdb](https://github.com/typicode/lowdb) ⭐ 22,576 | 🐛 19 | 🌐 JavaScript | 📅 2026-03-27 is a small local JSON database powered by Lodash (supports Node, Electron and the browser).
+[Lowdb](https://github.com/typicode/lowdb) ⭐ 22,578 | 🐛 19 | 🌐 JavaScript | 📅 2026-03-27 is a small local JSON database powered by Lodash (supports Node, Electron and the browser).
 
 [Nativefier](https://github.com/jiahaog/nativefier) ⚠️ Archived is an application that lets you make any web page into a desktop electron application.
 
@@ -7013,9 +7013,9 @@ automatically discovers the right configuration for your services.
 
 [GraphQL](https://graphql.org/) is a query language for APIs and a runtime for fulfilling those queries with your existing data. It has support in Java, JavaScript, Ruby, Scala, and other programming languages.
 
-[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,676 | 🐛 768 | 🌐 TypeScript | 📅 2026-11-25 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+[TypeORM](https://github.com/typeorm/typeorm) ⭐ 36,677 | 🐛 772 | 🌐 TypeScript | 📅 2026-11-26 is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 
-[Cheerio](https://github.com/cheeriojs/cheerio) ⭐ 30,555 | 🐛 80 | 🌐 TypeScript | 📅 2026-11-25 is a fast, flexible, and lean implementation of core jQuery designed specifically for the server.
+[Cheerio](https://github.com/cheeriojs/cheerio) ⭐ 30,557 | 🐛 81 | 🌐 TypeScript | 📅 2026-11-26 is a fast, flexible, and lean implementation of core jQuery designed specifically for the server.
 
 [jQuery UI](https://jqueryui.com/) is a curated set of user interface interactions, effects, widgets, and themes built on top of jQuery. Though, it should not be used in core code.
 
@@ -7341,7 +7341,7 @@ sudo apt install gnome-software-plugin-flatpak
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -7349,9 +7349,9 @@ sudo apt install gnome-software-plugin-flatpak
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -7429,7 +7429,7 @@ sudo apt install corectrl
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 ```
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -7477,7 +7477,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 
 ## Winetricks
 
-[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,566 | 🐛 199 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,567 | 🐛 200 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
 
 this is needed to avoid adobeair error
 
@@ -7650,7 +7650,7 @@ sudo apt install qemu uml-utilities virt-manager gnome-boxes
 
 [Pop!\_OS](https://pop.system76.com/) is an operating system(based on [Ubuntu](https://ubuntu.com/)) for STEM and creative professionals who use their computer as a tool to discover and create developed [System76](https://system76.com/).
 
-[Popsicle](https://github.com/pop-os/popsicle) ⭐ 868 | 🐛 25 | 🌐 Rust | 📅 2026-11-25 is a Linux utility for flashing multiple USB devices in parallel, written in Rust.
+[Popsicle](https://github.com/pop-os/popsicle) ⭐ 869 | 🐛 25 | 🌐 Rust | 📅 2026-11-25 is a Linux utility for flashing multiple USB devices in parallel, written in Rust.
 
 [Etcher](https://www.balena.io/etcher/) is an open source, cross-platform software that makes it easy to flash operating system images to a microSD card or USB device.
 
@@ -7743,7 +7743,7 @@ sudo ufw status //checks status of firewall
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -7751,9 +7751,9 @@ sudo ufw status //checks status of firewall
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -7836,7 +7836,7 @@ sudo apt install corectrl
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 ```
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -7884,7 +7884,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 
 ## Winetricks
 
-[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,566 | 🐛 199 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,567 | 🐛 200 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
 
 this is needed to avoid adobeair error
 
@@ -8159,7 +8159,7 @@ sudo systemctl status firewalld
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -8167,9 +8167,9 @@ sudo systemctl status firewalld
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -8248,7 +8248,7 @@ sudo dnf install corectrl
 sudo dnf install steam
 ```
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -8296,7 +8296,7 @@ sudo dnf install steam
 
 ## Winetricks
 
-[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,566 | 🐛 199 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,567 | 🐛 200 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
 
 this is needed to avoid adobeair error
 
@@ -8519,7 +8519,7 @@ sudo systemctl start ufw
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -8527,9 +8527,9 @@ sudo systemctl start ufw
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -8617,7 +8617,7 @@ sudo apt install corectrl
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 ```
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -8665,7 +8665,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 
 ## Winetricks
 
-[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,566 | 🐛 199 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,567 | 🐛 200 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
 
 this is needed to avoid adobeair error
 
@@ -8937,7 +8937,7 @@ sudo susefirewall2-to-firewalld
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -8945,9 +8945,9 @@ sudo susefirewall2-to-firewalld
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -9029,7 +9029,7 @@ Install the [CoreCtrl package from OBS](https://software.opensuse.org/download.h
 
 [Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam)
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -9282,7 +9282,7 @@ sudo systemctl status firewalld
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -9290,9 +9290,9 @@ sudo systemctl status firewalld
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -9377,7 +9377,7 @@ yay -Sy corectrl
 
 [Steam Flatpak](https://flathub.org/apps/details/com.valvesoftware.Steam)
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -9602,7 +9602,7 @@ sudo apt install gnome-software-plugin-flatpak
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -9610,9 +9610,9 @@ sudo apt install gnome-software-plugin-flatpak
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -9690,7 +9690,7 @@ sudo apt install corectrl
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 ```
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -9738,7 +9738,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 
 ## Winetricks
 
-[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,566 | 🐛 199 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,567 | 🐛 200 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
 
 this is needed to avoid adobeair error
 
@@ -9924,7 +9924,7 @@ sudo apt install gnome-software-plugin-flatpak
 
 [CrossOver Linux®](https://www.codeweavers.com/crossover) is a Microsoft Windows compatibility layer(based on [WINE(Wine Is Not an Emulator)](https://www.winehq.org)). The CrossOver compatibility layer enables thousands of Windows-based applications to run on Linux, macOS, or Chrome OS.
 
-[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,262 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
+[WinApps for Linux](https://github.com/Fmstrat/winapps) ⭐ 10,261 | 🐛 258 | 🌐 Shell | 📅 2024-08-18 is a program that runs Windows apps such as Microsoft Office & Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration for right clicking on files of specific mime types to open them.
 
 [DaVinci Resolve video editor](https://www.blackmagicdesign.com/products/davinciresolve/) is complete video editing solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool.
 
@@ -9932,9 +9932,9 @@ sudo apt install gnome-software-plugin-flatpak
 
 [Flameshot](https://flameshot.org/) is a powerful yet simple to use screenshot software.
 
-[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,353 | 🐛 220 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
+[Timeshift](https://github.com/linuxmint/timeshift) ⭐ 4,355 | 🐛 219 | 🌐 Vala | 📅 2026-11-24 is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system at regular intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
-[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,347 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
+[Stacer](https://github.com/oguzhaninan/Stacer) ⭐ 9,350 | 🐛 174 | 🌐 C++ | 📅 2024-02-10 is an open source system optimizer and application monitor that helps users to manage their entire system. Also available as an AppImage.
 
 [Nativefier](https://github.com/nativefier/nativefier) ⚠️ Archived is a command-line tool to easily create a desktop app for any web site with minimal configuration. Apps are wrapped by [Electron](https://www.electronjs.org/) (which uses Chromium under the hood) in an OS executable (.app, .exe, etc) for use on Windows, macOS and Linux.
 
@@ -10012,7 +10012,7 @@ sudo apt install corectrl
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 ```
 
-[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,364 | 🐛 5,283 | 🌐 C++ | 📅 2026-11-25 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
+[Proton](https://github.com/ValveSoftware/Proton/) ⭐ 33,378 | 🐛 5,286 | 🌐 C++ | 📅 2026-11-26 is a tool for use with the Steam client which allows games which are exclusive to Windows to run on the Linux operating system. It uses Wine to facilitate this.
 
 ## Enable Proton in Steam
 
@@ -10060,7 +10060,7 @@ wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 
 ## Winetricks
 
-[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,566 | 🐛 199 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
+[Winetricks](https://github.com/Winetricks/winetricks) ⭐ 3,567 | 🐛 200 | 🌐 Shell | 📅 2026-08-27 is an easy way to work around problems in Wine.
 
 this is needed to avoid adobeair error
 
@@ -10177,4 +10177,4 @@ Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-26._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-27._
